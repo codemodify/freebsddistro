@@ -1,0 +1,11 @@
+<?xml version='1.0'?>
+<settings>
+    <Console>
+        <geometry>
+            <x>23</x>
+            <y>390</y>
+            <width>1044</width>
+            <height>600</height>
+        </geometry>
+    </Console>
+</settings>

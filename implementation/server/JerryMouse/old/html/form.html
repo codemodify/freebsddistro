@@ -1,0 +1,31 @@
+<!-- <form	id="id"
+		action="action"
+		method="get/post"
+		name="name"
+		onReset="javascript:onFormReset()" >
+     </form>
+ -->
+
+<HTML>
+	<HEAD>
+		<script type="text/javascript">
+			function onFormSubmit(){ document.getElementById( "output" ).value="OnFormSubmit"; alert("submit"); }
+			function onFormReset(){ document.getElementById( "output" ).value="OnFormReset"; alert("reset"); }
+
+			function submitForm(){ document.getElementById("id").submit(); }
+			function resetForm(){ document.getElementById("id").reset(); }
+ 		</script>
+	</HEAD>
+<BODY>
+	<form id="id" action="javascript:onFormSubmit()" method="post" name="name" onReset="javascript:onFormReset()">
+		<input type="text" value="Mickey Mouse" />
+		<input type="button" onClick="submitForm()" value="Submit Data" />
+		<input type="button" onClick="resetForm()" value="Reset Data" />
+	</form>
+
+	<!-- here is the output area -->
+	<br />
+	<br />
+	<input type="text" id="output" value="no value">
+</BODY>
+</HTML>

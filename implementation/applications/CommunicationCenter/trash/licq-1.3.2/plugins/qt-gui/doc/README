@@ -1,0 +1,98 @@
+LICQ Qt-GUI Plugin
+
+A plugin for Licq to enable a gui based on Qt.
+
+LICENSE
+
+This program is licensed under the terms of the GNU GPL, with the
+exception that it may be compiled and linked with the TrollTech QT
+library without implying that any of the rights or restrictions
+associated with the GPL are applied to the QT library.
+
+INSTALLATION:
+
+
+0. Make sure you unpacked the source into the plugins directory of
+   the licq source tree.
+1. Type './configure' and it will determine all the right settings and 
+   directories for your system.  If it fails, try the following manual 
+   directory specifications:
+  --with-kde              To enable various KDE options (including kstyles)
+  --x-includes=DIR        X include files are in DIR
+  --x-libraries=DIR       X library files are in DIR
+  --with-qt-dir           where the root of qt is installed
+  --with-qt-includes      where the qt includes are.
+  --with-qt-libraries     where the qt library is installed.
+2. Have a look at config.h and see if you want to change any of the
+   options in it.
+3. Type 'make' and in theory it will build. If you are using a non-GNU system,
+   such as FreeBSD or Solaris, you will need the GNU version of make, often
+   installed as `gmake'.  If you get errors about "void *" see the FAQ.
+4. Type 'make install' and licq will be installed (defaults to 
+   /usr/local).
+
+Licq Qt-GUI requires the following:
+Qt >= 2.1 (if you are using rpm then it requires the qt and qt-devel rpm)
+Some C++ compiler
+KDE >= 2.0 for KDE support
+
+* * * IF CONFIGURE CAN'T FIND msg2qm AND mergetr READ THIS! * * *
+The files you need for translations are located in $QTDIR/tools/mergetr and 
+$QTDIR/tools/msg2qm.  Just make a symbolic link of these files in $QTDIR/bin
+and everything will be working.
+
+* * * IF YOU USE Qt-1.x PROGRAMS (like KDE), READ THIS! * * *
+If you get errors about unknown symbols in the qt-gui plugin library,
+make sure you're using the Qt-2 moc program and that you're linking
+to libqt.so.2.
+1. At the shell you're invoking "configure" for the plugin type
+   > echo $QTDIR
+   You should see the path to Qt-2 (probably /usr/lib/qt-2.0.x, depending
+   on the version you're using).
+   a) If you don't, and you _have_ Qt-2 binary and headers (qt and qt-devel
+      for RedHat users) installed for sure, issue the following command:
+      > ls /usr/lib/qt-2*/lib/libqt.so.2
+   b) If ls didn't print any line, try substituting /usr/lib with
+      /usr/local/lib, so that the command looks like:
+      > ls /usr/local/lib/qt-2*/lib/libqt.so.2
+   c) if you see a file name printed in either step a) or b), cut the
+      /lib/libqt.so.2 off its end and set QTDIR to the remainder, e.g.
+      if you see "/usr/lib/qt-2.0.2/lib/libqt.so.2", type
+      > export QTDIR="/usr/lib/qt-2.0.2"
+      If you use csh or a compatible shell, type
+      > setenv QTDIR "/usr/lib/qt-2.0.2"
+      instead.
+
+2. Compile the plugin
+   Refer to the instructions under INSTALLATION (above)
+
+
+CONFIGURATION:
+
+Configuration is done through the ~/.licq/licq_qt-gui.conf file, which 
+contains .ini style options.  Help on each option is include in the file.  
+
+USE:
+
+Type licq -h -p qt-gui for commandline help.
+
+Using licq is very straight-forward.  To access any of the options, just 
+right click on a user and select the relevant command, or double click on 
+the user.  A window will open containing a tab dialog with all the 
+possible things to do.  In this way you can read a new message, check user 
+info, and send a message all from the same window at the same time.  
+One key feature of licq is the network status window, which can be viewed 
+by selecting "Show Network Window" under the "System" menu.  This screen 
+will show you exactly what is occuring at the protocol level.  
+The menu option "<your alias>" will allow you to view your own settings 
+and to check system messages.
+
+
+PROBLEMS:
+
+See the BUGS file for reports on known bugs and problems.
+
+
+CONTACTS:
+
+Send any questions, comments, or other complaints to graham@licq.org.

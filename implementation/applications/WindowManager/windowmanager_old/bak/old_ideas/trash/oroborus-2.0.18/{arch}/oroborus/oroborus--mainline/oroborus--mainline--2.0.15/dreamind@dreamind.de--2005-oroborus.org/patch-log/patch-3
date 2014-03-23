@@ -1,0 +1,94 @@
+Revision: oroborus--mainline--2.0.15--patch-3
+Archive: dreamind@dreamind.de--2005-oroborus.org
+Creator: Stefan Pfetzing <dreamind@dreamind.de>
+Date: Fri Jul  1 16:15:31 CEST 2005
+Standard-date: 2005-07-01 14:15:31 GMT
+New-files: themes/bluecurve/.arch-ids/=id
+    themes/bluecurve/.arch-ids/Makefile.am.id
+    themes/bluecurve/.arch-ids/Makefile.in.id
+    themes/bluecurve/.arch-ids/bottom-active.xpm.id
+    themes/bluecurve/.arch-ids/bottom-inactive.xpm.id
+    themes/bluecurve/.arch-ids/bottom-left-active.xpm.id
+    themes/bluecurve/.arch-ids/bottom-left-inactive.xpm.id
+    themes/bluecurve/.arch-ids/bottom-right-active.xpm.id
+    themes/bluecurve/.arch-ids/bottom-right-inactive.xpm.id
+    themes/bluecurve/.arch-ids/close-active.xpm.id
+    themes/bluecurve/.arch-ids/close-inactive.xpm.id
+    themes/bluecurve/.arch-ids/close-pressed.xpm.id
+    themes/bluecurve/.arch-ids/hide-active.xpm.id
+    themes/bluecurve/.arch-ids/hide-inactive.xpm.id
+    themes/bluecurve/.arch-ids/hide-pressed.xpm.id
+    themes/bluecurve/.arch-ids/left-active.xpm.id
+    themes/bluecurve/.arch-ids/left-inactive.xpm.id
+    themes/bluecurve/.arch-ids/maximize-active.xpm.id
+    themes/bluecurve/.arch-ids/maximize-inactive.xpm.id
+    themes/bluecurve/.arch-ids/maximize-pressed.xpm.id
+    themes/bluecurve/.arch-ids/right-active.xpm.id
+    themes/bluecurve/.arch-ids/right-inactive.xpm.id
+    themes/bluecurve/.arch-ids/shade-active.xpm.id
+    themes/bluecurve/.arch-ids/shade-inactive.xpm.id
+    themes/bluecurve/.arch-ids/shade-pressed.xpm.id
+    themes/bluecurve/.arch-ids/themerc.id
+    themes/bluecurve/.arch-ids/title-1-active.xpm.id
+    themes/bluecurve/.arch-ids/title-1-inactive.xpm.id
+    themes/bluecurve/.arch-ids/title-2-active.xpm.id
+    themes/bluecurve/.arch-ids/title-2-inactive.xpm.id
+    themes/bluecurve/.arch-ids/title-3-active.xpm.id
+    themes/bluecurve/.arch-ids/title-3-inactive.xpm.id
+    themes/bluecurve/.arch-ids/title-4-active.xpm.id
+    themes/bluecurve/.arch-ids/title-4-inactive.xpm.id
+    themes/bluecurve/.arch-ids/title-5-active.xpm.id
+    themes/bluecurve/.arch-ids/title-5-inactive.xpm.id
+    themes/bluecurve/.arch-ids/top-left-active.xpm.id
+    themes/bluecurve/.arch-ids/top-left-inactive.xpm.id
+    themes/bluecurve/.arch-ids/top-right-active.xpm.id
+    themes/bluecurve/.arch-ids/top-right-inactive.xpm.id
+    themes/bluecurve/Makefile.am
+    themes/bluecurve/Makefile.in
+    themes/bluecurve/bottom-active.xpm
+    themes/bluecurve/bottom-inactive.xpm
+    themes/bluecurve/bottom-left-active.xpm
+    themes/bluecurve/bottom-left-inactive.xpm
+    themes/bluecurve/bottom-right-active.xpm
+    themes/bluecurve/bottom-right-inactive.xpm
+    themes/bluecurve/close-active.xpm
+    themes/bluecurve/close-inactive.xpm
+    themes/bluecurve/close-pressed.xpm
+    themes/bluecurve/hide-active.xpm
+    themes/bluecurve/hide-inactive.xpm
+    themes/bluecurve/hide-pressed.xpm
+    themes/bluecurve/left-active.xpm
+    themes/bluecurve/left-inactive.xpm
+    themes/bluecurve/maximize-active.xpm
+    themes/bluecurve/maximize-inactive.xpm
+    themes/bluecurve/maximize-pressed.xpm
+    themes/bluecurve/right-active.xpm
+    themes/bluecurve/right-inactive.xpm
+    themes/bluecurve/shade-active.xpm
+    themes/bluecurve/shade-inactive.xpm
+    themes/bluecurve/shade-pressed.xpm
+    themes/bluecurve/themerc
+    themes/bluecurve/title-1-active.xpm
+    themes/bluecurve/title-1-inactive.xpm
+    themes/bluecurve/title-2-active.xpm
+    themes/bluecurve/title-2-inactive.xpm
+    themes/bluecurve/title-3-active.xpm
+    themes/bluecurve/title-3-inactive.xpm
+    themes/bluecurve/title-4-active.xpm
+    themes/bluecurve/title-4-inactive.xpm
+    themes/bluecurve/title-5-active.xpm
+    themes/bluecurve/title-5-inactive.xpm
+    themes/bluecurve/top-left-active.xpm
+    themes/bluecurve/top-left-inactive.xpm
+    themes/bluecurve/top-right-active.xpm
+    themes/bluecurve/top-right-inactive.xpm
+New-directories: themes/bluecurve
+    themes/bluecurve/.arch-ids
+Modified-files: configure configure.in themes/Makefile.am
+    themes/Makefile.in
+New-patches: dreamind@dreamind.de--2005-oroborus.org/oroborus--mainline--2.0.15--patch-3
+Summary: Add the bluecurve theme.
+Keywords: 
+
+
+

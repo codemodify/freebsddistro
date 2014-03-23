@@ -1,0 +1,48 @@
+<?xml version='1.0'?>
+<configurator titleText="Communication Center Configuration" >
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		Network
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <section name="network" text="Network" >
+        <sectionItem name="server" text="Server" >
+            <control type="lineInput" value="localhost" name="ip" text="IP" />
+            <control type="lineInput" value="7000" name="port" text="Port" />
+        </sectionItem>
+    </section>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		User
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <section name="myProfile" text="My Profile">
+        <sectionItem name="sharedInfo" text="Shared Info">
+            <control type="lineInput" name="nick" text="Nick" value="User" />
+            <control type="lineInput" name="name" text="Name" value="John Doe" />
+            <control type="lineInput" name="contactInfo" text="Contact Info" value="User@Gmail.com" />
+        </sectionItem>
+    </section>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		Help
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <section name="helpMe" text="Help Me !" >
+        <sectionItem name="quickHelp" text="Quick Help" >
+            <control type="textViewer" name="quickHelp" ><![CDATA[<HTML><BODY>
+				<h3>Communication Center</h3>
+				<hr/>
+				
+			    Communication Center is a tool to collaborate with people you need.     <br/>
+			                                                                            <br/>
+			    It offers from a classic messaging application to a practical and       <br/>
+			    convenient way to quickly do some operations toghether wiht some body   <br/>
+			    on the other side.                                                      <br/>
+                                                                                        <br/>
+				</BODY></HTML>]]></control>
+        </sectionItem>
+        <sectionItem name="contacts" text="Contacts" >
+            <control type="textViewer" value="Yanicher@GMail.com" name="contacts" />
+        </sectionItem>
+        <sectionItem name="projectWebPage" text="Project Web Page" >
+            <control url="http://www.nikushor.eu" type="textViewer" name="webPage" />
+        </sectionItem>
+    </section>
+</configurator>

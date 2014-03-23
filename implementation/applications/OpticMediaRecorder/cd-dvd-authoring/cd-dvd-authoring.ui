@@ -1,0 +1,436 @@
+<ui version="4.0" >
+ <author></author>
+ <comment></comment>
+ <exportmacro></exportmacro>
+ <class>CDDVDAuthoring</class>
+ <widget class="QWidget" name="CDDVDAuthoring" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>191</width>
+    <height>365</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>CD/DVD authoring</string>
+  </property>
+  <layout class="QGridLayout" >
+   <property name="margin" >
+    <number>9</number>
+   </property>
+   <property name="spacing" >
+    <number>6</number>
+   </property>
+   <item row="0" column="0" >
+    <widget class="QFrame" name="frame_2" >
+     <property name="palette" >
+      <palette>
+       <active>
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+        <color>
+         <red>85</red>
+         <green>85</green>
+         <blue>127</blue>
+        </color>
+        <color>
+         <red>127</red>
+         <green>127</green>
+         <blue>191</blue>
+        </color>
+        <color>
+         <red>106</red>
+         <green>106</green>
+         <blue>159</blue>
+        </color>
+        <color>
+         <red>42</red>
+         <green>42</green>
+         <blue>63</blue>
+        </color>
+        <color>
+         <red>56</red>
+         <green>56</green>
+         <blue>84</blue>
+        </color>
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+        <color>
+         <red>85</red>
+         <green>85</green>
+         <blue>127</blue>
+        </color>
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>255</blue>
+        </color>
+        <color>
+         <red>255</red>
+         <green>0</green>
+         <blue>255</blue>
+        </color>
+        <color>
+         <red>42</red>
+         <green>42</green>
+         <blue>63</blue>
+        </color>
+       </active>
+       <inactive>
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+        <color>
+         <red>85</red>
+         <green>85</green>
+         <blue>127</blue>
+        </color>
+        <color>
+         <red>127</red>
+         <green>127</green>
+         <blue>191</blue>
+        </color>
+        <color>
+         <red>106</red>
+         <green>106</green>
+         <blue>159</blue>
+        </color>
+        <color>
+         <red>42</red>
+         <green>42</green>
+         <blue>63</blue>
+        </color>
+        <color>
+         <red>56</red>
+         <green>56</green>
+         <blue>84</blue>
+        </color>
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+        <color>
+         <red>85</red>
+         <green>85</green>
+         <blue>127</blue>
+        </color>
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>255</blue>
+        </color>
+        <color>
+         <red>255</red>
+         <green>0</green>
+         <blue>255</blue>
+        </color>
+        <color>
+         <red>42</red>
+         <green>42</green>
+         <blue>63</blue>
+        </color>
+       </inactive>
+       <disabled>
+        <color>
+         <red>42</red>
+         <green>42</green>
+         <blue>63</blue>
+        </color>
+        <color>
+         <red>85</red>
+         <green>85</green>
+         <blue>127</blue>
+        </color>
+        <color>
+         <red>127</red>
+         <green>127</green>
+         <blue>191</blue>
+        </color>
+        <color>
+         <red>106</red>
+         <green>106</green>
+         <blue>159</blue>
+        </color>
+        <color>
+         <red>42</red>
+         <green>42</green>
+         <blue>63</blue>
+        </color>
+        <color>
+         <red>56</red>
+         <green>56</green>
+         <blue>84</blue>
+        </color>
+        <color>
+         <red>42</red>
+         <green>42</green>
+         <blue>63</blue>
+        </color>
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+        <color>
+         <red>42</red>
+         <green>42</green>
+         <blue>63</blue>
+        </color>
+        <color>
+         <red>85</red>
+         <green>85</green>
+         <blue>127</blue>
+        </color>
+        <color>
+         <red>85</red>
+         <green>85</green>
+         <blue>127</blue>
+        </color>
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+        <color>
+         <red>121</red>
+         <green>125</green>
+         <blue>121</blue>
+        </color>
+        <color>
+         <red>207</red>
+         <green>207</green>
+         <blue>207</blue>
+        </color>
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>255</blue>
+        </color>
+        <color>
+         <red>255</red>
+         <green>0</green>
+         <blue>255</blue>
+        </color>
+        <color>
+         <red>85</red>
+         <green>85</green>
+         <blue>127</blue>
+        </color>
+       </disabled>
+      </palette>
+     </property>
+     <property name="frameShape" >
+      <enum>QFrame::Panel</enum>
+     </property>
+     <property name="frameShadow" >
+      <enum>QFrame::Plain</enum>
+     </property>
+     <layout class="QGridLayout" >
+      <property name="margin" >
+       <number>9</number>
+      </property>
+      <property name="spacing" >
+       <number>6</number>
+      </property>
+      <item row="11" column="0" >
+       <widget class="QPushButton" name="_imageGenerateHash" >
+        <property name="text" >
+         <string>Image - generate hash</string>
+        </property>
+        <property name="flat" >
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="10" column="0" >
+       <widget class="QPushButton" name="_imageConvert" >
+        <property name="text" >
+         <string>Image - convert</string>
+        </property>
+        <property name="flat" >
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="9" column="0" >
+       <widget class="QFrame" name="frame_6" >
+        <property name="frameShape" >
+         <enum>QFrame::HLine</enum>
+        </property>
+        <property name="frameShadow" >
+         <enum>QFrame::Plain</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="0" >
+       <widget class="QPushButton" name="_opticaldiscErase" >
+        <property name="text" >
+         <string>Optical Disc - erase</string>
+        </property>
+        <property name="flat" >
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="0" >
+       <widget class="QPushButton" name="_opticaldiscTest" >
+        <property name="text" >
+         <string>Optical Disc - test</string>
+        </property>
+        <property name="flat" >
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="0" >
+       <widget class="QPushButton" name="_opticaldiscClone" >
+        <property name="text" >
+         <string>Optical Disc - clone</string>
+        </property>
+        <property name="flat" >
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0" >
+       <widget class="QFrame" name="frame_4" >
+        <property name="frameShape" >
+         <enum>QFrame::HLine</enum>
+        </property>
+        <property name="frameShadow" >
+         <enum>QFrame::Plain</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0" >
+       <widget class="QPushButton" name="_cdCreateImage" >
+        <property name="text" >
+         <string>CD - create image from files</string>
+        </property>
+        <property name="flat" >
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0" >
+       <widget class="QPushButton" name="_cdBurnImage" >
+        <property name="text" >
+         <string>CD - burn image</string>
+        </property>
+        <property name="flat" >
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0" >
+       <widget class="QFrame" name="frame_3" >
+        <property name="frameShape" >
+         <enum>QFrame::HLine</enum>
+        </property>
+        <property name="frameShadow" >
+         <enum>QFrame::Plain</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0" >
+       <widget class="QPushButton" name="_dvdCreateImage" >
+        <property name="text" >
+         <string>DVD - create image from files</string>
+        </property>
+        <property name="flat" >
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0" >
+       <widget class="QPushButton" name="_dvdBurnImage" >
+        <property name="layoutDirection" >
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="text" >
+         <string>DVD - burn image</string>
+        </property>
+        <property name="flat" >
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <pixmapfunction></pixmapfunction>
+ <resources/>
+ <connections/>
+</ui>

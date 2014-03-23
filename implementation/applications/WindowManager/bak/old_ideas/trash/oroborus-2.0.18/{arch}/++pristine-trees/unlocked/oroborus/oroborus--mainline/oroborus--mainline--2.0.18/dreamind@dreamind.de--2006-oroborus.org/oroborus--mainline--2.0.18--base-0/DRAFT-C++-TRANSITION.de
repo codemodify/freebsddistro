@@ -1,0 +1,47 @@
+        Ein paar Notizen für die C++ Neuprogrammierung
+
+
+Was soll er können:
+
+1. Die gleichen Features wie die aktuelle Version haben.
+2. Eine von Grund auf neu entwickelte Konfiguration haben.
+3. Mehrere Heads (Xinerama) verwalten können (kann die momentane Version nicht wirklich.)
+4. Den Freedesktop.org Standard _VOLLSTÄNDIG_ implementieren.
+5. Pluginfähig sein.
+   - sowohl echte plugins (dlopen) als auch über Corba benutzbar.
+
+
+TODO:
+1. Abstraktionsebene für X11 und das Rendern des Fensterrandes.
+   - das Rendern des Fensterrandes _SOLL_ in einem Plugin ablaufen.
+     
+     - window_decoration_plugin
+     	bekommt folgende parameter: ein Window Objekt
+		Dieses beinhaltet die WindowID, den Window Layer, ob es sticky, fullscreen oder maximized ist, die Position
+		und ob es shaded ist.
+
+2. Ein externes Programm bieten das das folgende bietet:
+	Die Möglichkeit bieten die Position und den Workspace an Oroborus-wm weiterzureichen. -> die PID wird an
+	oroborus weitergegeben, und selbiger erwartet in den nächsten paar Sekunden ein neues Fenster mit selbiger
+	PID.
+
+	Am besten in einer shared library. (siehe Oroborus::Utils::Starter)
+
+3. Namespaces
+	Oroborus			-	Der Haupt-Namespace
+	Oroborus::X11			-	für den X11 Abstraktionslayer.
+	Oroborus::WM			-	Der Windowmanager-spezifische Teil
+	Oroborus::IPC			-	das Handling der Interprozess Kommunikation
+	Oroborus::Utils			-	für kleinere Teile
+	Oroborus::Utils::Starter	-	für den Starter
+	Oroborus::Utils::Menu		-	Deskmenu spezifisches, soll später als Plugin in Oroborus-wm möglich sein.
+	Oroborus::Utils::Keylaunch	-	für den Keylaunch spezifischen Part
+	Oroborus::Utils::Desklaunch	-	(wird eventuell nie erscheinen) für den Desklaunch Part
+
+...
+
+99. Die Webseite aktualisieren.
+
+/***This must remain at the end of the file.***********************************************
+ * arch-tag: Ein paar Notizen für die C++ Neuprogrammierung                               *
+ ******************************************************************************************/

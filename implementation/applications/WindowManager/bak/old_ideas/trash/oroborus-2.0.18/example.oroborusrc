@@ -1,0 +1,154 @@
+##########################################
+#               OROBORUSRC               #
+##########################################
+# This is an example configuration file. #
+#                                        #
+# You can use it as a template for your  #
+# own configuration file.                #
+#                                        #
+# Simply copy it to ~/.oroborusrc and    #
+# change it to your needs.               #
+##########################################
+
+# theme=<directory>
+theme=/usr/share/oroborus/themes/pillage
+
+# scheme=<scheme file>
+scheme=/usr/share/oroborus/schemes/oroborus
+
+# font=<x font name>
+font=-adobe-helvetica-medium-r-*-*-*-100-*-*-*-*-iso8859-*
+
+# title_alignment=left/right/center
+title_alignment=center
+
+# full_width_title=true/false
+full_width_title=true
+
+# button_layout H=hide S=shade M=maximize C=close |=title
+button_layout=CHM|
+
+# button_spacing=<number>
+button_spacing=1
+
+# button_offset=<number>
+button_offset=0
+
+# color descriptions, all with rgb hex-codes
+active_text_color=#000000
+active_border_color=#444444
+active_color_1=#a2cd5a
+active_shadow_1=#6e8b3d
+active_hilight_1=#bcee68
+active_color_2=#dddddd
+active_shadow_2=#999999
+active_hilight_2=#ffffff
+inactive_text_color=#777777
+inactive_border_color=#444444
+inactive_color_1=#999999
+inactive_shadow_1=#999999
+inactive_hilight_1=#ffffff
+inactive_color_2=#dddddd
+inactive_shadow_2=#999999
+inactive_hilight_2=#ffffff
+
+# ???_key=moifier+key
+hide_window_key=Mod1+Control+Down
+close_window_key=Mod1+Control+x
+maximize_window_key=Mod1+Control+y
+shade_window_key=Control+Mod1+Up
+cycle_windows_key=Mod1+Tab
+raise_window_layer_key=Mod1+Page_Up
+lower_window_layer_key=Mod1+Page_Down
+move_window_up_key=Shift+Control+Mod1+Up
+move_window_down_key=Shift+Control+Mod1+Down
+move_window_left_key=Shift+Control+Mod1+Left
+move_window_right_key=Shift+Control+Mod1+Right
+next_workspace_key=Mod1+Right
+prev_workspace_key=Mod1+Left
+add_workspace_key=Mod1+Insert
+del_workspace_key=Mod1+Delete
+stick_window_key=Control+Mod1+s
+workspace_1_key=Control+F1
+workspace_2_key=Control+F2
+workspace_3_key=Control+F3
+workspace_4_key=Control+F4
+workspace_5_key=Control+F5
+workspace_6_key=Control+F6
+workspace_7_key=Control+F7
+workspace_8_key=Control+F8
+workspace_9_key=Control+F9
+move_window_next_workspace_key=Mod1+Control+Right
+move_window_prev_workspace_key=Mod1+Control+Left
+move_window_workspace_1_key=Control+Shift+F1
+move_window_workspace_2_key=Control+Shift+F2
+move_window_workspace_3_key=Control+Shift+F3
+move_window_workspace_4_key=Control+Shift+F4
+move_window_workspace_5_key=Control+Shift+F5
+move_window_workspace_6_key=Control+Shift+F6
+move_window_workspace_7_key=Control+Shift+F7
+move_window_workspace_8_key=Control+Shift+F8
+move_window_workspace_9_key=Control+Shift+F9
+maximize_vert_key=Mod1+F5
+maximize_horiz_key=Mod1+F6
+resize_window_up_key=Shift+Mod1+Up
+resize_window_down_key=Shift+Mod1+Down
+resize_window_left_key=Shift+Mod1+Left
+resize_window_right_key=Shift+Mod1+Right
+move_top_left_key=Shift+Control+Mod1+i
+move_top_right_key=Shift+Control+Mod1+o
+move_bottom_left_key=Shift+Control+Mod1+k
+move_bottom_right_key=Shift+Control+Mod1+l
+quit_key=Control+Mod1+q
+
+# Modifiers for window operations with the mouse
+window_ops_modifiers=none+Control+Mod1
+
+# double_click_action=shade/hide/maximize/none
+double_click_action=shade
+
+# box_move=true/false
+box_move=false
+
+# box_resize=true/false
+box_resize=false
+
+# click_to_focus=true/false
+click_to_focus=false
+
+# focus_new=true/false
+focus_new=true
+
+# raise_on_focus=true/false
+raise_on_focus=true
+
+# raise_delay=<number>
+raise_delay=50
+
+# window_placement=center_mouse/center_root
+window_placement=center_mouse
+
+# snap_to_border=true/false
+snap_to_border=true
+
+# snap_to_windows=true/false
+snap_to_windows=true
+
+# snap_width=number
+snap_width=10
+
+# workspace_count=number
+workspace_count=4
+
+# wrap_workspaces=true/false
+wrap_workspaces=true
+
+# raise_on_click=true/false
+raise_on_click=true
+
+# define a list of borderless window class names
+# seperated by semicolons.
+borderless_windows=X-Chat
+
+# seitch to the next workspace, when moving a window to the desktop border?
+cycle_workspaces=true

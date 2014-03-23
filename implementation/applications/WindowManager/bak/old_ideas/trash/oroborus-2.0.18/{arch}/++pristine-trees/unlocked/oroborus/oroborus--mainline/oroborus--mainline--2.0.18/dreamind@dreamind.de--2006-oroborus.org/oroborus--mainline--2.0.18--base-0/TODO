@@ -1,0 +1,40 @@
+Things to do
+============
+
+(sorted by priority, first comes the highest)
+
+* Make Code gcc-4.0 (-pedantic -Wall) clean
+  * mostly finished, except src/session.c*
+  * REMOVE the current session.(c|h)
+
+* REMOVE automake - use autoconf and a hand-written Makefile - automake sucks badly!
+
+* Switch to C++!
+
+* Write new documentation. Doxygen needs to be written.
+
+* Switch to XRestackWindows for raising/lowering.
+
+* Implement *all* needed things from EWMH, mostly for Gnome2.
+  (currently Gnome panels work again, *and* Oroborus registers itself with
+  the Gnome session)
+
+* implement a remote controlling application
+  (like esh from enlightenment)
+
+* Add a Gui application for configuring Oroborus more comfortable.
+
+* Add a plugin interface.
+
+* implement a popup funtion to warn the user
+
+* Cleanup *all* of Oroborus to make it more flexible.
+
+* Implement libxft2 support for the window decoration. (mostly for UTF-8 support).
+
+
+
+Done and still in the TODO file
+===============================
+
+* Nothing yet ;)

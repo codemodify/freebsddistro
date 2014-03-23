@@ -1,0 +1,2 @@
+?package(oroborus):needs="wm" section="WindowManagers"\
+   title="Oroborus" command="/usr/bin/oroborus"

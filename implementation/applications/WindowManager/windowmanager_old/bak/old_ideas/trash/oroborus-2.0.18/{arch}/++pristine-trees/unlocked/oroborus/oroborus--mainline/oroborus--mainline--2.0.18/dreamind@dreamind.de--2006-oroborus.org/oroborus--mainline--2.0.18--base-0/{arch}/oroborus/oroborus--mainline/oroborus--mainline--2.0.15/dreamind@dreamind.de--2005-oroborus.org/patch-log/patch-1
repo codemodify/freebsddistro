@@ -1,0 +1,98 @@
+Revision: oroborus--mainline--2.0.15--patch-1
+Archive: dreamind@dreamind.de--2005-oroborus.org
+Creator: Stefan Pfetzing <dreamind@dreamind.de>
+Date: Fri Jul  1 15:52:38 CEST 2005
+Standard-date: 2005-07-01 13:52:38 GMT
+New-files: themes/defold/.arch-ids/=id
+    themes/defold/.arch-ids/Makefile.am.id
+    themes/defold/.arch-ids/Makefile.in.id
+    themes/defold/.arch-ids/bottom-active.xpm.id
+    themes/defold/.arch-ids/bottom-inactive.xpm.id
+    themes/defold/.arch-ids/bottom-left-active.xpm.id
+    themes/defold/.arch-ids/bottom-left-inactive.xpm.id
+    themes/defold/.arch-ids/bottom-right-active.xpm.id
+    themes/defold/.arch-ids/bottom-right-inactive.xpm.id
+    themes/defold/.arch-ids/close-active.xpm.id
+    themes/defold/.arch-ids/close-inactive.xpm.id
+    themes/defold/.arch-ids/close-pressed.xpm.id
+    themes/defold/.arch-ids/hide-active.xpm.id
+    themes/defold/.arch-ids/hide-inactive.xpm.id
+    themes/defold/.arch-ids/hide-pressed.xpm.id
+    themes/defold/.arch-ids/left-active.xpm.id
+    themes/defold/.arch-ids/left-inactive.xpm.id
+    themes/defold/.arch-ids/maximize-active.xpm.id
+    themes/defold/.arch-ids/maximize-inactive.xpm.id
+    themes/defold/.arch-ids/maximize-pressed.xpm.id
+    themes/defold/.arch-ids/right-active.xpm.id
+    themes/defold/.arch-ids/right-inactive.xpm.id
+    themes/defold/.arch-ids/shade-active.xpm.id
+    themes/defold/.arch-ids/shade-inactive.xpm.id
+    themes/defold/.arch-ids/shade-pressed.xpm.id
+    themes/defold/.arch-ids/themerc.id
+    themes/defold/.arch-ids/title-1-active.xpm.id
+    themes/defold/.arch-ids/title-1-inactive.xpm.id
+    themes/defold/.arch-ids/title-2-active.xpm.id
+    themes/defold/.arch-ids/title-2-inactive.xpm.id
+    themes/defold/.arch-ids/title-3-active.xpm.id
+    themes/defold/.arch-ids/title-3-inactive.xpm.id
+    themes/defold/.arch-ids/title-4-active.xpm.id
+    themes/defold/.arch-ids/title-4-inactive.xpm.id
+    themes/defold/.arch-ids/title-5-active.xpm.id
+    themes/defold/.arch-ids/title-5-inactive.xpm.id
+    themes/defold/.arch-ids/top-left-active.xpm.id
+    themes/defold/.arch-ids/top-left-inactive.xpm.id
+    themes/defold/.arch-ids/top-right-active.xpm.id
+    themes/defold/.arch-ids/top-right-inactive.xpm.id
+    themes/defold/Makefile.am themes/defold/Makefile.in
+    themes/defold/bottom-active.xpm
+    themes/defold/bottom-inactive.xpm
+    themes/defold/bottom-left-active.xpm
+    themes/defold/bottom-left-inactive.xpm
+    themes/defold/bottom-right-active.xpm
+    themes/defold/bottom-right-inactive.xpm
+    themes/defold/close-active.xpm
+    themes/defold/close-inactive.xpm
+    themes/defold/close-pressed.xpm
+    themes/defold/hide-active.xpm
+    themes/defold/hide-inactive.xpm
+    themes/defold/hide-pressed.xpm
+    themes/defold/left-active.xpm
+    themes/defold/left-inactive.xpm
+    themes/defold/maximize-active.xpm
+    themes/defold/maximize-inactive.xpm
+    themes/defold/maximize-pressed.xpm
+    themes/defold/right-active.xpm
+    themes/defold/right-inactive.xpm
+    themes/defold/shade-active.xpm
+    themes/defold/shade-inactive.xpm
+    themes/defold/shade-pressed.xpm themes/defold/themerc
+    themes/defold/title-1-active.xpm
+    themes/defold/title-1-inactive.xpm
+    themes/defold/title-2-active.xpm
+    themes/defold/title-2-inactive.xpm
+    themes/defold/title-3-active.xpm
+    themes/defold/title-3-inactive.xpm
+    themes/defold/title-4-active.xpm
+    themes/defold/title-4-inactive.xpm
+    themes/defold/title-5-active.xpm
+    themes/defold/title-5-inactive.xpm
+    themes/defold/top-left-active.xpm
+    themes/defold/top-left-inactive.xpm
+    themes/defold/top-right-active.xpm
+    themes/defold/top-right-inactive.xpm
+New-directories: themes/defold themes/defold/.arch-ids
+Modified-files: Makefile.in aclocal.m4 configure configure.in
+    defaults/Makefile.in man/Makefile.in schemes/Makefile.in
+    src/Makefile.in themes/Makefile.am themes/Makefile.in
+    themes/QNX/Makefile.in themes/agua/Makefile.in
+    themes/beos/Makefile.in themes/cruxish/Makefile.in
+    themes/e017/Makefile.in themes/gorillaworm/Makefile.in
+    themes/next/Makefile.in themes/oroborus/Makefile.in
+    themes/pillage/Makefile.in themes/platinum/Makefile.in
+    themes/slimline/Makefile.in themes/windows/Makefile.in
+New-patches: dreamind@dreamind.de--2005-oroborus.org/oroborus--mainline--2.0.15--patch-1
+Summary: Add the defold theme.
+Keywords: 
+
+
+

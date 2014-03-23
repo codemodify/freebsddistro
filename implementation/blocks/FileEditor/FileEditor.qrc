@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/" >
+        <file>images/close.png</file>
+        <file>images/lock.png</file>
+        <file>images/unlock.png</file>
+        <file>images/undo.png</file>
+        <file>images/redo.png</file>
+        <file>images/save.png</file>
+        <file>images/search.png</file>
+        <file>images/closebutton-dark.png</file>
+        <file>images/titlebar-background.png</file>
+        <file>images/titlebar-button-hover-background.png</file>
+        <file>images/titlebar-button-pressed-background.png</file>
+        <file>images/titlebar-button-checked-background.png</file>
+    </qresource>
+</RCC>
+

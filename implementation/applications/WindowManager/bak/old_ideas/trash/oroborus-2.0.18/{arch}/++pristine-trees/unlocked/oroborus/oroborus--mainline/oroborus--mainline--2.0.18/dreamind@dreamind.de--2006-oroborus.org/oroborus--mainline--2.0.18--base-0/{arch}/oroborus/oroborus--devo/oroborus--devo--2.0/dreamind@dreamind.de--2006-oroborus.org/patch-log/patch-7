@@ -1,0 +1,12 @@
+Revision: oroborus--devo--2.0--patch-7
+Archive: dreamind@dreamind.de--2006-oroborus.org
+Creator: Stefan Pfetzing <dreamind@dreamind.de>
+Date: Thu Jan 12 15:47:46 CET 2006
+Standard-date: 2006-01-12 14:47:46 GMT
+Modified-files: debian/control src/Makefile.am
+New-patches: dreamind@dreamind.de--2006-oroborus.org/oroborus--devo--2.0--patch-7
+Summary: depend on x-dev too, and remove XF86VM_LIB cruft.
+Keywords: 
+
+
+

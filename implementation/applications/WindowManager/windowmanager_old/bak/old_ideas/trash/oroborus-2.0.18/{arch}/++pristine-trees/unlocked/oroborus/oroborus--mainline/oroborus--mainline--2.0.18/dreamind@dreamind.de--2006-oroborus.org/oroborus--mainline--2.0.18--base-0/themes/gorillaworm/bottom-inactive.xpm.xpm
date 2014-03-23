@@ -1,0 +1,14 @@
+/* XPM */
+static char *bottom-inactive.xpm[] = {
+/* columns rows colors chars-per-pixel */
+"6 4 4 1",
+"  c opaque",
+". c #838383",
+"X c #cecece",
+"o c #dfdfdf",
+/* pixels */
+"oooooo",
+"XXXXXX",
+"......",
+"      "
+};

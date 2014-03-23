@@ -1,0 +1,13 @@
+/* XPM */
+static char * bottom_active_xpm[] = {
+"16 5 5 1",
+" 	c None",
+".	c #000000 s active_border_color",
+"+	c #FFFF66 s active_hilight_1",
+"@	c #FFCB00 s active_color_1",
+"#	c #E68600 s active_shadow_1",
+"................",
+"++++++++++++++++",
+"@@@@@@@@@@@@@@@@",
+"################",
+"................"};

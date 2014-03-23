@@ -1,0 +1,6 @@
+full_width_title=false
+title_alignment=center
+button_spacing=0
+button_offset=0
+button_layout=C|M
+double_click_action=shade

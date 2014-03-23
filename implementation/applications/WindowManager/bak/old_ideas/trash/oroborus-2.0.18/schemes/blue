@@ -1,0 +1,23 @@
+# Blue color scheme for Oroborus
+
+# Colors for active state
+
+active_text_color=#ffffff
+active_border_color=#444444
+active_color_1=#005ce0
+active_shadow_1=#0000c0
+active_hilight_1=#00c0f8
+active_color_2=#dddddd
+active_shadow_2=#999999
+active_hilight_2=#ffffff
+
+# Colors for inactive state
+
+inactive_text_color=#777777
+inactive_border_color=#444444
+inactive_color_1=#999999
+inactive_shadow_1=#777777
+inactive_hilight_1=#bbbbbb
+inactive_color_2=#dddddd
+inactive_shadow_2=#999999
+inactive_hilight_2=#ffffff

@@ -1,0 +1,50 @@
+<?xml version='1.0'?>
+<configurator titleText="Commander Configuration" >
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		User Interface Settings
+	    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	-->
+    <section name="fileOperations" text="File Operations" >
+        <sectionItem name="delete" text="Delete" >
+            <control type="checkBoxes" name="trashOptions" text="Trash Options" >
+                <check value="false" name="deleteToTrash" text="Delete To Trash" />
+            </control>
+            <control type="pathChooser" value="/home/nicu/Trash" name="trashFolder" text="Trash Folder" />
+        </sectionItem>
+        <sectionItem name="hiddenFiles" text="Hidden Files" >
+            <control type="checkBoxes" name="hiddenFiles" text="" >
+                <check value="false" name="showHideHiddenFiles" text="Show Hidden Files" />
+            </control>
+        </sectionItem>
+    </section>
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		User Help
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	-->
+    <section name="helpMe" text="Help Me !" >
+        <sectionItem name="quickHelp" text="Quick Help" >
+            <control type="textViewer" name="quickHelp" ><![CDATA[<HTML><BODY>
+				<h3>Commander</h3>
+				<hr/>
+				
+			    Commander is a classic tool to manage files on your computer.           <br/>
+			    It offers a practical and convenient way to quickly do some             <br/>
+			    operations on your file like: create/copy/move/rename.                  <br/>
+                                                                                        <br/>
+			    It includes also file search and advanced file rename features.         <br/>
+
+			    <br/>
+                How To:                                                                 <br />
+                o) copy       = r-click/copy, r-ckicl/paste. F5. Drag & Drop.           <br />
+                o) move       = r-click/cur, r-ckicl/paste. F6. Drag & Drop.            <br />
+                o) new folder = r-click/mk-dir. F7.                                     <br />
+                o) rename     = r-click/rename, F2. (valid for many files at once)      <br />
+
+				</BODY></HTML>]]></control>
+        </sectionItem>
+        <sectionItem name="contacts" text="Contacts" >
+            <control type="textViewer" value="Yanicher@GMail.com" name="contacts" />
+        </sectionItem>
+        <sectionItem name="projectWebPage" text="Project Web Page" >
+            <control url="http://www.nikushor.eu" type="textViewer" name="webPage" />
+        </sectionItem>
+    </section>
+</configurator>

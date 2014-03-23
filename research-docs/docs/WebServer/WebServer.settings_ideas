@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<webserver>
+
+	<!-- these are the variables for the webserver itself -->
+	<webserverSettings>
+		<dumpHttpHeaders value="yes" />
+	</webserverSettings>
+
+
+	<!-- here we define a list of sites that we want to handle -->
+	<domains>
+	
+		<!-- these are the default values inherited by all the 'domain' sections configured -->
+		<defaultValues>
+    			<allowedHttpRequests value="GET" />
+			<defaultFileIfNotSpecified value="index.html,index.xml" />
+			<actions>
+				<php executable="/path/to/php-cgi" params="-f" />
+				<python executable="/path/to/pyton" params="" />
+			</actions>
+		</defaultValues>
+
+
+		<!-- here is a demonstration of a clean basic info publishing -->
+		<domain name="www.my-personal-page.com" content="/sites/www.my-personal-page.com" />
+
+
+		<!-- here is a demonstration how to override the inherited variables -->
+		<domain name="www.blogging.net" content="/sites/www.blogging.net">
+		    <allowedHttpRequests value="GET,POST" />
+		    <actions>
+			    <cgi executable="/path/to/perl" params="" />
+		    </actions>
+		</domain>
+
+
+		<!-- here is a demonstration how to have 'aliases' to point to the same site -->
+		<domain name="www.my-shopping-store.com" content="/sites/www.my-shopping-store.com" >
+			<aliases value="www1.my-shopping-store.com,www2.my-shopping-store.com,my-shopping-store.com" />
+		</domain>
+		
+		
+		<!-- here is a demonstration how to delegate the site handling to a Jailed web-daemon -->
+		<domain name="www.secured-hosting.eu" delegateTo="10.0.0.5:50080">
+			<aliases value="www.secured-hosting.eu" />
+		</domain>
+		
+	</domains>
+
+</webserver>

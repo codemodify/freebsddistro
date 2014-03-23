@@ -1,0 +1,22 @@
+<?xml version='1.0' ?> 
+<synatxHighlight>
+
+	<identifiers color="#55007f"></identifiers>
+
+	<keywords color="#0000ff">xml version</keywords>
+
+	<aditionalKeywords>
+	</aditionalKeywords>
+	
+	<!--symbols color="">! % ^ & * ( ) ? + = { } | ~ [ ] \ ; ' : " < > ? , . / #</symbols-->
+
+	<numbers color="#55aa7f" />
+
+	<strings color="#aaaa7f" />
+	
+	<comments>
+		<singleLine color="#aa5500"></singleLine>
+		<multiLine color="#778899"><!-- --></multiLine>
+	</comments>
+
+</synatxHighlight>

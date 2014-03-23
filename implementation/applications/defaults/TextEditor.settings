@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<settings>
+    <TextFileEditor>
+        <font>
+            <family>monospace</family>
+            <size>8</size>
+        </font>
+    </TextFileEditor>
+    <TextEditor>
+        <font>
+            <family>monospace</family>
+            <size>8</size>
+        </font>
+        <geometry>
+            <x>344</x>
+            <y>290</y>
+            <width>923</width>
+            <height>599</height>
+        </geometry>
+    </TextEditor>
+</settings>

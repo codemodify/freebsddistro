@@ -1,0 +1,23 @@
+Source: oroborus
+Section: x11
+Priority: optional
+Maintainer: Stefan Pfetzing <dreamind@dreamind.de>
+Build-Depends: debhelper (>= 3), x-dev, libxpm-dev, libxext-dev, libx11-dev, libsm-dev, libice-dev
+Standards-Version: 3.6.2
+
+Package: oroborus
+Architecture: any
+Provides: x-window-manager
+Priority: optional
+Suggests: deskmenu, desklaunch, keylaunch
+Depends: ${shlibs:Depends}
+Description: A lightweight themeable windowmanager for X
+ Oroborus is a small and simple window manager which does exactly what
+ it says it does, manage windows. There is no fancy doc, clip, wharf, or a
+ root menu for that matter. These utilities can be provided by other programs
+ such as "deskmenu". Oroborus has support for Gnome and session management,
+ or can be run as a stand-alone window manager. This package has also been
+ compiled with Xinerama support.
+ .
+ Oroborus is small, about 72Kb at the time of this package. It has full
+ keyboard control and is very themeable.

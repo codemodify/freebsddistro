@@ -1,0 +1,27 @@
+<?xml version='1.0' ?> 
+<synatxHighlight defaultFont="Ayuthaya,11,-1,5,50,0,0,0,0,0" defaultColor="#000000" defaultBackground="#ffffff">
+
+	<identifiers font="" color="#55007f" background=""></identifiers>
+
+	<keywords font="" color="#0000ff" background="">
+		and or xor __FILE__ exception __LINE__ array() as break case class const continue declare default die() do echo() else elseif empty() enddeclare endfor endforeach endif endswitch endwhile eval() exit() extends for foreach function global if include() include_once() isset() list() new print() require() require_once() return() static switch unset() use var while __FUNCTION__ __CLASS__ __METHOD__ final php_user_filter interface implements extends public private protected abstract clone try catch throw cfunction old_function
+	</keywords>
+
+	<aditionalKeywords>
+		<predefinedVariables font="" color="#555500" background=""></predefinedVariables>
+		<predefinedClasses font="" color="#555500" background=""></predefinedClasses>
+		<predefinedConstants font="" color="#555500" background=""></predefinedConstants>
+	</aditionalKeywords>
+	
+	<!--symbols font="" color="" background="">! % ^ & * ( ) ? + = { } | ~ [ ] \ ; ' : " < > ? , . / #</symbols-->
+
+	<numbers font="" color="#55aa7f" background=""></numbers>
+
+	<strings font="" color="#aaaa7f" background=""></strings>
+	
+	<comments>
+		<singleLine font="" color="#aa5500" background="">//</singleLine>
+		<multiLine font="" color="#aa0000" background="">/**/</multiLine>
+	</comments>
+
+</synatxHighlight>

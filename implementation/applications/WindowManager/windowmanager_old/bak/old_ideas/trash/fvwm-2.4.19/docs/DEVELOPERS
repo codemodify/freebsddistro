@@ -1,0 +1,227 @@
+			Notes for Developers                         -*-text-*-
+			--------------------
+
+You will need to install several GNU tools to be able to use the cvs
+sources.  If you do not have these tools available, build from the tar
+file distribution instead, available from ftp.fvwm.org.
+
+To build from the CVS sources, you will need:
+  * GNU gcc
+  * GNU make
+  * autoconf (version >= 2.13)
+  * automake (version >= 1.4)
+
+
+After the *initial* checkout of the sources, (see cvs.html) you will
+need to execute the following commands from the top of the source
+tree.
+
+    automake --add-missing
+    autoreconf
+
+If the config.h.in file at the time automake is called, (e.g. when
+building from a fresh CVS tree), both commands have to be called twice
+to get the distribution built properly (this seems to be a bug in
+autoconf):
+
+    automake --add-missing
+    autoreconf
+    automake --add-missing
+    autoreconf
+
+There will be some warnings, which are ignorable as long as you get a
+working configure script: the configure script will fix all those
+problems.
+
+Now, configure and build as per INSTALL.fvwm and INSTALL.  If
+configure fails, please look through `config.log' for clues.
+
+
+Development Rules of the Road
+-----------------------------
+
+ 1) _Every_ change must be properly ChangeLogged.  If you use Emacs, you
+    can do this oh-so-trivially with the C-x 4 a command; it will add a
+    header (if it's a new day), the name of the file, and even the name
+    of the function you're currently in.
+
+    If you start adding them as you change functions, it'll soon become
+    second-nature and we'll get proper ChangeLogs.
+
+    If you don't use Emacs, please mimic the format of all the other log
+    entries when adding your own.
+
+ 2) If you make a user-visible change please add a blurb about it to the
+    NEWS file.  A couple sentences is fine; don't repeat the
+    documentation but give folks enough of an idea so they can decide if
+    they want to learn more.  Bug fixes (unless they're _really_ user
+    visible) shouldn't be noted in the NEWS file.
+
+ 3) If you add a new user-visible feature, don't forget to update the
+    appropriate man pages at the same time!
+
+ 4) Bug fixes may be committed at any time (unless we're in code freeze
+    for a release), usually without much review (unless you want someone
+    else to look at it).  All our code freeze, etc. is merely
+    procedural, not enforced, so it's important you read fvwm-workers
+    and keep up-to-date with the current state of the tree.
+
+ 5) New features should be discussed on the list to ensure everyone
+    thinks they're "appropriate" (one of the goals of fvwm is to be
+    relatively efficient, remember, which means we don't necessarily
+    want the kitchen sink).
+
+ 6) If the new feature is large enough, unstable enough, or not
+    targeted at the next release, it should go on a private branch.
+    Otherwise, consensus will probably have it installed on the main
+    branch.
+
+ 7) Before adding a new feature think twice if it could perhaps
+    be implemented as a module (perhaps after some extension
+    of the fvwm<->module communication protocol). Moving features
+    in modules helps to keep fvwm itself clean and efficient.
+
+
+        ** Of course, compile and test before committing! **
+
+
+Dealing with CVS
+----------------
+
+All details about dealing with CVS should be found in cvs.html.
+Go look there!
+
+
+Doing the JitterBug
+-------------------
+
+If you haven't already noticed them, now is the time to visit our bug
+tracking pages:
+
+  http://www.fvwm.org/cgi-bin/fvwm-bug
+
+Anybody can submit or view bug reports there.
+
+Developers with CVS write access can also update the bug database
+(whee!).  To do so, you have to go to the Jitterbug page, but then tack
+a ".private" on to the end of the URL:
+
+  http://www.fvwm.org/cgi-bin/fvwm-bug.private
+
+Then you'll be asked to authenticate.  The username and password are the
+same as you use for the CVS repository.
+
+You'll probably want to bookmark that page.
+
+
+Changing a Makefile
+-------------------
+
+First of all, NEVER edit anything named Makefile or Makefile.in.  These
+are both derived from the corresponding Makefile.am.  The most common
+reason for editing is to change the list of sources.
+
+Steps: 1. edit foo/blah/Makefile.am
+       2. re-run "make" from the top of the build directory
+
+Step 2 will take care of rebuilding the Makefile.in and Makefile from your
+changed Makefile.am.
+
+Makefile.am has a simple format, basically:
+
+        bin_PROGRAMS = fvwm2
+
+        fvmw2_SOURCES = blah.c blah.h foo.c foo.h ...
+
+Notice that you have to add all files, C-code *and* headers, to the
+_SOURCES line.  This is vital, because this is the list of files that are
+packed into the distribution.  If you leave one out, nobody will be able
+to build the distributed tar file!
+
+
+Changing configure.in
+---------------------
+
+The most common reason to do this is to change the version string.  If
+you're editing it for any other reason, I will assume you know what you're
+doing.
+
+Steps: 1. edit configure.in, and find the line containing
+          AM_INIT_AUTOMAKE(fvwm, x.y.z) at the top of the file
+       2. change x.y.z to the new version string
+       3. re-run "make" from the top of the build directory
+
+Step 3 will take care of rebuilding the configure script, and usually all
+the other Makefiles.
+
+
+Building a distribution
+-----------------------
+
+By this, I mean the files "fvwm-x.y.z.tar.gz" and "fvwm-x.y.z.tar.bz2".
+
+Steps: 1. When building a release, update the CVS sources first. For a
+          stable release it is best to throw away the whole source tree
+          and check it out from scratch to ensure all source files have
+          been added to CVS.
+       2. Make sure you have XPM, the strokes library and a X server with
+          the shape extension.
+       3. Run
+            aclocal && autoheader && automake -a && autoreconf
+	  If you checked out fresh sources in step 1, run this line
+          again:
+            automake -a && autoreconf
+       4. If building a stable release, remove the config.cache file.
+       5. ./configure
+       6. make clean
+       7. Double check that you get no warnings during the build (the
+          options for compilers other than gcc may be different):
+          make CFLAGS="-g -O2 -Wall -Werror"
+       8. make distcheck2
+       9. Ensure that you see the message
+          "fvwm-x.y.z.tar.gz ready for distribution"
+
+The steps 3 to 9 can be done by running the script utils/make_fvwmdist.sh
+from the top level directory of the source tree.  You can also call
+this script with the -r option.  In this case the it will also do
+the steps 9 to 12.  The release number will be increase by one after
+the second digit.  The script will ask you for a name and mail address
+to be used in the ChangeLog entry.
+
+Note that you need to have actually built everything before packing
+the distribution, hence steps 3 to 5.  Among other things, this generates
+the proper dependency information for insertion into Makefile.in's
+generated in step 8.
+
+Step 8 will create the tar file, then unpack it and attempt a build &
+install (to a scratch directory, not /usr/local).  This makes sure
+that you really DID include all the files necessary to build the
+package into the tar file. It may be hard to appreciate how useful
+this is, until it has reminded you that you forgot file "foo.h" in
+some _SOURCES line.  But trust me, it will save your bacon in this way
+some day!
+
+
+If this is to be an "official", labeled release, then do also the
+following:
+
+      10. Tag the CVS tree:
+          cvs tag version-x_y_z
+      11. Increase the version number in configure.in (see above)
+          and `cvs commit' this change.
+      12. Create entries in the ChangeLog and NEWS files indicating the
+          release.
+      13. Upload the files fvwm-x.y.z.tar.gz and fvwm-x.y.z.tar.bz2 to
+	  ftp://ftp.fvwm.org/pub/incoming/fvwm
+      14. Notify fvwm-owner@fvwm.org of the upload.
+      15. Update the release numbers in fvwm-wb/index.html and
+          fvwm-web/download.html.
+      16. Use fvwm-web generated/txt2html.sh to update the NEWS file
+            cd fvwm-web/generated && ./txt2html.sh ../../fvwm/NEWS
+      17. Make sure the web pages in fvwm-web point to the new release.
+
+Be sure to do steps 10 and 11 in that order, so you get the label on the
+right version of configure.in.
+
+For a stable release, do not forget to change the date in
+docs/fvwm.lsm.in.

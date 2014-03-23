@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<configurator titleText="Mediaplayer" >
+    <section name="general" text="General" >
+        <sectionItem name="portableMediaPlayer" text="Portable Media Player" >
+            <control type="pathChooser" name="device" text="Device" value="/dev/da0" />
+            <control type="pathChooser" name="mountPath" text="Mount Path" value="/mnt/mp3player" />
+        </sectionItem>
+    </section>
+    <section name="helpMe" text="Help Me !" >
+        <sectionItem name="hotkeys" text="Hot Keys" >
+            <control type="textViewBox" name="rtyfgh" >
+            		<![CDATA[<HTML><BODY>
+            		<h1><b>Mediaplayer</b></h1>
+            		<hr>
+            		<br>            		
+            		<br>h - show/hide playlist
+            		<br>t - on/off tool mode = no playlist, no controls, no menu
+            		<br>	k - show/hide kontrols
+            		<br>o - on top/regular
+            		<br>
+            		<br>n - next
+            		<br>p - previous
+            		<br>enter - play
+            		<br>r - replay
+            		<br>space/pause - pause
+            		<br>
+            		<br>q - quit
+            		<br>f - fullscreen
+            		</BODY></HTML>]]>
+            </control>
+        </sectionItem>
+    </section>
+</configurator>

@@ -1,0 +1,29 @@
+Revision: oroborus--mainline--2.0.16--patch-4
+Archive: dreamind@dreamind.de--2005-oroborus.org
+Creator: Stefan Pfetzing <dreamind@dreamind.de>
+Date: Thu Jul  7 00:06:26 CEST 2005
+Standard-date: 2005-07-06 22:06:26 GMT
+New-files: src/.arch-ids/client.h.id
+    src/.arch-ids/events.h.id src/.arch-ids/frame.h.id
+    src/.arch-ids/globals.c.id src/.arch-ids/globals.h.id
+    src/.arch-ids/settings.h.id
+    src/.arch-ids/workspaces.h.id src/client.h src/events.h
+    src/frame.h src/globals.c src/globals.h src/settings.h
+    src/workspaces.h
+Removed-files: src/.arch-ids/xmalloc.c.id
+    src/.arch-ids/xmalloc.h.id src/xmalloc.c src/xmalloc.h
+Modified-files: configure.ac src/Makefile.am src/client.c
+    src/config.h.in src/events.c src/frame.c src/hints.c
+    src/hints.h src/i18n.c src/i18n.h src/keyboard.h
+    src/oroborus.c src/oroborus.h src/pixmap.c src/pixmap.h
+    src/session.c src/settings.c src/workspaces.c
+New-patches: dreamind@dreamind.de--2005-oroborus.org/oroborus--mainline--2.0.16--patch-4
+Summary: Big gcc-4.0 -pedantic -Wall fixup
+Keywords: 
+
+* fixed several gcc-4.0 -pedantic -Wall problems.
+* cleaned up oroborus.h
+* added several seperate header files
+* Still need to fixup session.c
+
+

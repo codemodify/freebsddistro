@@ -1,0 +1,179 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1"
+ http-equiv="content-type">
+  <title>Mediaplayer</title>
+</head>
+<body>
+<h1 style="font-family: Courier New;"><big>Mediaplayer</big></h1>
+<div style="text-align: right; font-family: Courier New;"><small><span
+ style="font-weight: bold;"><big><big><br>
+<br>
+</big></big></span></small></div>
+<small><small style="font-family: Courier New;"><span
+ style="font-style: italic;">Documentul de fata, prezinta
+niste idei generale, nefinale.</span><br style="font-style: italic;">
+<span style="font-style: italic;">Totul ce veti gasi in acest
+document(imagini, text) sint ingramadite de pe calculatorul personal cu
+scopul de a scrie acest document.</span><big><br
+ style="font-style: italic;">
+</big></small><br style="font-family: Courier New;">
+<br style="font-family: Courier New;">
+<span style="font-weight: bold; font-family: Courier New;"><big><big><br>
+... De unde a pornit Ideia</big></big></span><br
+ style="font-family: Courier New;">
+<br style="font-family: Courier New;">
+<span style="font-family: Courier New;">Folosind tot felul de player-e
+audio/video, am fost impresionat in
+diferite moduri si masuri.</span><br style="font-family: Courier New;">
+<span style="font-family: Courier New;">Ceva care sa folosesc in
+continuu dupa ce l-am descoperit a fost VLC,
+insa el are neajunsurile sale care la fel in continuu ma rod :). Pe
+parcursul acestor experimente sa creat si o concluzie despre ce ar
+trebui sa fie intr-un player si ce nu.</span><br
+ style="font-family: Courier New;">
+<br style="font-family: Courier New;">
+<span style="font-weight: bold; font-family: Courier New;"><big><big><br>
+... Tipuri de player-e<br>
+</big></big></span></small>
+<ul style="font-family: Courier New;">
+  <small> </small>
+  <li><small>simple, de obicei ele-s audio, specializate pe un singur
+format,
+nu folosesc alte librarii deoarece implementeaza intern decodificarea
+formatului</small></li>
+  <small> </small>
+  <li><small>mai complexe, utilizarea la careva librarii, si respectiv
+'inteleg' formatele<br>
+    </small></li>
+  <small> </small>
+  <li><small>complexe, inghit tot ce le dai, difera prin
+functionalitate,
+comoditate, viteza, stabilitate</small></li>
+  <small></small>
+</ul>
+<small><span style="font-weight: bold; font-family: Courier New;"><big><big><br>
+... De ce am ramas la VLC<small><small><small><br>
+<br>
+</small></small></small></big></big></span><span
+ style="font-family: Courier New;">E ultra functional, desigur
+foloseste librarii externe pentru aceasta, ceea ce e si normal.</span><br
+ style="font-family: Courier New;">
+</small>
+<ul style="font-family: Courier New;">
+  <small> </small>
+  <li><small>discuri</small></li>
+  <small> </small>
+  <ul>
+    <small> </small>
+    <li><small>DVD Video<br>
+      </small></li>
+    <small> </small>
+    <li><small>Video CD</small></li>
+    <small> </small>
+    <li><small>Audio CD</small></li>
+    <small> </small>
+  </ul>
+  <small> </small>
+  <li><small>formate de fisiere audio/video<br>
+    </small></li>
+  <small> </small>
+  <ul>
+    <small> </small>
+    <li><small>aproape toate existente</small></li>
+    <small> </small>
+  </ul>
+  <small> </small>
+  <li><small>retea</small></li>
+  <small> </small>
+  <ul>
+    <small> </small>
+    <li><small>streaming server</small></li>
+    <small> </small>
+    <li><small>streaming client</small></li>
+    <small> </small>
+  </ul>
+  <small> </small>
+  <li><small>imagini (atentie "<span style="font-weight: bold;">imagini</span>"
+!!)</small></li>
+  <small> </small>
+  <ul>
+    <small> </small>
+    <li><small>daca in playlist se nimersc si imagini atunci el le
+arata :-)<br>
+      </small></li>
+    <small> </small>
+  </ul>
+  <small> </small>
+  <ul>
+    <small> <br>
+    </small>
+  </ul>
+  <small></small>
+</ul>
+<small><span style="font-weight: bold; font-family: Courier New;"><big><big>...
+De ce vreau sa scap de
+VLC<small><small><small><br>
+</small></small></small></big></big></span></small>
+<ul style="font-family: Courier New;">
+  <small> </small>
+  <li><small>e pe baza de wxWidgets</small></li>
+  <small> </small>
+  <li><small>playlist-ul nu e practic deloc<br>
+    </small></li>
+  <small> </small>
+  <li><small>playlist-ul are erori in implementare<br>
+    </small></li>
+  <small> </small>
+  <li><small>nu cred ca toti au nevoie de un streaming server intr-un
+player,
+un streaming client da</small></li>
+  <small> </small>
+  <li><small>nu cred ca toti au nevoie sa priveasca imagini intro
+aplicatie de
+acest tip<br>
+    </small></li>
+  <small></small>
+</ul>
+<small><br style="font-family: Courier New;">
+<br style="font-family: Courier New;">
+<span style="font-weight: bold; font-family: Courier New;"><big><big>...
+Cerinte fata de
+"Mediaplayer"<br>
+</big></big></span></small>
+<ul style="font-family: Courier New;">
+  <small> </small>
+  <li><small>atingerea functionalitatii VLC-ului ce priveste audio/video</small></li>
+  <small> </small>
+  <li><small>fara suport de streaming server</small></li>
+  <small> </small>
+  <li><small>fara suport de imagini</small></li>
+  <small> </small>
+  <li><small>se lucreaza direct cu libraria specializata (ex: pentru
+mp3 -
+libmad ...), evitind ceva de genu SDL_sound, astfel exista
+flexibilitatea de a alege codec-ul dorit pentru un careva format concret<br>
+    </small></li>
+  <small></small>
+</ul>
+<small><br style="font-family: Courier New;">
+<span style="font-weight: bold; font-family: Courier New;"><big><big>...
+De ce se creaza acest </big></big><big><big>"Mediaplayer"<br>
+</big></big></span></small>
+<ul style="font-family: Courier New;">
+  <small> </small>
+  <li><small>parte componenta a distributiei, desi nu e dependent de ea<br>
+    </small></li>
+  <small> </small>
+  <li><small>gruparea librariilor specializate in grupe de librarii
+abstracte
+duce la noi dezavantaje/BUG-uri, ne mai luind in consideratie bugurile
+in librariile start, se complica lucrurile, mai mult ca atit librariile
+abstractizante de multe ori folosesc decodere nedorite pentru anumite
+formate, ceea ce duce la situatii de irosire neeficienta a resurselor<br>
+    </small></li>
+  <small></small>
+</ul>
+</body>
+</html>

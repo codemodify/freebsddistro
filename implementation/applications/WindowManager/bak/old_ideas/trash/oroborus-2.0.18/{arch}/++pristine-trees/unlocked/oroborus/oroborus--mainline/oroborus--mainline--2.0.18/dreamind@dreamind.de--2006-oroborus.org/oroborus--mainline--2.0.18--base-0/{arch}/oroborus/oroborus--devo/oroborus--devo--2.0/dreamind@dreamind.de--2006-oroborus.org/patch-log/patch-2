@@ -1,0 +1,12 @@
+Revision: oroborus--devo--2.0--patch-2
+Archive: dreamind@dreamind.de--2006-oroborus.org
+Creator: Stefan Pfetzing <dreamind@dreamind.de>
+Date: Mon Jan  9 17:24:55 CET 2006
+Standard-date: 2006-01-09 16:24:55 GMT
+Modified-files: debian/changelog debian/control
+New-patches: dreamind@dreamind.de--2006-oroborus.org/oroborus--devo--2.0--patch-2
+Summary: Fix xlibs-dev build-depends.
+Keywords: 
+
+
+

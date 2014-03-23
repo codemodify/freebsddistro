@@ -1,0 +1,72 @@
+Revision: oroborus--mainline--2.0.15--patch-8
+Archive: dreamind@dreamind.de--2005-oroborus.org
+Creator: Stefan Pfetzing <dreamind@dreamind.de>
+Date: Fri Jul  1 19:49:54 CEST 2005
+Standard-date: 2005-07-01 17:49:54 GMT
+Removed-files: .arch-ids/COPYING.id
+    .arch-ids/Makefile.in.id .arch-ids/aclocal.m4.id
+    .arch-ids/configure.id .arch-ids/depcomp.id
+    .arch-ids/install-sh.id .arch-ids/missing.id COPYING
+    Makefile.in aclocal.m4 configure
+    defaults/.arch-ids/Makefile.in.id defaults/Makefile.in
+    depcomp install-sh man/.arch-ids/Makefile.in.id
+    man/Makefile.in missing schemes/.arch-ids/Makefile.in.id
+    schemes/Makefile.in src/.arch-ids/Makefile.in.id
+    src/Makefile.in themes/.arch-ids/Makefile.in.id
+    themes/Elberg_Blue/.arch-ids/Makefile.in.id
+    themes/Elberg_Blue/Makefile.in
+    themes/Elberg_Green/.arch-ids/Makefile.in.id
+    themes/Elberg_Green/Makefile.in
+    themes/Elberg_Red/.arch-ids/Makefile.in.id
+    themes/Elberg_Red/Makefile.in themes/Makefile.in
+    themes/QNX/.arch-ids/Makefile.in.id
+    themes/QNX/Makefile.in
+    themes/agua/.arch-ids/Makefile.in.id
+    themes/agua/Makefile.in
+    themes/beos/.arch-ids/Makefile.in.id
+    themes/beos/Makefile.in
+    themes/bluecurve/.arch-ids/Makefile.in.id
+    themes/bluecurve/Makefile.in
+    themes/cruxish/.arch-ids/Makefile.in.id
+    themes/cruxish/Makefile.in
+    themes/defold/.arch-ids/Makefile.in.id
+    themes/defold/Makefile.in
+    themes/e017/.arch-ids/Makefile.in.id
+    themes/e017/Makefile.in
+    themes/gorillaworm/.arch-ids/Makefile.in.id
+    themes/gorillaworm/Makefile.in
+    themes/mkultra/.arch-ids/Makefile.in.id
+    themes/mkultra/Makefile.in
+    themes/next/.arch-ids/Makefile.in.id
+    themes/next/Makefile.in
+    themes/oroborus/.arch-ids/Makefile.in.id
+    themes/oroborus/Makefile.in
+    themes/pillage/.arch-ids/Makefile.in.id
+    themes/pillage/Makefile.in
+    themes/platinum/.arch-ids/Makefile.in.id
+    themes/platinum/Makefile.in
+    themes/slimline/.arch-ids/Makefile.in.id
+    themes/slimline/Makefile.in
+    themes/windows/.arch-ids/Makefile.in.id
+    themes/windows/Makefile.in
+Renamed-files: .arch-ids/configure.in.id .arch-ids/configure.ac.id
+    configure.in configure.ac
+Modified-files: Makefile.am defaults/Makefile.am
+    man/Makefile.am schemes/Makefile.am src/Makefile.am
+    src/config.h.in themes/Elberg_Blue/Makefile.am
+    themes/Elberg_Green/Makefile.am
+    themes/Elberg_Red/Makefile.am themes/Makefile.am
+    themes/QNX/Makefile.am themes/agua/Makefile.am
+    themes/beos/Makefile.am themes/bluecurve/Makefile.am
+    themes/cruxish/Makefile.am themes/defold/Makefile.am
+    themes/e017/Makefile.am themes/gorillaworm/Makefile.am
+    themes/mkultra/Makefile.am themes/next/Makefile.am
+    themes/oroborus/Makefile.am themes/pillage/Makefile.am
+    themes/platinum/Makefile.am themes/slimline/Makefile.am
+    themes/windows/Makefile.am
+New-patches: dreamind@dreamind.de--2005-oroborus.org/oroborus--mainline--2.0.15--patch-8
+Summary: Remove generated files, and have "make maintainer-clean" remove them.
+Keywords: 
+
+
+

@@ -1,0 +1,20 @@
+#!/bin/sh
+
+set -e
+
+# Register as an x-window-manager
+if [ "$1" = "configure" ]; then
+  if [ "$2" ] && dpkg --compare-versions $2 le 0.51.3-12; then
+	update-alternatives --remove x-window-manager /etc/X11/window-managers
+  fi
+fi
+update-alternatives --install /usr/bin/x-window-manager \
+x-window-manager /usr/bin/oroborus 50
+		
+# Restart all running oroboruses
+if [ "$(pidof oroborus)" ]; then
+	# use /bin/kill to be sure its procps ;P
+	/bin/kill -HUP $(pidof oroborus)
+fi
+
+#DEBHELPER#

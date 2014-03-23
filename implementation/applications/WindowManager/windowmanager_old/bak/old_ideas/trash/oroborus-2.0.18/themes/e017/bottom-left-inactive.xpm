@@ -1,0 +1,20 @@
+/* XPM */
+static char * bottom_left_inactive_xpm[] = {
+"4 4 13 1",
+" 	c None",
+".	c #E9E9E9",
+"+	c #D4D4D4",
+"@	c #FFFFFF",
+"#	c #ECEBEC",
+"$	c #D9D8D9",
+"%	c #DFDFDF",
+"&	c #E7E7E7",
+"*	c #CECECE",
+"=	c #6F6F6F",
+"-	c #727171",
+";	c #ECECEC",
+">	c #000000",
+".+@@",
+"#$%%",
+"&*=-",
+";>>>"};

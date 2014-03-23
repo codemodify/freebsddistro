@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<configurator titleText="Downloader" >
+    <section name="settings" text="User Settings" >
+        <sectionItem name="downloadsRelated" text="Downloads Related" >
+            <control type="pathChooser" value="/usr/home/nicu/downloads/" name="downloadFolder" text="Download Folder" />
+            <control type="checkBoxes" name="miscOptions" text="Misc Options" >
+                <check value="true" name="autoResumeAtStart" text="Auto Resume At Start" />
+                <check value="false" name="autoRemoveFinished" text="Auto Remove When Finished" />
+            </control>
+        </sectionItem>
+    </section>
+    <section name="help" text="Help Me" >
+        <sectionItem name="fonts" text="Fonts" >
+            <control type="pathChooser" value="/usr/my_docs/devel/projects/configurator/src/" name="downloadFolder" text="Download Folder" />
+        </sectionItem>
+    </section>
+</configurator>

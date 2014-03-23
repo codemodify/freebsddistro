@@ -1,0 +1,23 @@
+# Brick color scheme for Oroborus
+
+# Colors for active state
+
+active_text_color=#ffffff
+active_border_color=#444444
+active_color_1=#cd2626
+active_shadow_1=#8b1a1a
+active_hilight_1=#ee2c2c
+active_color_2=#eec591
+active_shadow_2=#cdaa7d
+active_hilight_2=#ffd39b
+
+# Colors for inactive state
+
+inactive_text_color=#8b7355
+inactive_border_color=#444444
+inactive_color_1=#cdaa7d
+inactive_shadow_1=#8b7355
+inactive_hilight_1=#eec591
+inactive_color_2=#eec591
+inactive_shadow_2=#cdaa7d
+inactive_hilight_2=#ffd39b

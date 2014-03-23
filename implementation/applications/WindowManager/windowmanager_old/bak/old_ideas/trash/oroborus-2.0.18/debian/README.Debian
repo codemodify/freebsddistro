@@ -1,0 +1,15 @@
+Oroborus for Debian
+-------------------
+
+UPDATE: Oroborus is now maintained by Stefan Pfetzing <dreamind@dreamind.de>.
+
+Oroborus does not have a menu of any kind. This is why I suggest you install
+the package 'deskmenu'. It allows for a root menu at the click of a mouse and
+is fairly configureable. Sometimes a menu is useful ;)
+
+I would also recommend to install ROX-Filer (but 1.3, the 1.2 version is
+*BUGGY*).
+
+http://rox.sourceforge.net/rox_filer.php3
+
+ -- Stefan Pfetzing <dreamind@dreamind.de>, Fri, 24 May 2002 00:00:53 +0200

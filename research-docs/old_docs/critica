@@ -1,0 +1,421 @@
+mt:
+- Ideea e buna, success, 
+numai cred ca in loc de Desktop tre de folosit "Desktop
+Environment", asa parca mi se pare corect 
+
+- da, documentu inca e in process de devel 
+
+
+
+
+
+rapt0r:
+- bai, tre sa scrii la unixro
+
+
+
+
+
+KeRneL:
+- hehe.. coooool paper :)
+
+- ai citit ?
+
+- da, pin la urma
+
+- si ?
+
+- eu pot sa zik ka ideia ii foarte buna, dar cum ramine cu finantzarea?:D
+de minkat doar tot trebuie :))) in ziua de azi rar cine poate sashi permita sa se joace asha in timpul liber dea open-source...
+dar asha ka ideie imi place
+poate o pui undeva pe vreun forum la discutzie?
+
+- amu tre sa fac docs, ca altfel nu pot sa atrag mai mult popor
+pe urma am sa pun pe si peforumuri ...
+
+- aha.. clar..
+eu ash contribui cu ceva, din timpul meu liber..
+numai ka timp nu prea este de unde de luat :*(
+
+- eu am inceput careva componente ca demonstrare ca
+lucreaza ... da tot nu pre reusesc ...
+
+- clar, treb de mai discutat asta..
+ladna eu ma duk sa lucrez, ka am tare multe pe kap azi de fuckut.. :\
+
+
+
+
+
+vaseac:
+- nu prea stau in *nix world
+sh intzeleg la vreo 60 -  70 %
+ideeea care-i
+ceva idei progresiste n-am italnit :D
+
+- ce anume progresist ? 
+
+-  hz, ceva ultracool :)_
+
+- exemplu ? 
+
+- hz, ce scop are mailu ista?
+
+- crearea unui distributiv cu cerintele expuse acolo ..
+
+- adica s faci un linux personal
+
+- da ceva de genu ista ...
+ok, thanks,
+cred ca am sa mai schimb ceva ...
+
+- tu te apuci de propriu distributiv
+
+- inca nu, pin ce scriu docs, si model de soft ca demonstrare
+
+- hm, cruta, bafta
+
+- nu ai dorinta pe viitor sa activezi ca voluntar  ?
+
+- hm, eu cam is departe de *nix
+
+- cel putin din star vor trebui voluntari ..  
+pe viitor asta ..
+
+- hm, cto znaet ;)  
+
+
+
+
+
+vasilly80:
+- am  dezarhivat.....ce anume sa ma uit....de ce gen parerea?
+
+- la ceea ce scrie acolo 
+sau esti departe de asta ?
+
+- textul din HTML tu l-ai scris....?
+
+- da 
+
+-  un moment
+departe nu sunt...alaturi ;-)
+...
+-
+
+
+
+
+
+B.R.A.H.M.I.N. :
+- cool!
+- ce ?
+- citesc mailu :)
+- l-ai citit pe tot ?
+- uhu
+ai sa faci proiectele open source?
+- da am sa incerc
+- success domnule
+- :)
+- aplicatii frumoase - asta-i ca o arta :)
+- yep :)
+- daca o faci bine - te faci vestit
+hehe
+- da, da asta e pe ultimul plan
+- :)
+- am sa incerc cel putin sa contribui la ridicarea nivelului IT in MD
+- ideie buna
+- pe viitor posibil va fi nevoie de voluntari ...
+- *JOKINGLY*
+
+
+
+denis_bogdanas:
+-  e ceva interesant dar numai pentru cei care sunt interesati  sa lucreze pe linux, si de genul
+
+adica eu tot pe windows as ramane:)
+tu te gandesti sa promovezi distributia asta? 
+- da, am sa incerc .. 
+- da tu deja ti l-ai instalat si il folosesti?
+- pin ce il fac ...
+- asta vrei sa faci tu?
+- da, tu ai citit documentu atent ? :)
+- pai in asa caz fa-ti un grup de discutii pe vreun forum cunoscut de linuxisti
+- acolo cred ca  vei gasi cea mai stransa sustinere
+- da, stiu, asa si am sa fac mai  tirziu ...
+- tu vrei sa-l faci live cd?
+- sau doar kit de instalare pe hard?
+- pina ce nustiu , posibil nu
+-  cum am inteles vrei sa pui in distribtie numai cele mai necesare programe si librariii
+- ma intereseaza pareri doar, pin ce ..
+- si atunci s-ar putea sa-ti incapa pe cd 
+ merita sa-l faci live cd
+o sa fie de mai mare folos 
+- scopul nu e sa incapa pe CD
+dar daca va fi posibil de ce nu
+- si pe forum mai bine incepe discutiile de acum  
+asa vei putea afla din timp si parerile altora
+- stiu, nu ma intereseaza parerile numai celor 'cu capu in asta'
+- si cand vei face distributia, vei sti din start ca sunt mai multi oameni
+- ei au o alta gindire ..
+- aha
+tu vrei parerea mea deci?
+- da :)
+- cum vad eu un sistem de operare
+ok
+pai pe mine la un sistem de operare ma intereseaza lucrurile in urmatoarea ordine:
+1 functionalitate
+2 simplitate de utilizare
+3 sa arate frumos
+nu stiu exact in ce ordine
+dar ma intereseaza foarte mult sa poti instala rapid un program
+si sa poti sa-l folosesti rapid, fara sa inveti prea multe
+asa este motivul din care prefer windows-ul fata de linux din aproape toate punctele de vedere 
+
+- asta deja depinde de programul instalat ...
+- exista o mare deosebire intre softurile facute open-source si cele facute de firme
+- ele nu au nimic cu sistemul de operare
+- softurile facute open-source sunt mai extensibile, mai usor de programat
+insa mai greu de folosit
+sistemul de operare este si el un soft 
+vorbesc la general acum
+
+- aha, am inteles 
+- ei asta e asa de principiu
+si in afara de asta mai ai un punct acolo
+- care ?
+- ai vrut sa limitezi distributia la strictul necesar
+ si sa excluzi librariile si programele care ai sansa mare sa nu le folosesti
+- asa
+- asta te ajuta numai sa salvezi spatiul pe cd si pe harddisk
+in afara de asta nu stiu ce avantaje ar mai avea
+insa are un dezavantaj
+ce se intampla daca utilizatorul instaleaza distributia ta si peste un timp vrea sa instaleze un program care nu il ai in distributie
+
+- il instaleaza manual, impreuna cu dependentele sale 
+- sau cu atat mai rau un program care are nevoie de o librarie ce nu vine inclusa nici in program nici in distributia ta
+bataia de cap pentru a instala programul si toate dependentele s-ar putea sa fie mult mai mare decat castigul din putin spatiu pe hard
+
+- bine, am inteles
+- de aceea eu as prefera sa am incluse in distributie o tona de programe, chiar daca nu le voi folosi pe toate
+insa voi avea mai putine probleme de instalare
+
+- am sa reformulez inca odata, ca vad ca are mai multe sensuri ...
+- chiar si in windows, daca ar exista vreun kit de windows de 10 giga
+care sa-l pornesti o data 
+
+- scopul nu era sa economisesc spatiul pe HDD 
+- sa lasi calculatorul o zi
+si sa-ti instaleze si office si messenger si toate kkturile posibile
+as da toti banii pe ea:)
+
+- da, corect, asta e o intrebare aparte
+- eu mi-am expus punctul de vedere:) 
+- am inteles, multumesc ...:) 
+- si atunci care e scopul sa faci distributia redusa?
+
+- scopul principal nu e reducerea disrtibutiei... vezi ca pe tine cred ca te doare anume intrebarea asta, deatita si numai asta si ai remarcat :)
+nustiu, asa ma gindesc eu ...
+poate nu am dreptate
+
+- aha
+- poate in genere nici un package nu va fi scos ... nustiu
+- pai sa reduci distributia mai are un avantaj la care nu m-am gandit
+se trage mai repede de pe net
+si asta e important
+- da, corect
+- daca ai putea sa faci un script, care sa contina doar kit-ul de instalare la bsd cu toate programele
+dar sa nu le aiba incluse in kit
+ci sa le traga pe toate de pe net de pe site-ul lor gazda
+ar fi super
+
+- asta este ...
+si in mod grafic si text
+
+- ar fi rapid de downlodat 
+si ar avea si toate incluse 
+
+- exista o sistema de porturi pe BSD 
+luind in consideratie asta, tu poti sa intsalezi BSD-ul de pe un singur CD sau flash
+
+- pai e bine
+- e interesant ce vrei tu sa faci 
+sa ma tii si pe mine la curent cu proiectul tau:)
+si iti doresc sa gasesti cat mai multi sustinatori;)
+
+- ok :), cred ca am sa gasec ..., mai mult ca atit am intentia ca mai mult
+popor sa treaca la asa ceva, inclusiv popor de tipu tau ... e mult de lucru ...
+
+- ca sa ma atragi pe mine ar trebui sa faci distributia din cele mai user frendly programe
+
+- in care sa nu existe asa ceva ca scripturi de configurare manuale 
+sau programe pentru care trebuie sa citesti un manual inainte sa le folosesti
+daca reusesti sa faci asta 
+chiar o sa ma puna pe ganduri putin:))
+
+- da un exemplu de program GUI care tu a trebuit sa citesti manual ca sa-l
+folosesti
+
+- pai daca a fost complet gui atunci nu a fost nevoie 
+insa daca era vorba de vreun fisier de configuare, atunci e jale:) 
+
+- asta va fi "Desktop" - usor de configurat si instalat care poate fi folosit de developeri de orice domeniu ...   
+daca tu vorbesti de servere, pai la servere in genere nu trebuie GUI
+
+- ideal ar fi nunumai de developeri 
+la servere e altceva
+depinde pentru cine vrei sa faci distributia
+tu probabil vorbesti de desktop
+
+- "Distro de Desktop" 
+:)
+ceea despre ce vorbesti tu ca:
+ program care nu trebuie sa te bagi cu minile ca sa-l configurezi sa lucreze
+
+- exact
+- e problema principala care o abordeaza acest Distro
+ma intereseaza, daca eu asa am scris de 'bine' ca nu e clar care e scopul ...
+
+- poate n-am citit eu bine
+m-am uitat rapid pe ce ai scris 
+- sau tu careva lucruri acolo nu le-ai inteles ... ca asta e important
+eu acum scriu docs la asta, si e important
+
+- eu mi-am facut impresia ca tu vrei sa faci o distributi cu doar cele mai necesare componente 
+din punctul tau de vedere
+am inteles ca asta este scopul tau
+n-am gasit nicaieri mesajul ca vrei sa bagi cele mai usor de folosit componente
+
+- componentele au fost adaugate ca sa nu apara dependente de alte aplicatii
+care la rindul lor tre sa le editezi cu mina :) 
+
+- ei, eu nu-s asa experti in unix ca sa stiu lucrurile astea:) 
+
+-  >>n-am gasit nicaieri mesajul ca vrei sa bagi cele mai usor de folosit componente
+ok, am inteles
+thanx pentru asta
+
+- cu placere 
+cum am mai spus, tine-ma la curent cu proiectul tau;)
+
+- >>ei, eu nu-s asa experti in unix ca sa stiu lucrurile astea:)
+asta e o alta problema abordata, ca sa fie inlaturata ideea ca unix-ul e greu de folosit ...
+chiar si pe desktop
+problema e ca de unix sau folosit mai mult sysadmini si nu developeri ...
+de la ei e greu sa obtii informatii folositoare pentru "TOTI" userii
+
+- si daca e sa vorbum despre toate
+mai am ceva de adaugat
+
+- hai
+- tu ai ales bsd
+- da 
+- bsd-ul asta trebuie sa aiba niste avantaje mari fata de linux ca sa faci o distributie sub el populara
+majoritatea *nixistilor stau pe linux
+asta are avantajul ca daca ai vreo problema, ai pe cine sa-l intrebi
+daca te apuci sa promovezi bsd undeva unde aproape nimeni nu foloseste bsd
+(s-ar putea sa n-am dreptate, poate la tine il folosesc majoritatea)
+
+- aha, asta e un alt mit inventat de mai multa lume, linux - bsd tre sa respecte standarte ..
+
+- atunci nu o sa aiba chef prea multi sa fie pioneri undeva unde trebuie sa te descurci singur
+adica pe bsd poti sa pui toate programele care merg pe linux?
+eu stiam ca nu prea
+
+- ok, iata un moment din viata, toti linuxistii folosesc OpenBSD ca servere cind e nevoie de securitate paranoidala
+merg toate
+lupta asta bsd-linux nu o inteleg... si nu o respect ...
+
+- daca intr-adevar merg toate, si nu trebuie sa faci chestii in plus ca sa-ti mearga
+
+- BSD  e ceva matur, ca cod si standard
+- atunci bsd-ul nu are nici o problema
+poate ca da
+
+- linux e interesant, el inca se dezvolta
+- insa eu il vad ca "mai linux decat linuxul":))
+daca ma intelegi
+adica mai departat de windows
+
+- :))
+- mai concentrat pe servere si nu pe desktopuri
+- inteleg
+- cu mai putine programe facute pentru el 
+- asta e un mit 
+- insa tu vrei sa faci un desktop
+- nui corect de loc 
+>> cu mai putine programe facute pentru el
+- posibil, nu stiu prea multe
+- ok, sa rezumam:
+- eu nu ma pricep la unix
+- tu ai impresia ca BSD e ceva care musca, si numai pentru server ... multi o au, si ca daca te gindesti la UNIX atunci e Linux 
+- cam asa 
+- asta e o timpenie, propagata de multi oameni care nu-si dau seaman ce zic
+cred ca teau speriat si pe tine
+:) 
+- pe mine nu prea m-a interesat
+eu cum ti-am mai spus nici la linux nu ma gandesc sa trec 
+cu atat mai mult la bsd 
+- aa, poate, inseamna ca dupa ce ai ai sate informezi, vei vedea 'the truth'
+- poate
+- :), ok, thanx
+eu mai simplu decit BSD nam vazut inca 
+acum incerc sa spun asta si la altii, prin distribuita asta ... 
+de lucru este
+- asa sa faci:)
+- si ceea ce simplu si matur e genial
+- bafta la acest proiect;)
+
+
+
+
+
+
+elenka_@mail.ru:
+- ...
+- kstati, mne nujno tvoeo mnenie developer-a
+- nu , ne ru4ausi za profesianalism , no slushau :)
+- esli u tebea esti vremea pocitati, mojno ea prisliu docs, ty pocitatesh i skajesh ...
+- davaii :)
+- vseo shto dumaesh ... toliko tsenzurno ... :)
+- shea
+postarausi :)
+
+- ...
+- shia glianu
+- ti slu4aino ne v linuxe shia sidishi? :) 
+- nea
+FreeBSD
+- :)
+- k moemu stidu-moldavskii znau neo4eni :(
+no ia tak poniala 4to ti sobral distributiv FreeBSd - kak govoritsa ni4o lishnego :)
+- da ideea shvacena, toliko poka ne sobral a sozdaiu nekotorye komponenty... dlea ego starta ..
+i kak tebe sama idea ?
+poka vseo eto delo v moih fantaziah, i na moeom kompe...
+- idea mne ponravilasi :) 
+osbenno kone4no ia ulovila pro QT ;)
+no 4estno tebe skaju QT4 - idea sama horoshia..tam kone4no esti model-view...no mnogie veshi tak
+sebe-mnogie rugautsa...koe 4to nada esho dorabotati...
+Toka vot ne znala 4to QT rabotaet pod FreeBSd...Ili FreeBSD - eto tot je linux?
+- net ne tot,
+da QT rabotaet vezide... 
+- prosto na skoka ia znau QT rabotaet pod windows,linux i macos
+aaa
+- mogu screen shot pokazati :) 
+- davai :)
+- a arhivator kakoi nibudi vhodit v distributiv? 
+- da horoshaea ideea
+nado podumati
+no vseotaki naverno eto budet po hodu dela
+- 4estno govoria ti pervii znakomii kotorii sobiraet distributiv - poetomu ia v vostorge ot idei
+ samoi :)
+jelau uda4i !
+ia esho pi4itau po vnimatelinei - budut voprosi/idei napishu :)
+....
+- eto byloby zameceatelino, tak kak na budushem budut nujny daje i developery kotorye budut
+prodvigati uroveni IT v MD
+hoteaby k etomu cemto pomogati
+- :)
+- esli ne prodvigati to smesta sdvinuti
+- da,mne kajetsa idea o4eni smelaia i dovolino serioznaia .... 
+

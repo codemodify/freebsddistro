@@ -1,0 +1,5 @@
+font=*-helvetica-bold-r-normal-*-*-100-*
+text_alignment=middle
+button_layout=SH|MC
+active_text_color=#000000
+inactive_text_color=#909090

@@ -1,0 +1,10 @@
+# based on the theme mkultra (http://kde-look.org/content/show.php?content=2865)
+# made by Shamyl Zakariya (http://home.earthlink.net/~zakariya/)
+active_text_color=#555555
+inactive_text_color=#8E9652
+full_width_title=false
+title_alignment=center
+button_spacing=0
+button_offset=0
+button_layout=C|HM
+double_click_action=shade

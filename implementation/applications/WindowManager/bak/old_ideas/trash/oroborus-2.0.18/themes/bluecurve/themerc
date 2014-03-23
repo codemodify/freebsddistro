@@ -1,0 +1,11 @@
+##
+## To use with the Bluecurve Oroborus
+## 
+active_text_color=#EEEEEE
+inactive_text_color=#777777
+full_width_title=true
+title_alignment=left
+button_spacing=0
+button_offset=0
+button_layout=S|HMC
+double_click_action=shade

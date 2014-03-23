@@ -1,0 +1,6 @@
+autopoint
+# libtoolize -f
+aclocal-1.7 -I admin -I . -I m4
+autoconf
+automake-1.7
+

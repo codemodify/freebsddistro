@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="103"
+   name=""
+   committed-date="2004-10-20T17:12:51.502592Z"
+   url="http://svn.nomi.cz/svn/licq_osd/main/src"
+   last-author="lonestar"
+   kind="dir"
+   uuid="835cc563-afc0-0310-a89f-c538b5e50fdb"
+   revision="103"/>
+<entry
+   committed-rev="103"
+   name="my_xosd.cpp"
+   text-time="2005-10-20T11:32:24.000000Z"
+   committed-date="2004-10-20T17:12:51.502592Z"
+   checksum="10973222665ca8779bbbc5f23e45d234"
+   last-author="lonestar"
+   kind="file"
+   prop-time="2005-10-20T11:32:24.000000Z"/>
+<entry
+   committed-rev="85"
+   name="licq_osd.conf.h"
+   text-time="2005-10-20T11:32:24.000000Z"
+   committed-date="2004-05-24T18:11:53.785664Z"
+   checksum="0b3dd99e931704311217e205a0ce8213"
+   last-author="pytt_l"
+   kind="file"
+   prop-time="2005-10-20T11:32:24.000000Z"/>
+<entry
+   committed-rev="85"
+   name="my_xosd.h"
+   text-time="2005-10-20T11:32:24.000000Z"
+   committed-date="2004-05-24T18:11:53.785664Z"
+   checksum="a29f2a93c9359adbe376d2fc0c430c08"
+   last-author="pytt_l"
+   kind="file"
+   prop-time="2005-10-20T11:32:24.000000Z"/>
+<entry
+   committed-rev="21"
+   name="Makefile.am"
+   text-time="2005-10-20T11:32:24.000000Z"
+   committed-date="2003-06-28T16:58:55.091686Z"
+   checksum="56435fac6bba928b5dd41bd0431e1836"
+   last-author="lonestar"
+   kind="file"
+   prop-time="2005-10-20T11:32:24.000000Z"/>
+<entry
+   committed-rev="103"
+   name="licq-osd.cpp"
+   text-time="2005-10-20T11:32:24.000000Z"
+   committed-date="2004-10-20T17:12:51.502592Z"
+   checksum="beb0913e12b4f0810858fbf928388515"
+   last-author="lonestar"
+   kind="file"
+   prop-time="2005-10-20T11:32:24.000000Z"/>
+</wc-entries>

@@ -1,0 +1,40 @@
+.TH OROBORUS 1
+.SH NAME
+oroborus \- lightweight themeable window manager for X.
+.br
+.SH "DESCRIPTION"
+.PP
+.B Oroborus
+is a small and simple window manager which does exactly what
+it says it does, manage windows. There is no fancy doc, clip, wharf, or a
+root menu for that matter. These utilities can be provided by other programs
+such as "deskmenu". Oroborus has support for Gnome and session management,
+or can be run as a stand-alone window manager.
+
+.SH "FILES"
+.PP
+See oroborusrc(5) for details.
+.SH OPTIONS
+\fBOroborus\fP accepts the following options:
+.TP
+\fB-r\fR, \fB\-\-file\fR=\fIFILE\fR
+use an alternative rcfile instead of $HOME/.oroborusrc.
+.TP
+\fB-r\fR, \fB\-\-display\fR=\fIDISPLAY\fR
+use an alternative display instead of $DISPLAY.
+.TP
+\fB\-\-sm-client-id\fR
+use the specified session management id.
+.TP
+.B  -v, --verbose
+Print more information.
+.TP
+.B \-h, \-\-help
+Show summary of options.
+.TP
+.B \-V, \-\-version
+Show version of program.
+.SH "SEE ALSO"
+oroborusrc(5) deskmenu(1) desklaunch(1) keylaunch(1) idesk(1) dfm(1)
+.SH AUTHOR
+This manual page was written by Stefan Pfetzing <dreamind@dreamind.de>.

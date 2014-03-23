@@ -1,0 +1,22 @@
+<?xml version='1.0' ?> 
+<synatxHighlight defaultFont="Ayuthaya,11,-1,5,50,0,0,0,0,0" defaultColor="#000000" defaultBackground="#ffffff">
+
+	<identifiers font="" color="#55007f" background=""></identifiers>
+
+	<keywords font="" color="#0000ff" background="">TEMPLATE CONFIG QT DEPENDPATH INCLUDEPATH DESTDIR OBJECTS_DIR MOC_DIR UI_DIR TARGET LIBS SOURCES FORMS HEADERS</keywords>
+
+	<aditionalKeywords>
+	</aditionalKeywords>
+	
+	<!--symbols font="" color="" background="">! % ^ & * ( ) ? + = { } | ~ [ ] \ ; ' : " < > ? , . / #</symbols-->
+
+	<numbers font="" color="#55aa7f" background=""></numbers>
+
+	<strings font="" color="#aaaa7f" background=""></strings>
+	
+	<comments>
+		<singleLine font="" color="#aa5500" background="">#</singleLine>
+		<multiLine font="" color="#aa0000" background="">/**/</multiLine>
+	</comments>
+
+</synatxHighlight>

@@ -1,0 +1,12 @@
+Revision: oroborus--devo--2.0--patch-4
+Archive: dreamind@dreamind.de--2006-oroborus.org
+Creator: Stefan Pfetzing <dreamind@dreamind.de>
+Date: Mon Jan  9 18:06:52 CET 2006
+Standard-date: 2006-01-09 17:06:52 GMT
+Modified-files: configure.ac debian/changelog
+New-patches: dreamind@dreamind.de--2006-oroborus.org/oroborus--devo--2.0--patch-4
+Summary: Remove XF86VM stuff from configure.ac.
+Keywords: 
+
+
+

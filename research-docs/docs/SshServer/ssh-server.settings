@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<sshserver>
+
+	<sshServerSettings>
+
+		<!-- value="[SSL-v3,TLS-v1]" -->
+		<version value="SSL-v3" />
+
+		<!-- value="[DSA,RSA"] -->
+		<cipher value="RSA" />
+
+		<!-- value="path-to-cert" -->
+		<certificate value="/usr/home/nicu/gen-cryptic-info/server.id.rsa.pem.certificate" />
+		
+		<!-- value="path-to-pub-key" -->
+		<publicKey value="/usr/home/nicu/gen-cryptic-info/server.id.rsa.pem.public" />
+		
+		<!-- value="path-to-priv-key" -->
+		<privateKey value="/usr/home/nicu/gen-cryptic-info/server.id.rsa.pem.private" />
+		
+		<!-- value="[PER,BER]" -->
+		<format value="PER" />
+		
+	</sshServerSettings>
+
+	
+	
+	<!-- defines a list of served users -->
+	<users>
+		
+		<defaultValues>
+			<acceptedShellCommands value="all" />
+		</defaultValues>
+		
+		<user name="nicu" home="/usr/home" lockInHome="yes" publicKey="users/nicu.id.public" publicKeyFormat="PER" />
+		
+	</users>
+
+</sshserver>

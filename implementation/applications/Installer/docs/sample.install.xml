@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+
+<install debug="yes">
+
+	<!-- This area defines variables used in the install process. -->
+	<!-- In addition to these variables the installer will load all the environement variables defined on the system. -->
+	<!-- to extract content from a variable is used the '@' prefix. example: @HOME, @userDefinedVariable -->
+	<variables>
+		<productName value="Webserver" />
+		<productDescription value="@productName - is a HTTP speaking application that 
+									can serve HTTP clien requests by returning back requested resources." />
+		<installPath value="/usr/local/abcdefghi/webserver" />
+		<dialogResult value="" />
+	</variables>
+
+	<!-- This area defines dailogs used in the install process. -->
+	<dialogs>
+		<!-- pops a dialog with some info on it. lets the user to influence on the setup progress -->
+		<dialog name="introductoryInfo" resultInto="dialogResult" buttons="Cancel,Continue">
+			<text value="Accidentally You have stared the setup for the @productName." />
+			<text value="@productDescription" />
+			<text value="" /> <!-- a blank line -->
+			<text value="If you still think you want it, press to continue." />
+		</dialog>
+
+		<!-- pops a dialog with instructions what to do. allows the user to change some parameters. lets the user to influence on the setup progress-->
+		<dialog name="changeInstallPath" resultInto="dialogResult" buttons="Cancel,Continue">
+			<text value="Adjust the following setup parameters for the @productName" />
+			<edit label="Intall path:" value="@installPath" resultInto="@installPath" />
+		</dialog>
+
+		<!-- pops a dialog with some info on it. lets the user to influence on the setup progress -->
+		<dialog name="confirmToInstall" resultInto="dialogResult" buttons="Cancel,Continue">
+			<text value="Everything is ready to intall the @productName." />
+			<text value="If you still think you want it, press to continue." />
+		</dialog>
+
+		<!-- pops a dialog with some info on it -->
+		<dialog name="informAboutFinished" buttons="ok">
+			<text value="@productName is ready to for use." />
+			<text value="The path it was installed into is: @installPath" />
+			<text value="To start the @productName run this: @installPath/@productName" />
+		</dialog>
+	</dialogs>
+
+	<!-- This area defines file deploying scenarios. For example one might have different scenarios depending on the OS, or if it is a clean install or upgrade process -->
+	<deployScenarios>
+
+		<cleanInstall attributes="rx">
+			<file name="webserver">
+				<action exec="ln" params="-s @file httpd" />
+			</file>
+			<folder name="resources" >
+				<file name="logo.png" />
+				<file name="smallLogo.png" />
+			</folder>
+			<folder name="database" attributes="rw">
+				<file name="mysql.db" />
+				<file name="backupDB.python" />
+				<installFolder name="mysql">
+					<action exec="tar" params="-xzvf mysql.tar.gz" />
+					<action exec="sh" params="bin\mysql_start.sh" />
+				</installFolder>
+			</folder>
+		</cleanInstall>
+
+	</deployScenarios>
+
+	<start>
+		<step dialog="introductoryInfo" />
+		<step checkCondition="@dialogResult==Cancel" jumpToStep="exit" />
+		
+		<step dialog="changeInstallPath" name="" />
+		<step checkCondition="@dialogResult==Cancel" jumpToStep="exit" />
+		
+		<step dialog="confirmToInstall" name="" />
+		<step checkCondition="@dialogResult==Cancel" jumpToStep="exit" />
+
+		<step deployScenario="cleanInstall" />
+		
+		<step dialog="informAboutFinished"/>
+		
+		<step name="exit" />
+	</start>
+	
+</install>

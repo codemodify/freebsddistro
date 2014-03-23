@@ -1,0 +1,12 @@
+--------------------------------------------------------------------------------
+|                                    Phluid                                    |
+--------------------------------------------------------------------------------
+
+Phluid is a window manager that emphasizes efficiency, speed, and beauty.
+It uses rasterman's Imlib2 library as the image/font rendering backend.
+Phluid also attempts to be flexible and compliant with the ICCCM standard, 
+although it has a long way to go in reaching the standard.  Phluid gets a
+lot of it's inspiration from the enlightenment window manager, but some of
+the initial code design is based on aewm, a very minimalistic window manager
+(Thanks, Decklin Foster, for giving me a great reference implementation to
+start with).

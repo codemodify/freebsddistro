@@ -1,0 +1,36 @@
+<?xml version='1.0'?>
+<settings>
+    <bookmarks>
+        <value>/home/nicu</value>
+        <value>/home/nicu/Applications/abcdefghi</value>
+        <value>/home/nicu/Development/SoftwareDistribution</value>
+        <value>/media/INTENSO</value>
+        <value>/home/nicu/.aMule/Incoming</value>
+    </bookmarks>
+    <TextFileEditor>
+        <font>
+            <family>monospace</family>
+            <size>8</size>
+        </font>
+    </TextFileEditor>
+    <FileEditor>
+        <geometry>
+            <x>431</x>
+            <y>25</y>
+            <width>949</width>
+            <height>555</height>
+        </geometry>
+    </FileEditor>
+    <Commander>
+        <font>
+            <family>monospace</family>
+            <size>8</size>
+        </font>
+        <geometry>
+            <x>172</x>
+            <y>234</y>
+            <width>1133</width>
+            <height>709</height>
+        </geometry>
+    </Commander>
+</settings>

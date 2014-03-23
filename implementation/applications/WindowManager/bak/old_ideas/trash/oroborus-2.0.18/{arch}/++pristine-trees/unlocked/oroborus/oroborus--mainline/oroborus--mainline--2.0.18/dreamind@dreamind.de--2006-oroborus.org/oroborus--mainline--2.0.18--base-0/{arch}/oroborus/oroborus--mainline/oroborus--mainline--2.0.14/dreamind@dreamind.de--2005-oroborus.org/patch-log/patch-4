@@ -1,0 +1,12 @@
+Revision: oroborus--mainline--2.0.14--patch-4
+Archive: dreamind@dreamind.de--2005-oroborus.org
+Creator: Stefan Pfetzing <dreamind@dreamind.de>
+Date: Thu Jun 30 15:53:31 CEST 2005
+Standard-date: 2005-06-30 13:53:31 GMT
+Modified-files: debian/rules
+New-patches: dreamind@dreamind.de--2005-oroborus.org/oroborus--mainline--2.0.14--patch-4
+Summary: fix debian/rules to use a never debhelper variant.
+Keywords: 
+
+
+

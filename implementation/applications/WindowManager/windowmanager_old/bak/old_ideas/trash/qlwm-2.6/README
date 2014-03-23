@@ -1,0 +1,24 @@
+It should be enough to do just:
+
+make
+make install
+
+The build was tested on Linux and FreeBSD with Qt-2.3.0. Qt is available
+at Trolltech (www.trolltech.com). Earlier Qt2 versions should work but are
+not tested.
+
+A problem could still occur if Qt was not correctly installed to compile
+programs. See the INSTALL file in Qt for information - your QTDIR environment
+variable must point to the Qt base directory, otherwise you get errors.
+
+Make install will place all files in a common hierarchy below /usr/local/qlwm
+(you can change this in the toplevel makefile), one additional link to 
+qlwm in /usr/local/bin, a directory ~/.qlwm in your home directory (this will
+not be overwritten if you upgrade) and the manpage. The simplest way to make
+X11 aware of it is however by running qlwm from your ~/.xinitrc file if you
+start X11 with a startx command or from ~/.xsession if you use xdm login. You
+should see something that is preconfigured enough to start work with it.
+
+See the manpage for usage information. The latest version can be found at
+http://get.to/qlwm.
+

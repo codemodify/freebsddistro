@@ -1,0 +1,10 @@
+Makefile
+Makefile.in
+.*.sw?
+*.lo
+*.la
+*.moc
+.deps
+.libs
+kimiface.kidl
+kimiface_*

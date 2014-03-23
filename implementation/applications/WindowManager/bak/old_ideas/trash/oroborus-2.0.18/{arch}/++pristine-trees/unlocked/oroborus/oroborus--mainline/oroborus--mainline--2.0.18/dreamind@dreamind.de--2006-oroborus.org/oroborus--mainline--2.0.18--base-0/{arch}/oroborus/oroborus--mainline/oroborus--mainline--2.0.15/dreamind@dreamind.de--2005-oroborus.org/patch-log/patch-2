@@ -1,0 +1,86 @@
+Revision: oroborus--mainline--2.0.15--patch-2
+Archive: dreamind@dreamind.de--2005-oroborus.org
+Creator: Stefan Pfetzing <dreamind@dreamind.de>
+Date: Fri Jul  1 15:57:37 CEST 2005
+Standard-date: 2005-07-01 13:57:37 GMT
+New-files: themes/mkultra/.arch-ids/=id
+    themes/mkultra/.arch-ids/Makefile.am.id
+    themes/mkultra/.arch-ids/Makefile.in.id
+    themes/mkultra/.arch-ids/bottom-active.xpm.id
+    themes/mkultra/.arch-ids/bottom-inactive.xpm.id
+    themes/mkultra/.arch-ids/bottom-left-active.xpm.id
+    themes/mkultra/.arch-ids/bottom-left-inactive.xpm.id
+    themes/mkultra/.arch-ids/bottom-right-active.xpm.id
+    themes/mkultra/.arch-ids/bottom-right-inactive.xpm.id
+    themes/mkultra/.arch-ids/close-active.xpm.id
+    themes/mkultra/.arch-ids/close-inactive.xpm.id
+    themes/mkultra/.arch-ids/close-pressed.xpm.id
+    themes/mkultra/.arch-ids/hide-active.xpm.id
+    themes/mkultra/.arch-ids/hide-inactive.xpm.id
+    themes/mkultra/.arch-ids/hide-pressed.xpm.id
+    themes/mkultra/.arch-ids/left-active.xpm.id
+    themes/mkultra/.arch-ids/left-inactive.xpm.id
+    themes/mkultra/.arch-ids/maximize-active.xpm.id
+    themes/mkultra/.arch-ids/maximize-inactive.xpm.id
+    themes/mkultra/.arch-ids/maximize-pressed.xpm.id
+    themes/mkultra/.arch-ids/right-active.xpm.id
+    themes/mkultra/.arch-ids/right-inactive.xpm.id
+    themes/mkultra/.arch-ids/themerc.id
+    themes/mkultra/.arch-ids/title-1-active.xpm.id
+    themes/mkultra/.arch-ids/title-1-inactive.xpm.id
+    themes/mkultra/.arch-ids/title-2-active.xpm.id
+    themes/mkultra/.arch-ids/title-2-inactive.xpm.id
+    themes/mkultra/.arch-ids/title-3-active.xpm.id
+    themes/mkultra/.arch-ids/title-3-inactive.xpm.id
+    themes/mkultra/.arch-ids/title-4-active.xpm.id
+    themes/mkultra/.arch-ids/title-4-inactive.xpm.id
+    themes/mkultra/.arch-ids/title-5-active.xpm.id
+    themes/mkultra/.arch-ids/title-5-inactive.xpm.id
+    themes/mkultra/.arch-ids/top-left-active.xpm.id
+    themes/mkultra/.arch-ids/top-left-inactive.xpm.id
+    themes/mkultra/.arch-ids/top-right-active.xpm.id
+    themes/mkultra/.arch-ids/top-right-inactive.xpm.id
+    themes/mkultra/Makefile.am themes/mkultra/Makefile.in
+    themes/mkultra/bottom-active.xpm
+    themes/mkultra/bottom-inactive.xpm
+    themes/mkultra/bottom-left-active.xpm
+    themes/mkultra/bottom-left-inactive.xpm
+    themes/mkultra/bottom-right-active.xpm
+    themes/mkultra/bottom-right-inactive.xpm
+    themes/mkultra/close-active.xpm
+    themes/mkultra/close-inactive.xpm
+    themes/mkultra/close-pressed.xpm
+    themes/mkultra/hide-active.xpm
+    themes/mkultra/hide-inactive.xpm
+    themes/mkultra/hide-pressed.xpm
+    themes/mkultra/left-active.xpm
+    themes/mkultra/left-inactive.xpm
+    themes/mkultra/maximize-active.xpm
+    themes/mkultra/maximize-inactive.xpm
+    themes/mkultra/maximize-pressed.xpm
+    themes/mkultra/right-active.xpm
+    themes/mkultra/right-inactive.xpm
+    themes/mkultra/themerc
+    themes/mkultra/title-1-active.xpm
+    themes/mkultra/title-1-inactive.xpm
+    themes/mkultra/title-2-active.xpm
+    themes/mkultra/title-2-inactive.xpm
+    themes/mkultra/title-3-active.xpm
+    themes/mkultra/title-3-inactive.xpm
+    themes/mkultra/title-4-active.xpm
+    themes/mkultra/title-4-inactive.xpm
+    themes/mkultra/title-5-active.xpm
+    themes/mkultra/title-5-inactive.xpm
+    themes/mkultra/top-left-active.xpm
+    themes/mkultra/top-left-inactive.xpm
+    themes/mkultra/top-right-active.xpm
+    themes/mkultra/top-right-inactive.xpm
+New-directories: themes/mkultra themes/mkultra/.arch-ids
+Modified-files: configure configure.in themes/Makefile.am
+    themes/Makefile.in
+New-patches: dreamind@dreamind.de--2005-oroborus.org/oroborus--mainline--2.0.15--patch-2
+Summary: Add the mkultra theme.
+Keywords: 
+
+
+

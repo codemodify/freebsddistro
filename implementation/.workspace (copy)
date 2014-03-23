@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<settings>
+    <_builder_>
+        <buildTargetsNames>
+            <value>build</value>
+            <value>clean</value>
+            <value>rebuild</value>
+            <value>deploy</value>
+            <value>backup</value>
+        </buildTargetsNames>
+        <buildTargetsActions>
+            <value>sh ./builder.sh build</value>
+            <value>sh ./builder.sh clean</value>
+            <value>sh ./builder.sh rebuild</value>
+            <value>sh ./builder.sh install</value>
+            <value>sh ./builder.sh backup</value>
+        </buildTargetsActions>
+        <runAction>/home/nicu/Applications/abcdefghi/Commander</runAction>
+        <debugAction>xterm -e "gdb /home/nicu/Applications/abcdefghi/Commander"</debugAction>
+    </_builder_>
+</settings>

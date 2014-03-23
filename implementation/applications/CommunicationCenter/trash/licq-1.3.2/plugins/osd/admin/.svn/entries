@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="27"
+   name=""
+   committed-date="2003-07-03T22:30:05.981337Z"
+   url="http://svn.nomi.cz/svn/licq_osd/main/admin"
+   last-author="lonestar"
+   kind="dir"
+   uuid="835cc563-afc0-0310-a89f-c538b5e50fdb"
+   revision="103"/>
+<entry
+   committed-rev="3"
+   name="libxosd.m4"
+   text-time="2005-10-20T11:32:24.000000Z"
+   committed-date="2003-06-22T12:43:23.013055Z"
+   checksum="a6c6a5a511b850f7ebc1eea520330513"
+   last-author="lonestar"
+   kind="file"
+   prop-time="2005-10-20T11:32:24.000000Z"/>
+<entry
+   committed-rev="17"
+   name="acinclude.m4"
+   text-time="2005-10-20T11:32:24.000000Z"
+   committed-date="2003-06-27T19:43:39.192475Z"
+   checksum="6d4fafbcdb96e2ad437e8bd9d82ee746"
+   last-author="lonestar"
+   kind="file"
+   prop-time="2005-10-20T11:32:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="depcomp"
+   text-time="2005-10-20T11:32:24.000000Z"
+   committed-date="2003-06-22T12:43:23.013055Z"
+   checksum="992c26bd2ae15c07d912a1c3f2562819"
+   last-author="lonestar"
+   kind="file"
+   prop-time="2005-10-20T11:32:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="missing"
+   text-time="2005-10-20T11:32:24.000000Z"
+   committed-date="2003-06-22T12:43:23.013055Z"
+   checksum="2a8eef1110e32e279e0bbbc228155171"
+   last-author="lonestar"
+   kind="file"
+   prop-time="2005-10-20T11:32:24.000000Z"/>
+<entry
+   committed-rev="3"
+   name="install-sh"
+   text-time="2005-10-20T11:32:24.000000Z"
+   committed-date="2003-06-22T12:43:23.013055Z"
+   checksum="e7e174685c6ae852e4b5e7431fddc5c8"
+   last-author="lonestar"
+   kind="file"
+   prop-time="2005-10-20T11:32:24.000000Z"/>
+</wc-entries>

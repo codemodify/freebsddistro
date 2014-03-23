@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<settings>
+
+    <Global>
+        <Renderer>TwoDRenderer</Renderer>
+    </Global>
+
+    <Problem>
+    </Problem>
+
+    <Analyze>
+    </Analyze>
+
+    <Implementation>
+        <Classes>
+            <value>Architector</value>
+            <value>Architecture.Architecture</value>
+            <value>Architecture.Model</value>
+            <value>Architecture.Renderer.IRenderer</value>
+            <value>Architecture.Renderer.AbstractRenderer</value>
+            <value>Architecture.Renderer.Factory</value>
+            <value>Architecture.Renderer.ThreeDRenderer</value>
+            <value>Architecture.Renderer.TwoDRenderer</value>
+            <value>Architecture.Renderer.ClassicUmlRenderer</value>
+        </Classes>
+    </Implementation>
+
+</settings>
+

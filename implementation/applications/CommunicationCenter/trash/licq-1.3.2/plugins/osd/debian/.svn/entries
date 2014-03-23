@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="76"
+   name=""
+   committed-date="2003-11-07T14:54:56.008977Z"
+   url="http://svn.nomi.cz/svn/licq_osd/main/debian"
+   last-author="lonestar"
+   kind="dir"
+   uuid="835cc563-afc0-0310-a89f-c538b5e50fdb"
+   revision="103"/>
+<entry
+   committed-rev="76"
+   name="control"
+   text-time="2005-10-20T11:32:23.000000Z"
+   committed-date="2003-11-07T14:54:56.008977Z"
+   checksum="bec94edaff6117581952f41d49142557"
+   last-author="lonestar"
+   kind="file"
+   prop-time="2005-10-20T11:32:23.000000Z"/>
+<entry
+   committed-rev="3"
+   name="licq-plugin-osd-doc.docs"
+   text-time="2005-10-20T11:32:23.000000Z"
+   committed-date="2003-06-22T12:43:23.013055Z"
+   checksum="6cbb7bb1de94a50089e7008ac16dd81d"
+   last-author="lonestar"
+   kind="file"
+   prop-time="2005-10-20T11:32:23.000000Z"/>
+<entry
+   committed-rev="3"
+   name="licq-plugin-osd.dirs"
+   text-time="2005-10-20T11:32:23.000000Z"
+   committed-date="2003-06-22T12:43:23.013055Z"
+   checksum="b06428ed38460f4045f25590b4f52d85"
+   last-author="lonestar"
+   kind="file"
+   prop-time="2005-10-20T11:32:23.000000Z"/>
+<entry
+   committed-rev="3"
+   name="licq-plugin-osd.postinst"
+   text-time="2005-10-20T11:32:23.000000Z"
+   committed-date="2003-06-22T12:43:23.013055Z"
+   checksum="349d6bd173e987c36f164f95794cefe4"
+   last-author="lonestar"
+   kind="file"
+   prop-time="2005-10-20T11:32:23.000000Z"/>
+<entry
+   committed-rev="73"
+   name="rules"
+   text-time="2005-10-20T11:32:23.000000Z"
+   committed-date="2003-10-24T07:55:18.831929Z"
+   checksum="cbfa9cd373dd980eb09f264ba8cd0615"
+   last-author="lonestar"
+   kind="file"
+   prop-time="2005-10-20T11:32:23.000000Z"/>
+<entry
+   committed-rev="3"
+   name="licq-plugin-osd-doc.files"
+   text-time="2005-10-20T11:32:23.000000Z"
+   committed-date="2003-06-22T12:43:23.013055Z"
+   checksum="6cbb7bb1de94a50089e7008ac16dd81d"
+   last-author="lonestar"
+   kind="file"
+   prop-time="2005-10-20T11:32:23.000000Z"/>
+<entry
+   committed-rev="3"
+   name="licq-plugin-osd.docs"
+   text-time="2005-10-20T11:32:23.000000Z"
+   committed-date="2003-06-22T12:43:23.013055Z"
+   checksum="e6344f4b03bc5e8ee65c99827957d9e2"
+   last-author="lonestar"
+   kind="file"
+   prop-time="2005-10-20T11:32:23.000000Z"/>
+<entry
+   committed-rev="3"
+   name="licq-plugin-osd.copyright"
+   text-time="2005-10-20T11:32:23.000000Z"
+   committed-date="2003-06-22T12:43:23.013055Z"
+   checksum="3ad5467a909fde450a466b73c076eb78"
+   last-author="lonestar"
+   kind="file"
+   prop-time="2005-10-20T11:32:23.000000Z"/>
+<entry
+   committed-rev="3"
+   name="licq-plugin-osd.conffiles"
+   text-time="2005-10-20T11:32:23.000000Z"
+   committed-date="2003-06-22T12:43:23.013055Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="lonestar"
+   kind="file"
+   prop-time="2005-10-20T11:32:23.000000Z"/>
+<entry
+   committed-rev="3"
+   name="README.Debian"
+   text-time="2005-10-20T11:32:23.000000Z"
+   committed-date="2003-06-22T12:43:23.013055Z"
+   checksum="d873f06309a9246c1ca303b169d45595"
+   last-author="lonestar"
+   kind="file"
+   prop-time="2005-10-20T11:32:23.000000Z"/>
+</wc-entries>

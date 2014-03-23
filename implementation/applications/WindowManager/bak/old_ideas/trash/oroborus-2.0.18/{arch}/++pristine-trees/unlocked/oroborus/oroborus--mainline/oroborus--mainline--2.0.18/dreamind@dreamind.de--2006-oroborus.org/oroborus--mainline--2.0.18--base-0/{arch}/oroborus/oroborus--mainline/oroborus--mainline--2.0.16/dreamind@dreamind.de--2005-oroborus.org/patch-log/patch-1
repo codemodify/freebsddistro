@@ -1,0 +1,17 @@
+Revision: oroborus--mainline--2.0.16--patch-1
+Archive: dreamind@dreamind.de--2005-oroborus.org
+Creator: Stefan Pfetzing <dreamind@dreamind.de>
+Date: Fri Jul  1 20:22:07 CEST 2005
+Standard-date: 2005-07-01 18:22:07 GMT
+Modified-files: src/client.c src/events.c src/frame.c
+    src/hints.c src/hints.h src/i18n.c src/i18n.h
+    src/keyboard.c src/keyboard.h src/misc.c src/misc.h
+    src/oroborus.c src/oroborus.h src/parserc.c src/parserc.h
+    src/pixmap.c src/pixmap.h src/session.c src/session.h
+    src/settings.c src/workspaces.c src/xmalloc.h
+New-patches: dreamind@dreamind.de--2005-oroborus.org/oroborus--mainline--2.0.16--patch-1
+Summary: Copying & Fullscreen
+Keywords: 
+
+Updated the Copying and included a small Fullscreen bugfix.
+

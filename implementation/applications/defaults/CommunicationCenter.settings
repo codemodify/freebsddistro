@@ -1,0 +1,19 @@
+<?xml version='1.0'?>
+<settings>
+    <QMainWindow>
+        <geometry>
+            <x>592</x>
+            <y>397</y>
+            <width>800</width>
+            <height>600</height>
+        </geometry>
+    </QMainWindow>
+    <CommunicationCenter>
+        <geometry>
+            <x>612</x>
+            <y>282</y>
+            <width>650</width>
+            <height>550</height>
+        </geometry>
+    </CommunicationCenter>
+</settings>

@@ -1,0 +1,6 @@
+Makefile
+Makefile.in
+licq
+*.sw?
+.deps
+.libs

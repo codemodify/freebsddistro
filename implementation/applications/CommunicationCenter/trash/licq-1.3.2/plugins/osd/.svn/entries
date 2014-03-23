@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="103"
+   name=""
+   committed-date="2004-10-20T17:12:51.502592Z"
+   url="http://svn.nomi.cz/svn/licq_osd/main"
+   last-author="lonestar"
+   kind="dir"
+   uuid="835cc563-afc0-0310-a89f-c538b5e50fdb"
+   revision="103"/>
+<entry
+   name="m4"
+   kind="dir"/>
+<entry
+   committed-rev="85"
+   name="licq_osd.conf"
+   text-time="2005-10-20T11:32:25.000000Z"
+   committed-date="2004-05-24T18:11:53.785664Z"
+   checksum="acda5f6b1b4d75de4f74282890ebe0d1"
+   last-author="pytt_l"
+   kind="file"
+   prop-time="2005-10-20T11:32:23.000000Z"/>
+<entry
+   committed-rev="3"
+   name="GPL"
+   text-time="2005-10-20T11:32:25.000000Z"
+   committed-date="2003-06-22T12:43:23.013055Z"
+   checksum="94d55d512a9ba36caa9b7df079bae19f"
+   last-author="lonestar"
+   kind="file"
+   prop-time="2005-10-20T11:32:24.000000Z"/>
+<entry
+   name="debian"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="AUTHORS"
+   text-time="2005-10-20T11:32:25.000000Z"
+   committed-date="2003-06-22T12:43:23.013055Z"
+   checksum="f7e2676ca538be144eb1aa98ef83d330"
+   last-author="lonestar"
+   kind="file"
+   prop-time="2005-10-20T11:32:24.000000Z"/>
+<entry
+   committed-rev="14"
+   name="cleanup"
+   text-time="2005-10-20T11:32:25.000000Z"
+   committed-date="2003-06-27T19:35:17.050617Z"
+   checksum="8c86d7921e1519cd09b3750b5f04f67d"
+   last-author="lonestar"
+   kind="file"
+   prop-time="2005-10-20T11:32:24.000000Z"/>
+<entry
+   committed-rev="85"
+   name="changelog"
+   text-time="2005-10-20T11:32:25.000000Z"
+   committed-date="2004-05-24T18:11:53.785664Z"
+   checksum="ef2246f17f5b476e10869f833f3ba1f4"
+   last-author="pytt_l"
+   kind="file"
+   prop-time="2005-10-20T11:32:24.000000Z"/>
+<entry
+   name="src"
+   kind="dir"/>
+<entry
+   name="admin"
+   kind="dir"/>
+<entry
+   committed-rev="101"
+   name="README"
+   text-time="2005-10-20T11:32:25.000000Z"
+   committed-date="2004-10-17T16:31:03.635831Z"
+   checksum="f6b71b5ca33a848268d7929dffc3781c"
+   last-author="pytt_l"
+   kind="file"
+   prop-time="2005-10-20T11:32:24.000000Z"/>
+<entry
+   committed-rev="73"
+   name="build"
+   text-time="2005-10-20T11:32:25.000000Z"
+   committed-date="2003-10-24T07:55:18.831929Z"
+   checksum="5ed4e2e9558a323304552559ca64c2e7"
+   last-author="lonestar"
+   kind="file"
+   prop-time="2005-10-20T11:32:22.000000Z"/>
+<entry
+   committed-rev="99"
+   name="configure.ac"
+   text-time="2005-10-20T11:32:25.000000Z"
+   committed-date="2004-10-13T08:47:08.167106Z"
+   checksum="4f280c79224f9842f78aa9dda9169d72"
+   last-author="lonestar"
+   kind="file"
+   prop-time="2005-10-20T11:32:24.000000Z"/>
+<entry
+   committed-rev="83"
+   name="TODO"
+   text-time="2005-10-20T11:32:25.000000Z"
+   committed-date="2004-05-24T15:57:15.037277Z"
+   checksum="052443b8c5ad89805d5654fab3ec7a96"
+   last-author="lonestar"
+   kind="file"
+   prop-time="2005-10-20T11:32:24.000000Z"/>
+<entry
+   committed-rev="102"
+   name="Makefile.am"
+   text-time="2005-10-20T11:32:25.000000Z"
+   committed-date="2004-10-18T10:39:24.908089Z"
+   checksum="1e4ab1743c06848b0d7c02327e9caeda"
+   last-author="lonestar"
+   kind="file"
+   prop-time="2005-10-20T11:32:24.000000Z"/>
+<entry
+   name="po"
+   kind="dir"/>
+</wc-entries>

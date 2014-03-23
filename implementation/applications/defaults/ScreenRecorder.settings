@@ -1,0 +1,11 @@
+<?xml version='1.0'?>
+<settings>
+    <ScreenRecorder>
+        <geometry>
+            <x>0</x>
+            <y>25</y>
+            <width>800</width>
+            <height>600</height>
+        </geometry>
+    </ScreenRecorder>
+</settings>

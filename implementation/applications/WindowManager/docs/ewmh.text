@@ -1,0 +1,25 @@
+"sending a message to the root window" == "SendEvent" request with:
+destination     root
+propagate       False
+event-mask      (SubstructureNotify|SubstructureRedirect)
+event           the specified ClientMessage
+
+---------------------------------------------------------------------------
+
+To change the state of a mapped window, a Client MUST send a _NET_WM_STATE client message to the root window: 
+  window  = the respective client window
+  message_type = _NET_WM_STATE
+  format = 32
+  data.l[0] = the action, as listed below
+  data.l[1] = first property to alter
+  data.l[2] = second property to alter
+  data.l[3] = source indication
+  other data.l[] elements = 0
+
+This message allows two properties to be changed simultaneously, specifically to allow both horizontal and vertical maximization to be altered together. l[2] MUST be set to zero if only one property is to be changed. See the section called Source indication in requests for details on the source indication. l[0], the action, MUST be one of: 
+_NET_WM_STATE_REMOVE        0    /* remove/unset property */
+_NET_WM_STATE_ADD           1    /* add/set property */
+_NET_WM_STATE_TOGGLE        2    /* toggle property  */
+
+----------------------------------------------------------------------------
+

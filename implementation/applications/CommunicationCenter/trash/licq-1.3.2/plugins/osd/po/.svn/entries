@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2004-10-13T08:49:04.415511Z"
+   url="http://svn.nomi.cz/svn/licq_osd/main/po"
+   last-author="lonestar"
+   kind="dir"
+   uuid="835cc563-afc0-0310-a89f-c538b5e50fdb"
+   revision="103"/>
+<entry
+   committed-rev="77"
+   name="cs.po"
+   text-time="2005-10-20T11:32:25.000000Z"
+   committed-date="2003-12-03T19:20:42.512494Z"
+   checksum="49bc4c7adc698655b8d8438b583aa742"
+   last-author="lonestar"
+   kind="file"
+   prop-time="2005-10-20T11:32:24.000000Z"/>
+<entry
+   committed-rev="77"
+   name="pt_BR.po"
+   text-time="2005-10-20T11:32:25.000000Z"
+   committed-date="2003-12-03T19:20:42.512494Z"
+   checksum="321b7580e2a8b25567a6e8a2367e0750"
+   last-author="lonestar"
+   kind="file"
+   prop-time="2005-10-20T11:32:24.000000Z"/>
+<entry
+   committed-rev="77"
+   name="es.po"
+   text-time="2005-10-20T11:32:25.000000Z"
+   committed-date="2003-12-03T19:20:42.512494Z"
+   checksum="753bee225863e331c388b930b4ffdec7"
+   last-author="lonestar"
+   kind="file"
+   prop-time="2005-10-20T11:32:24.000000Z"/>
+<entry
+   committed-rev="77"
+   name="fr.po"
+   text-time="2005-10-20T11:32:25.000000Z"
+   committed-date="2003-12-03T19:20:42.512494Z"
+   checksum="b7ab68e62927197e7ed293007e0935c0"
+   last-author="lonestar"
+   kind="file"
+   prop-time="2005-10-20T11:32:24.000000Z"/>
+<entry
+   committed-rev="72"
+   name="Makefile.in.in"
+   text-time="2005-10-20T11:32:25.000000Z"
+   committed-date="2003-10-22T15:58:40.211015Z"
+   checksum="b3d83883cdf21f90c1b05943d7cf207e"
+   last-author="lonestar"
+   kind="file"
+   prop-time="2005-10-20T11:32:25.000000Z"/>
+<entry
+   committed-rev="85"
+   name="sk.po"
+   text-time="2005-10-20T11:32:25.000000Z"
+   committed-date="2004-05-24T18:11:53.785664Z"
+   checksum="a4d4501c2d61c2a9e912ae5943a96347"
+   last-author="pytt_l"
+   kind="file"
+   prop-time="2005-10-20T11:32:25.000000Z"/>
+<entry
+   committed-rev="25"
+   name="POTFILES.in"
+   text-time="2005-10-20T11:32:25.000000Z"
+   committed-date="2003-07-03T22:07:39.717982Z"
+   checksum="f839aef84b96c05aee38339b10a902bb"
+   last-author="lonestar"
+   kind="file"
+   prop-time="2005-10-20T11:32:25.000000Z"/>
+<entry
+   committed-rev="77"
+   name="ro.po"
+   text-time="2005-10-20T11:32:25.000000Z"
+   committed-date="2003-12-03T19:20:42.512494Z"
+   checksum="16702fc1e67b1a48ed14cdc56d6fde53"
+   last-author="lonestar"
+   kind="file"
+   prop-time="2005-10-20T11:32:25.000000Z"/>
+<entry
+   committed-rev="77"
+   name="pt.po"
+   text-time="2005-10-20T11:32:25.000000Z"
+   committed-date="2003-12-03T19:20:42.512494Z"
+   checksum="321b7580e2a8b25567a6e8a2367e0750"
+   last-author="lonestar"
+   kind="file"
+   prop-time="2005-10-20T11:32:24.000000Z"/>
+<entry
+   committed-rev="100"
+   name="LINGUAS"
+   text-time="2005-10-20T11:32:25.000000Z"
+   committed-date="2004-10-13T08:49:04.415511Z"
+   checksum="54a853038478fcbf2ec58b1cfe219212"
+   last-author="lonestar"
+   kind="file"
+   prop-time="2005-10-20T11:32:24.000000Z"/>
+<entry
+   committed-rev="77"
+   name="ru.po"
+   text-time="2005-10-20T11:32:25.000000Z"
+   committed-date="2003-12-03T19:20:42.512494Z"
+   checksum="f33e236385a0a18d6bee7ba70c6c5c7f"
+   last-author="lonestar"
+   kind="file"
+   prop-time="2005-10-20T11:32:24.000000Z"/>
+<entry
+   committed-rev="100"
+   name="sv.po"
+   text-time="2005-10-20T11:32:25.000000Z"
+   committed-date="2004-10-13T08:49:04.415511Z"
+   checksum="47373361ef6e6133b2e4ff1408166b09"
+   last-author="lonestar"
+   kind="file"
+   prop-time="2005-10-20T11:32:25.000000Z"/>
+<entry
+   committed-rev="77"
+   name="de.po"
+   text-time="2005-10-20T11:32:25.000000Z"
+   committed-date="2003-12-03T19:20:42.512494Z"
+   checksum="5e821add858c75d125e374e6ad21510e"
+   last-author="lonestar"
+   kind="file"
+   prop-time="2005-10-20T11:32:24.000000Z"/>
+<entry
+   committed-rev="25"
+   name="Makevars"
+   text-time="2005-10-20T11:32:25.000000Z"
+   committed-date="2003-07-03T22:07:39.717982Z"
+   checksum="5e541f57fc509bf2114ab77f31107829"
+   last-author="lonestar"
+   kind="file"
+   prop-time="2005-10-20T11:32:25.000000Z"/>
+<entry
+   committed-rev="77"
+   name="licq_osd_plugin.pot"
+   text-time="2005-10-20T11:32:25.000000Z"
+   committed-date="2003-12-03T19:20:42.512494Z"
+   checksum="6f1be8e0a5cf4a4e0c7a7cadf69c4ea5"
+   last-author="lonestar"
+   kind="file"
+   prop-time="2005-10-20T11:32:25.000000Z"/>
+</wc-entries>

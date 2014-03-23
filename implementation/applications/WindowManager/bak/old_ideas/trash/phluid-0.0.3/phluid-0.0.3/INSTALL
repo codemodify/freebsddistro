@@ -1,0 +1,7 @@
+Phluid installation instructions
+--------------------------------
+
+tarball version: Run something like ./configure; make; make install.  Of 
+                 course, you need to be root for the make install part.
+
+cvs version: Run ./autogen.sh and then do the same as the tarball version.

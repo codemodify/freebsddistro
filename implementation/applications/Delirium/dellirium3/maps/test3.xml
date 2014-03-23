@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<delleriumMap>
+    <walls>
+        <wall x="-369" y="-187" />
+        <wall x="342" y="182" />
+        <wall x="347" y="-179" />
+        <wall x="-345" y="181" />
+    </walls>
+    <bushes>
+        <bush x="-343" y="-153" />
+        <bush x="289" y="-203" />
+        <bush x="-319" y="160" />
+        <bush x="304" y="154" />
+    </bushes>
+    <me>
+        <balls/>
+        <targets>
+            <target x="-351" y="-11" />
+        </targets>
+    </me>
+    <enemy>
+        <balls>
+            <ball x="252" y="-119" />
+            <ball x="233" y="-64" />
+            <ball x="233" y="30" />
+        </balls>
+        <targets>
+            <target x="336" y="-12" />
+        </targets>
+    </enemy>
+</delleriumMap>

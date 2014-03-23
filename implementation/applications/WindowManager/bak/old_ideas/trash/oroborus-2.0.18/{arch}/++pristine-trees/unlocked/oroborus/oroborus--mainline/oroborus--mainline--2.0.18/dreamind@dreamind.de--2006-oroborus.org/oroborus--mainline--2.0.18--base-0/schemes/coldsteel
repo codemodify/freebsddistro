@@ -1,0 +1,23 @@
+# Coldsteel color scheme for Oroborus
+
+# Colors for active state
+
+active_text_color=#ffffff
+active_border_color=#000010
+active_color_1=#4f94cd
+active_shadow_1=#36648b
+active_hilight_1=#63b8ff
+active_color_2=#a2b5cd
+active_shadow_2=#6e7b8b
+active_hilight_2=#b2d2ee
+
+# Colors for inactive state
+
+inactive_text_color=#6e7b8b
+inactive_border_color=#000010
+inactive_color_1=#8898aa
+inactive_shadow_1=#6e7b8b
+inactive_hilight_1=#a2b5cd
+inactive_color_2=#a2b5cd
+inactive_shadow_2=#6e7b8b
+inactive_hilight_2=#b2d2ee

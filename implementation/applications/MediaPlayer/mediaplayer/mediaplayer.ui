@@ -1,0 +1,440 @@
+<ui version="4.0" >
+ <author></author>
+ <comment></comment>
+ <exportmacro></exportmacro>
+ <class>Mediaplayer</class>
+ <widget class="QMainWindow" name="Mediaplayer" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>852</width>
+    <height>575</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Mediaplayer</string>
+  </property>
+  <widget class="QWidget" name="centralwidget" >
+   <layout class="QGridLayout" >
+    <property name="margin" >
+     <number>9</number>
+    </property>
+    <property name="spacing" >
+     <number>6</number>
+    </property>
+    <item row="0" column="0" >
+     <widget class="QSplitter" name="splitter" >
+      <property name="orientation" >
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <widget class="QWidget" name="widget" >
+       <layout class="QVBoxLayout" >
+        <property name="margin" >
+         <number>0</number>
+        </property>
+        <property name="spacing" >
+         <number>6</number>
+        </property>
+        <item>
+         <widget class="QFrame" name="m_videoOutput" >
+          <property name="frameShape" >
+           <enum>QFrame::NoFrame</enum>
+          </property>
+          <property name="frameShadow" >
+           <enum>QFrame::Plain</enum>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_2" >
+          <property name="maximumSize" >
+           <size>
+            <width>16777215</width>
+            <height>63</height>
+           </size>
+          </property>
+          <property name="frameShape" >
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow" >
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QGridLayout" >
+           <property name="margin" >
+            <number>9</number>
+           </property>
+           <property name="spacing" >
+            <number>6</number>
+           </property>
+           <item row="1" column="1" >
+            <spacer>
+             <property name="orientation" >
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" >
+              <size>
+               <width>121</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item row="1" column="0" >
+            <spacer>
+             <property name="orientation" >
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" >
+              <size>
+               <width>171</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item row="1" column="2" >
+            <widget class="QSlider" name="m_volume" >
+             <property name="orientation" >
+              <enum>Qt::Horizontal</enum>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0" colspan="3" >
+            <widget class="QSlider" name="m_progress" >
+             <property name="orientation" >
+              <enum>Qt::Horizontal</enum>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame" >
+          <property name="sizePolicy" >
+           <sizepolicy>
+            <hsizetype>5</hsizetype>
+            <vsizetype>4</vsizetype>
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="frameShape" >
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow" >
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QHBoxLayout" >
+           <property name="margin" >
+            <number>9</number>
+           </property>
+           <property name="spacing" >
+            <number>6</number>
+           </property>
+           <item>
+            <widget class="QPushButton" name="m_play" >
+             <property name="minimumSize" >
+              <size>
+               <width>100</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="text" >
+              <string>Play</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="m_stop" >
+             <property name="enabled" >
+              <bool>false</bool>
+             </property>
+             <property name="maximumSize" >
+              <size>
+               <width>70</width>
+               <height>25</height>
+              </size>
+             </property>
+             <property name="text" >
+              <string>Stop</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="m_previous" >
+             <property name="sizePolicy" >
+              <sizepolicy>
+               <hsizetype>0</hsizetype>
+               <vsizetype>0</vsizetype>
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="maximumSize" >
+              <size>
+               <width>30</width>
+               <height>25</height>
+              </size>
+             </property>
+             <property name="text" >
+              <string>|&lt;</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="m_next" >
+             <property name="sizePolicy" >
+              <sizepolicy>
+               <hsizetype>0</hsizetype>
+               <vsizetype>0</vsizetype>
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="maximumSize" >
+              <size>
+               <width>30</width>
+               <height>25</height>
+              </size>
+             </property>
+             <property name="text" >
+              <string>>|</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer>
+             <property name="orientation" >
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" >
+              <size>
+               <width>81</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QToolBox" name="toolBox" >
+       <property name="frameShape" >
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow" >
+        <enum>QFrame::Plain</enum>
+       </property>
+       <property name="currentIndex" >
+        <number>1</number>
+       </property>
+       <widget class="QWidget" name="page_4" >
+        <property name="geometry" >
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>96</width>
+          <height>70</height>
+         </rect>
+        </property>
+        <attribute name="label" >
+         <string>Play List</string>
+        </attribute>
+        <layout class="QGridLayout" >
+         <property name="margin" >
+          <number>9</number>
+         </property>
+         <property name="spacing" >
+          <number>6</number>
+         </property>
+         <item row="0" column="0" >
+          <widget class="QListWidget" name="m_playList" >
+           <property name="autoFillBackground" >
+            <bool>true</bool>
+           </property>
+           <property name="lineWidth" >
+            <number>15</number>
+           </property>
+           <property name="midLineWidth" >
+            <number>6</number>
+           </property>
+           <property name="alternatingRowColors" >
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="page_5" >
+        <property name="geometry" >
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>332</width>
+          <height>443</height>
+         </rect>
+        </property>
+        <attribute name="label" >
+         <string>File Browser</string>
+        </attribute>
+        <layout class="QGridLayout" >
+         <property name="margin" >
+          <number>9</number>
+         </property>
+         <property name="spacing" >
+          <number>6</number>
+         </property>
+         <item row="0" column="0" >
+          <widget class="QTreeView" name="m_fileBrowser" >
+           <property name="contextMenuPolicy" >
+            <enum>Qt::CustomContextMenu</enum>
+           </property>
+           <property name="alternatingRowColors" >
+            <bool>true</bool>
+           </property>
+           <property name="selectionMode" >
+            <enum>QAbstractItemView::ExtendedSelection</enum>
+           </property>
+           <property name="selectionBehavior" >
+            <enum>QAbstractItemView::SelectItems</enum>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="page_6" >
+        <property name="geometry" >
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>96</width>
+          <height>70</height>
+         </rect>
+        </property>
+        <attribute name="label" >
+         <string>Portable Music Player</string>
+        </attribute>
+        <layout class="QGridLayout" >
+         <property name="margin" >
+          <number>9</number>
+         </property>
+         <property name="spacing" >
+          <number>6</number>
+         </property>
+         <item row="0" column="0" >
+          <widget class="QListWidget" name="m_portablePlayer" />
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar" >
+   <property name="geometry" >
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>852</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuPlay_List" >
+    <property name="title" >
+     <string>Play List</string>
+    </property>
+    <addaction name="actionSave_As" />
+    <addaction name="actionOpen" />
+    <addaction name="actionClear" />
+    <addaction name="separator" />
+    <addaction name="actionCopy_To_My_Portable_Music_Player" />
+    <addaction name="actionSync_from_My_Portable_Music_Player" />
+   </widget>
+   <widget class="QMenu" name="menuMedia_Player" >
+    <property name="title" >
+     <string>Player</string>
+    </property>
+    <widget class="QMenu" name="menuOpen_Disc" >
+     <property name="title" >
+      <string>Open Disc</string>
+     </property>
+     <addaction name="actionDVD" />
+     <addaction name="actionVCD" />
+    </widget>
+    <addaction name="actionOptions" />
+    <addaction name="separator" />
+    <addaction name="actionHelp_Me" />
+    <addaction name="separator" />
+    <addaction name="menuOpen_Disc" />
+    <addaction name="actionOpen_Network_Stream" />
+    <addaction name="separator" />
+    <addaction name="actionQuit" />
+   </widget>
+   <addaction name="menuMedia_Player" />
+   <addaction name="menuPlay_List" />
+  </widget>
+  <action name="actionQuit" >
+   <property name="text" >
+    <string>Quit</string>
+   </property>
+  </action>
+  <action name="actionSave_As" >
+   <property name="text" >
+    <string>Save</string>
+   </property>
+  </action>
+  <action name="actionOpen" >
+   <property name="text" >
+    <string>Open</string>
+   </property>
+  </action>
+  <action name="actionClear" >
+   <property name="text" >
+    <string>Clear</string>
+   </property>
+  </action>
+  <action name="actionCopy_To_My_Portable_Music_Player" >
+   <property name="text" >
+    <string>Copy to "Portable Music Player"</string>
+   </property>
+  </action>
+  <action name="actionSync_from_My_Portable_Music_Player" >
+   <property name="text" >
+    <string>Sync from "Portable Music Player"</string>
+   </property>
+  </action>
+  <action name="actionOptions" >
+   <property name="text" >
+    <string>Options</string>
+   </property>
+  </action>
+  <action name="actionHelp_Me" >
+   <property name="text" >
+    <string>Help Me</string>
+   </property>
+  </action>
+  <action name="actionDVD" >
+   <property name="text" >
+    <string>DVD</string>
+   </property>
+  </action>
+  <action name="actionVCD" >
+   <property name="text" >
+    <string>VCD</string>
+   </property>
+  </action>
+  <action name="actionOpen_Network_Stream" >
+   <property name="text" >
+    <string>Open Network Stream</string>
+   </property>
+  </action>
+ </widget>
+ <pixmapfunction></pixmapfunction>
+ <resources/>
+ <connections/>
+</ui>

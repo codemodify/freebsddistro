@@ -1,0 +1,132 @@
+<ui version="4.0" >
+ <author></author>
+ <comment></comment>
+ <exportmacro></exportmacro>
+ <class>Filemanager</class>
+ <widget class="QMainWindow" name="Filemanager" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>669</width>
+    <height>642</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>File Manager</string>
+  </property>
+  <widget class="QWidget" name="centralWidget" >
+   <widget class="QGroupBox" name="m_operations" >
+    <property name="geometry" >
+     <rect>
+      <x>10</x>
+      <y>520</y>
+      <width>651</width>
+      <height>115</height>
+     </rect>
+    </property>
+    <property name="sizePolicy" >
+     <sizepolicy>
+      <hsizetype>5</hsizetype>
+      <vsizetype>0</vsizetype>
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize" >
+     <size>
+      <width>0</width>
+      <height>115</height>
+     </size>
+    </property>
+    <property name="maximumSize" >
+     <size>
+      <width>16777215</width>
+      <height>115</height>
+     </size>
+    </property>
+    <property name="acceptDrops" >
+     <bool>true</bool>
+    </property>
+    <property name="title" >
+     <string>Store Panel</string>
+    </property>
+    <layout class="QGridLayout" >
+     <property name="margin" >
+      <number>8</number>
+     </property>
+     <property name="spacing" >
+      <number>6</number>
+     </property>
+     <item row="0" column="1" >
+      <widget class="QGroupBox" name="groupBox_2" >
+       <property name="sizePolicy" >
+        <sizepolicy>
+         <hsizetype>0</hsizetype>
+         <vsizetype>0</vsizetype>
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize" >
+        <size>
+         <width>71</width>
+         <height>79</height>
+        </size>
+       </property>
+       <property name="maximumSize" >
+        <size>
+         <width>71</width>
+         <height>79</height>
+        </size>
+       </property>
+       <property name="acceptDrops" >
+        <bool>true</bool>
+       </property>
+       <property name="title" >
+        <string>Trash</string>
+       </property>
+       <property name="flat" >
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0" >
+      <widget class="QListView" name="m_storePanel" />
+     </item>
+    </layout>
+   </widget>
+   <widget class="QTreeView" name="m_folders" >
+    <property name="geometry" >
+     <rect>
+      <x>9</x>
+      <y>9</y>
+      <width>323</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <property name="contextMenuPolicy" >
+     <enum>Qt::CustomContextMenu</enum>
+    </property>
+    <property name="acceptDrops" >
+     <bool>true</bool>
+    </property>
+    <property name="frameShadow" >
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="showDropIndicator" stdset="0" >
+     <bool>false</bool>
+    </property>
+    <property name="dragEnabled" >
+     <bool>true</bool>
+    </property>
+    <property name="alternatingRowColors" >
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <pixmapfunction></pixmapfunction>
+ <resources/>
+ <connections/>
+</ui>

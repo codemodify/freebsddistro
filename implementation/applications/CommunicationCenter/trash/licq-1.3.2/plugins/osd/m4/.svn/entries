@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="99"
+   name=""
+   committed-date="2004-10-13T08:47:08.167106Z"
+   url="http://svn.nomi.cz/svn/licq_osd/main/m4"
+   last-author="lonestar"
+   kind="dir"
+   uuid="835cc563-afc0-0310-a89f-c538b5e50fdb"
+   revision="103"/>
+<entry
+   committed-rev="99"
+   name="Makefile.in"
+   text-time="2005-10-20T11:32:22.000000Z"
+   committed-date="2004-10-13T08:47:08.167106Z"
+   checksum="a9fe52091c6378ce782dce93037bcd1d"
+   last-author="lonestar"
+   kind="file"
+   prop-time="2005-10-20T11:32:22.000000Z"/>
+<entry
+   committed-rev="29"
+   name="Makefile.am"
+   text-time="2005-10-20T11:32:22.000000Z"
+   committed-date="2003-07-05T17:22:24.925994Z"
+   checksum="5a7d4849aee1b1f6bc1e8feea2f28fee"
+   last-author="lonestar"
+   kind="file"
+   prop-time="2005-10-20T11:32:22.000000Z"/>
+</wc-entries>

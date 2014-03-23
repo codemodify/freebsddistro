@@ -1,0 +1,9 @@
+#define ERROR_ON_FILE_REMOVE		"Error when trying to remove file - %1"
+#define ERROR_ON_FILE_COPY		"Error when trying to copy file - %1 --> %2"
+#define ERROR_ON_FILE_DELTE		"Error when trying to delete file - %1"
+#define ERROR_ON_FILE_RENAME		"Error when trying to rename file - %1"
+
+#define ERROR_ON_FOLDER_REMOVE	"Error when trying to remove folder - %1"
+#define ERROR_ON_FOLDER_COPY		"Error when trying to copy folder - %1 --> %2"
+#define ERROR_ON_FOLDER_DELETE	"Error when trying to delete folder - %1"
+#define ERROR_ON_FOLDER_RENAME	"Error when trying to rename folder - %1"

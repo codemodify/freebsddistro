@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<settings>
+    <_builder_>
+        <buildTargetsNames>
+            <value>build</value>
+            <value>clean</value>
+            <value>backup</value>
+        </buildTargetsNames>
+        <buildTargetsActions>
+            <value>sh ./builder.sh build</value>
+            <value>sh ./builder.sh clean</value>
+            <value>sh ./builder.sh backup</value>
+        </buildTargetsActions>
+    </_builder_>
+</settings>

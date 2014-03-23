@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<settings>
+
+    <!-- special items -->
+    <folder>/home/nicu/Applications/abcdefghi/Commander</folder>
+
+    <!-- office -->
+    <doc>openoffice</doc>
+    <xls>openoffice</xls>
+    <sxw>openoffice</sxw>
+    <dwg>openoffice</dwg>
+    <sxd>openoffice</sxd>
+    <pdf>gnome-open</pdf>
+    <chm>xchm</chm>
+    <text>/home/nicu/Applications/abcdefghi/TextEditor</text>
+    <settings>/home/nicu/Applications/abcdefghi/TextEditor</settings>
+    <schema>/home/nicu/Applications/abcdefghi/SchemaDrawer</schema>
+
+    <!-- web -->
+    <xml>firefox</xml>
+    <html>firefox</html>
+    <htm>firefox</htm>
+    <web>firefox</web>
+    <url>firefox</url>
+    <xml>firefox</xml>
+
+    <!-- source code -->
+    <cpp>/home/nicu/Applications/abcdefghi/TextEditor</cpp>
+    <c>/home/nicu/Applications/abcdefghi/TextEditor</c>
+    <h>/home/nicu/Applications/abcdefghi/TextEditor</h>
+    <asm>/home/nicu/Applications/abcdefghi/TextEditor</asm>
+    <py>/home/nicu/Applications/abcdefghi/TextEditor</py>
+    <perl>/home/nicu/Applications/abcdefghi/TextEditor</perl>
+    <php>/home/nicu/Applications/abcdefghi/TextEditor</php>
+
+    <!-- movies -->
+    <avi>mplayer</avi>
+    <mpeg>mplayer</mpeg>
+    <mpg>mplayer</mpg>
+    <asf>mplayer</asf>
+    <wav>mplayer</wav>
+    <mp3>mplayer</mp3>
+    <ogg>mplayer</ogg>
+    <wmv>mplayer</wmv>
+    <mp4>mplayer</mp4>
+
+    <!-- images -->
+    <jpeg>/home/nicu/Applications/abcdefghi/PictureViewer</jpeg>
+    <jpg>/home/nicu/Applications/abcdefghi/PictureViewer</jpg>
+    <bmp>/home/nicu/Applications/abcdefghi/PictureViewer</bmp>
+    <gif>/home/nicu/Applications/abcdefghi/PictureViewer</gif>
+    <png>/home/nicu/Applications/abcdefghi/PictureViewer</png>
+    <xpm>/home/nicu/Applications/abcdefghi/PictureViewer</xpm>
+</settings>

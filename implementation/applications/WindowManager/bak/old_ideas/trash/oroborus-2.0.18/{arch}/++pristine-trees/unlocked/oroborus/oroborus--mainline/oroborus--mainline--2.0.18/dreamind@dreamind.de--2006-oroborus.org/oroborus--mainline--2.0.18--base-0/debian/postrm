@@ -1,0 +1,12 @@
+#!/bin/sh
+
+set -e
+
+# Unregisters oroborus as an x-window-manager
+if [ "$1" = "remove" ]; then
+  if [ -x /usr/sbin/register-window-manager ] ; then
+    register-window-manager --remove /usr/bin/oroborus
+  fi
+fi
+
+#DEBHELPER#

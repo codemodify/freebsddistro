@@ -1,0 +1,20 @@
+<?xml version='1.0'?>
+<configurator titleText="Add Project">
+
+	<section name="projectType" text="Project Type">
+		<sectionItem name="qt" text="Qt">
+			<control type="lineInput" name="projectName" text="Project Name" value=""/>
+
+			<control type="radioBoxes" name="appLibrary" text="Application / Library">
+				<check name="app" text="Application" value="true" />
+				<check name="library" text="Library" value="false" />
+			</control>
+
+			<control type="radioBoxes" name="debugRelease" text="Debug / Release">
+				<check name="release" text="Release" value="true" />
+				<check name="debug" text="Debug" value="false" />
+			</control>
+		</sectionItem>
+	</section>
+
+</configurator>

@@ -1,0 +1,20 @@
+<?xml version='1.0'?>
+<deployer>
+
+	<scenario name="projectType/qt/app/release" >
+		<copyContent source="$source/qt/app/release" target="$target" />
+	</scenario>
+
+	<scenario name="projectType/qt/app/debug" >
+		<copyContent source="$source/qt/app/debug" target="$target" />
+	</scenario>
+
+	<scenario name="projectType/qt/library/release" >
+		<copyContent source="$source/qt/library/release" target="$target" />
+	</scenario>
+
+	<scenario name="projectType/qt/library/debug" >
+		<copyContent source="$source/qt/library/debug" target="$target" />
+	</scenario>
+
+</deployer>

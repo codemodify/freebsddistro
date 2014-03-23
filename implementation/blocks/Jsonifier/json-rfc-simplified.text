@@ -1,0 +1,26 @@
+
+ EBNF form:
+
+     Object  ::= '{' '}' 
+     |  '{' Members '}'
+
+     Members ::= Pair 
+     |  Pair, Members
+
+     Pair    ::= string ':' Value
+
+     Array   ::= '[' ']'
+     |  '[' Elements ']'
+
+     Elements ::= Value
+     |  Value, Elements
+
+     Value    ::= Array
+     |  Object
+     |  integer
+     |  real
+     |  string
+     |  true
+     |  false
+     |  null  
+

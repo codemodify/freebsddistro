@@ -1,0 +1,4 @@
+# Sample Clementine key bindings file
+
+Mod1 Control x = exec rxvt
+

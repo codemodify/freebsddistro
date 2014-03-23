@@ -1,0 +1,12 @@
+Revision: oroborus--mainline--2.0.15--patch-7
+Archive: dreamind@dreamind.de--2005-oroborus.org
+Creator: Stefan Pfetzing <dreamind@dreamind.de>
+Date: Fri Jul  1 16:42:00 CEST 2005
+Standard-date: 2005-07-01 14:42:00 GMT
+Modified-files: configure configure.in debian/changelog
+New-patches: dreamind@dreamind.de--2005-oroborus.org/oroborus--mainline--2.0.15--patch-7
+Summary: Fix "oroborus -V"
+Keywords: 
+
+
+

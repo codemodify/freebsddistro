@@ -1,0 +1,224 @@
+####################################################################################################################
+#	Properties managed by the client "Window"
+####################################################################################################################
+
+Top-Level-Window == direct child of the root-window 
+
+---------------------------------------------------
+
+The window manager will regard a client as being in one of three states:
+	Normal
+	Iconic
+	Withdrawn
+
+---------------------------------------------------
+
+WM_NAME      - string that the client wants the window manager to display
+WM_ICON_NAME - string that the client wants to be displayed when it is iconified
+
+---------------------------------------------------
+
+WM_NORMAL_HINTS - 
+
+flags           CARD3
+pad             4*CARD32 	For backwards compatibility 
+max_width       INT32 
+max_height 	INT32 
+width_inc 	INT32 
+height_inc 	INT32 
+max_aspect 	(INT32,INT32) 
+base_width 	INT32           If missing, assume min_width 
+base_height 	INT32           If missing, assume min_height 
+win_gravity 	                If missing, assume NorthWest
+
+---------------------------------------------------
+
+WM_HINTS        - used to communicate to the WM the information the WM needs. The information here is an add-on
+                  to the WM_NAME, WM_NORMAL_HINTS
+
+flags           CARD32 	(see the next table) 
+input           CARD32 	The client's input model 
+initial_state 	CARD32 	The state when first mapped 
+icon_pixmap 	PIXMAP 	The pixmap for the icon image 
+icon_window 	WINDOW 	The window for the icon image 
+icon_x 	INT32 	The icon location 
+icon_y 	INT32 
+icon_mask 	PIXMAP 	The mask for the icon shape
+
+---------------------------------------------------
+
+WM_CLASS - contains two consecutive null-terminated strings. 
+           These specify the "Instance" and "Class" names to be used by both the client and the WM for looking 
+           up resources for the application or as identifying information.
+           For example: if to implement in a WM a "group windows" feature, then the client will be grouped by their class and inside the
+           group they will be differentiated by the instance. 
+           A class name would be: "Emacs", "XTerm", "XClock", "XLoad", and so on.
+           A instance name would be: "Emacs1", "Emacs2" ...
+
+---------------------------------------------------
+
+WM_TRANSIENT_FOR - is a property that contains the ID of the window that was creating this window.
+                   The implication is that this window is a pop-up on behalf of the named window, 
+                   and window managers may decide not to decorate transient windows or may treat them differently in other ways. 
+
+                   In particular, window managers should present newly mapped WM_TRANSIENT_FOR windows without requiring any user interaction, 
+                   even if mapping top-level windows normally does require interaction. Dialog boxes, for example, are an example of windows 
+                   that should have WM_TRANSIENT_FOR set. 
+                   
+                   It is important not to confuse "WM_TRANSIENT_FOR" with "override-redirect".
+                   WM_TRANSIENT_FOR should be used in those cases where the pointer is not grabbed while the window is mapped (in other words, 
+                   if other windows are allowed to be active while the transient is up). 
+
+                   If other windows must be prevented from processing input (for example, when implementing pop-up menus), use override-redirect 
+                   and grab the pointer while the window is mapped.
+
+                   For the window-managers: 
+                   if the "override-redirect" is set == don't draw anydecorations, it will self manage.
+                   if the "WM_TRANSIENT_FOR" is set == draw a "toolbox"-like decorations, an example of window of this kind would be color-chooser dialog.
+
+-----------------------------------------------------
+
+WM_PROTOCOLS - a list of atoms, each of which identifies a communication-protocol between the WM and Window.
+		The existence of an protocol means that the client want to participate at that communication type.
+		If there are no protocols in the list (WM_PROTOCOLS) then the client doesn't want to participate
+		at any communications. The communication-protocols in the list can be of different types - standard or something speciffic to WM.
+
+		All the protocols in which a client can volunteer to take part involve the window manager sending the client a ClientMessage event 
+		and the client taking appropriate action.
+
+		Known protocols:
+		WM_TAKE_FOCUS
+		WM_SAVE_YOURSELF
+		WM_DELETE_WINDOW
+
+-----------------------------------------------------
+
+WM_COLORMAP_WINDOWS - a list of ID's of type "Window" for a top-level-window. These windows from the list may need colormap installed that differ
+			from the colormap of the top-level-window. A duty of WM is to watch this list for their change colormap change.
+			The top-level window is always (implicitly or explicitly) on the watch list.
+
+-----------------------------------------------------
+
+WM_CLIENT_MACHINE - set by the client and represent the machine the client runs on, this may differe from the machine the server runs on.
+
+-----------------------------------------------------
+
+
+
+
+
+####################################################################################################################
+#	Properties managed by the WM
+####################################################################################################################
+
+WM_STATE - WM must place this property on each top-level-window that is not in "Withdrawn" state. 
+	When the window is in "Withdrawn" state, a nice WM will remove the "WM_STATE" property from it or will set it to "WithdrawnState" value.
+
+The contents of the WM_STATE property are defined as follows:
+state CARD32 - WithdrawnState(0), NormalState(1), IconicState(3)
+icon  WINDOW - ID of icon window
+
+-------------------------------------------------------
+
+WM_ICON_SIZE - if WM want some constraints on the sizes of icon pixmap and/or windows, it should place the "WM_ICON_SIZE" property on the root-window.
+
+max_width 	CARD32 
+max_height 	CARD32 
+width_inc 	CARD32 
+height_inc 	CARD32
+
+-------------------------------------------------------
+
+
+
+
+
+
+####################################################################################################################
+#	Changing the Window State
+####################################################################################################################
+
+A client thinks that WM understands client's top-level-window as being in 3 states:
+
+NormalState - client's top-level-window is viewable.
+IconicState - client's top-level-window is iconic meaning it is not viewable, instead its "icon_window" is visible and the corresponding "icon_pixmap" or "WM_ICON_NAME" is displayed.
+WithdrawnState - both the clint's top-level-window and its icon window are not visible.
+
+
+
+"Withdrawn -> Normal" - The client should map the window with "WM_HINTS.initial_state" being "NormalState"
+"Withdrawn -> Iconic" - The client should map the window with "WM_HINTS.initial_state" being "IconicState"
+
+"Normal -> Iconic" - The client should send a "ClientMessage" as described below.
+"Normal -> Withdrawn" - The client should unmap the window and follow it with a synthetic "UnmapNotify" event as described below.
+
+"Iconic -> Normal" - The client should map the window. The contents of "WM_HINTS.initial_state" are irrelevant in this case.
+"Iconic -> Withdrawn" - The client should unmap the window and follow it with a synthetic "UnmapNotify" event as described below.
+
+
+>> Only the client can effect a transition into or out of the "Withdrawn" state.
+>> Once a client's window has left the "Withdrawn" state, the window will be mapped if it is in the "Normal" state and the window will be unmapped if it is in the Iconic state.
+>> Reparenting window managers must unmap the client's window when it is in the Iconic state, even if an ancestor window being unmapped renders the client's window unviewable.
+>> Conversely, if a reparenting window manager renders the client's window unviewable by unmapping an ancestor, the client's window is by definition in the Iconic state and must also be unmapped.
+
+
+When changing the state of the window to "Withdrawn", in addition to unmapping the window, the client must send a synthetic "UnmapNotify" event by using a "SendEvent" request with the
+following arguments, then update or remove the WM_STATE property.
+
+Argument        | Value 
+----------------------------------------------------
+destination:    | The root 
+propagate:      | False 
+event-mask:     | ( SubstructureRedirect|SubstructureNotify ) 
+event:          | an UnmapNotify with: 	
+event:          | The root 
+window:         | The window itself 
+from-configure: | False
+
+
+
+When changing the state from Normal to Iconic, the client should send a "ClientMessage" event to the "root-window" with:
+
+Window == the window to be iconified 
+Type13 == the atom WM_CHANGE_STATE 
+Format == 32 
+Data[0] == IconicState 
+
+
+
+
+
+####################################################################################################################
+#	Configuring the Window
+####################################################################################################################
+
+A "ConfigureWindow" request generated by the clients can alter the following attributes:
+
+The [x,y] location of the window's upper left-outer corner
+The [width,height] of the inner region of the window (excluding borders)
+The border width of the window
+The window's position in the stack
+
+
+
+
+####################################################################################################################
+#	Changing Window Attributes
+####################################################################################################################
+
+A "ChangeWindowAttributes" - request generated by a client will change attributes for a window:
+
+Attribute              |  Private to Client 
+---------------------------------------------
+Background pixmap      | Yes 
+Background pixel       | Yes 
+Border pixmap          | Yes 
+Border pixel           | Yes 
+Bit gravity            | Yes 
+Backing-store hint     | Yes 
+Save-under hint        | No 
+Event mask             | No 
+Do-not-propagate mask  | Yes 
+Override-redirect flag | No 
+Colormap               | Yes 
+Cursor                 | Yes

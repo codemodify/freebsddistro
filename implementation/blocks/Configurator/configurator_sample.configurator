@@ -1,0 +1,61 @@
+<?xml version='1.0'?>
+<configurator titleText="Configurator Capabilities Demonstration">
+
+	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		User Interface Settings
+	    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	-->
+	<section name="userInterface" text="User Interface">
+
+		<sectionItem		name="sampleSettings"		text="Sample Settings" >
+
+			<control		name="editorFont"			text="Editor Font"				    type="fontChooser"		value="Liberation Mono,10,-1,5,75,0,0,0,0,0" />
+			<control		name="backColor" 			text="Background Color"			    type="colorChooser"	    value="#aaaa7f"   							 />
+			<control		name="downloadFolder"		text="Download Folder"			    type="pathChooser"		value="/home/nicu/downloads"				 />
+
+			<control 		name="applicationPosition"	text="Application Position"		    type="radioBoxes">
+				<radio	    name="left"				    text="Left"											        value="false"	/>
+				<radio	    name="right"				text="Right"											    value="true"	/>
+				<radio	    name="top"				    text="Top"											        value="false"	/>
+				<radio	    name="bottom"				text="Bottom"											    value="false"	/>
+			</control>
+
+			<control		name="startOptions"		    text="Application Startup options"	type="checkBoxes"   >
+				<check	    name="openLastFile"		    text="Open Last File"									    value="true" />
+				<check	    name="shutdownAtExit"		text="Shut Down At Exit"								    value="true" />
+			</control>
+		</sectionItem>
+
+	</section>
+
+
+
+	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		User Help
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	-->
+	<section name="helpMe" text="Help Me !">
+
+		<sectionItem		name="textViewerDemo1"	text="Text View Box Demo 1">
+			<control		name="textViewer1"		type="textViewer"		value="Here goes plain text" />
+		</sectionItem>
+
+		<sectionItem		name="textViewerDemo2"	text="Text View Box Demo 2">
+			<control		name="textViewer2"		type="textViewer"		url="http://www.google.com"  />
+		</sectionItem>
+
+		<sectionItem		name="textViewerDemo3"	text="Text View Box Demo 3" >
+			<control		name="textViewer3"		type="textViewer" >
+				<![CDATA[	<HTML><BODY>
+
+				Here goes text, it can contain HTML
+            		
+				<hr>
+				<pre>
+				<h1><b>This thext is written using HTML tags.</b></h1>
+
+				</BODY></HTML>]]>
+			</control>
+		</sectionItem>
+
+	</section>
+
+</configurator>

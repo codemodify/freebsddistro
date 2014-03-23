@@ -1,0 +1,70 @@
+###################################################################################################
+#	Extern Lybraries - local variables
+
+#old LIB_SDL_linker	= -lSDL
+#old LIB_SDL_include	= /usr/local/include/SDL
+
+LIB_COMMON_linker	= -lcommon -L/usr/my_docs/devel/projects/common/src/out
+LIB_COMMON_include	= /usr/my_docs/devel/projects/common/src
+
+
+
+###################################################################################################
+#	QT's variables
+
+TEMPLATE = app
+
+CONFIG += qt debug warn_on thread
+
+QT += xml
+
+DEPENDPATH += .
+
+INCLUDEPATH += . out $$LIB_COMMON_include
+
+DESTDIR = out
+OBJECTS_DIR = out
+MOC_DIR = out
+UI_DIR = out
+
+TARGET = mediaplayer
+
+#old   LIBS += -lvorbisfile -lSDL -lmad -lcommon -L/usr/my_docs/devel/projects/common/src/out 
+LIBS += $$LIB_COMMON_linker
+
+#	Src for main entry point
+SOURCES	+=	main.cpp
+
+
+#	Src for mplayer-wrapper
+SOURCES +=	mplayerwrapper/mplayerwrapper.cpp
+HEADRES +=	mplayerwrapper/mplayerwrapper.h
+
+#	Src for GUI part
+FORMS	+=	mediaplayer/mediaplayer.ui
+SOURCES	+=	mediaplayer/mediaplayer.cpp
+HEADERS	+=	mediaplayer/mediaplayer.h
+
+
+#	Src for base modules
+#old   SOURCES	+=	modules/mod_base/mod_base.cpp
+#old   HEADERS	+=	modules/mod_base/mod_base.h		modules/modules.h
+
+
+#	Src for audio modules
+#old   SOURCES	+=	modules/mod_base/mod_basesound/mod_basesound.cpp
+#old   HEADERS	+=	modules/mod_base/mod_basesound/mod_basesound.h
+
+#old   SOURCES	+=	modules/mod_base/mod_basesound/mod_wav/mod_wav.cpp
+#old   HEADERS	+=	modules/mod_base/mod_basesound/mod_wav/mod_wav.h
+
+#old SOURCES	+=	modules/mod_base/mod_basesound/mod_mp3/mod_mp3.cpp
+#old HEADERS	+=	modules/mod_base/mod_basesound/mod_mp3/mod_mp3.h
+
+#old   SOURCES	+=	modules/mod_base/mod_basesound/mod_ogg/mod_ogg.cpp
+#old   HEADERS	+=	modules/mod_base/mod_basesound/mod_ogg/mod_ogg.h
+
+
+#	Src for graphics modules
+#old   SOURCES	+=	modules/mod_base/mod_basegraphics/mod_basegraphics.cpp	modules/mod_base/mod_basegraphics/mod_bmp/mod_bmp.cpp
+#old   HEADERS	+=	modules/mod_base/mod_basegraphics/mod_basegraphics.h	modules/mod_base/mod_basegraphics/mod_bmp/mod_bmp.h

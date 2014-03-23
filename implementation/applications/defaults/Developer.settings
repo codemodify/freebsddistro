@@ -1,0 +1,22 @@
+<?xml version='1.0'?>
+<settings>
+    <TextFileEditor>
+        <font>
+            <family>monospace</family>
+            <size>8</size>
+        </font>
+    </TextFileEditor>
+    <recentWorkspaces>
+        <value>/home/nicu/Development/SoftwareDistribution/implementation/server</value>
+        <value>/home/nicu/Development/SoftwareDistribution/implementation</value>
+    </recentWorkspaces>
+    <Developer>
+        <geometry>
+            <maximized>1</maximized>
+            <x>0</x>
+            <y>52</y>
+            <width>1600</width>
+            <height>823</height>
+        </geometry>
+    </Developer>
+</settings>

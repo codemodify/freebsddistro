@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mailserver network="any" smtpPort="50025" popPort="50110" mailStorage="/Users/carabutnicolae/mails" >
+
+    <domain name="localhost">
+        <user account="nicu" password="nicu" info="Carabut Nicolae" />
+    </domain>
+    
+</mailserver>

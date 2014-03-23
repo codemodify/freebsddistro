@@ -1,0 +1,39 @@
+<!-- <input	type="checkbox"
+		name="name"
+		id="id"
+		value="value"
+		checked
+		disabled
+		onFocus="javascript:onGainFocus()"
+		onBlur="javascript:onLostFocus()"
+		onChange="javascript:onChangeValue()" -->
+
+<HTML>
+	<HEAD>
+		<script type="text/javascript">
+			function onGainFocus(){ document.getElementById( "output" ).value="OnGainFocus"; }
+			function onLostFocus(){ document.getElementById( "output" ).value="OnLostFocus"; }
+			function onChangeValue(){ document.getElementById( "output" ).value="OnChangeValue"; }
+ 		</script>
+	</HEAD>
+<BODY>
+	<!-- when several share the same name, they are mutually exclusive -->
+	the controls below are npt mutually exclusive <br />
+	<input type="checkbox" name="sex" id="check1" value="male" checked /> Male </input> <br/>
+	<input type="checkbox" name="sex" id="check2" value="female" /> Female </input> <br/>
+	<input type="checkbox" name="sex" id="check3" value="gay" disabled /> Gay </input> <br/>
+
+	<!-- here we deomnstrate the events that can be handled by JavaScript -->
+	<br />
+	<br />
+	the controls below rise specified events that will result in JavaScript calls <br />
+	<input type="checkbox" name="eventsTest" id="check4" value="gainFocus" onFocus="javascript:onGainFocus()" />OnGainFocus <br/>
+	<input type="checkbox" name="eventsTest" id="check5" value="lostFocus" onBlur="onLostFocus()" />OnLostFocus <br/>
+	<input type="checkbox" name="eventsTest" id="check6" value="changeValue" onChange="onChangeValue()" />OnChangeValue
+
+	<!-- here is the output area -->
+	<br />
+	<br />
+	<input type="text" id="output" value="no value">
+</BODY>
+</HTML>

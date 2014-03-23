@@ -1,0 +1,27 @@
+# Beos color scheme for Oroborus
+
+# Colors for active state
+
+active_text_color=#000000
+active_border_color=#000000
+
+active_color_1=#FFCB00
+active_shadow_1=#E68600
+active_hilight_1=#FFFF66
+
+active_color_2=#FF9800
+active_shadow_2=#FFAF13
+active_hilight_2=#FFE346
+
+# Colors for inactive state
+
+inactive_text_color=#AAAAAA
+inactive_border_color=#444444
+
+inactive_color_1=#D8D8D8
+inactive_shadow_1=#B2B2B2
+inactive_hilight_1=#FFFFFF
+
+inactive_color_2=#dddddd
+inactive_shadow_2=#999999
+inactive_hilight_2=#ffffff

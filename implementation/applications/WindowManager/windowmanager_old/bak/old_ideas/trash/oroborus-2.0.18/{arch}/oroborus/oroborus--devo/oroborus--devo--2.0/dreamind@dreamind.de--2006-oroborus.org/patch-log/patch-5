@@ -1,0 +1,12 @@
+Revision: oroborus--devo--2.0--patch-5
+Archive: dreamind@dreamind.de--2006-oroborus.org
+Creator: Stefan Pfetzing <dreamind@dreamind.de>
+Date: Thu Jan 12 15:10:03 CET 2006
+Standard-date: 2006-01-12 14:10:03 GMT
+Modified-files: debian/control src/client.c
+New-patches: dreamind@dreamind.de--2006-oroborus.org/oroborus--devo--2.0--patch-5
+Summary: Not include XF86vmode.h, use X11/Xmd.h (thats where CARD32 is actually).
+Keywords: 
+
+
+

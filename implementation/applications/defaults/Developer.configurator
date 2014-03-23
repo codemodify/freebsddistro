@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<configurator titleText="Developer Configuration">
+
+	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		User Help
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	-->
+	<section name="helpMe" text="Help Me !">
+		<sectionItem		name="quickHelp"        text="Quick Help" >
+			<control		name="quickHelp"		type="textViewer" >
+				<![CDATA[<HTML><BODY>
+				<h3>Developer</h3>
+				<hr/>
+				
+			    Developer is a tool to put you in a position of developer of things.    <br/>
+			    It offers a practical and convenient way to develop your project.       <br/>
+			    It can be an application based on the technologies you choose, or it    <br/>
+                  can be a simple group of actions on a set of files.                     <br/>
+
+				</BODY></HTML>]]>
+			</control>
+		</sectionItem>
+
+		<sectionItem name="contacts" text="Contacts" >
+			<control name="contacts" type="textViewer" value="Yanicher@GMail.com" />
+		</sectionItem>
+
+		<sectionItem name="projectWebPage" text="Project Web Page">
+			<control name="webPage" type="textViewer" url="http://www.nikushor.eu" />
+		</sectionItem>
+
+	</section>
+
+</configurator>

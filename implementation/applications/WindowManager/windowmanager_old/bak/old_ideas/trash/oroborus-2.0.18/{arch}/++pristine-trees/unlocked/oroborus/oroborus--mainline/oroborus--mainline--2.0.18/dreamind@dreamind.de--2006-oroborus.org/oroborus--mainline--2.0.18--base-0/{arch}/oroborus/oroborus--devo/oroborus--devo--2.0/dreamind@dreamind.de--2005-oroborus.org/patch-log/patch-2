@@ -1,0 +1,19 @@
+Revision: oroborus--devo--2.0--patch-2
+Archive: dreamind@dreamind.de--2005-oroborus.org
+Creator: Stefan Pfetzing <dreamind@dreamind.de>
+Date: Fri Jul 15 03:13:34 CEST 2005
+Standard-date: 2005-07-15 01:13:34 GMT
+Modified-files: debian/changelog src/client.c src/events.c
+    src/events.h src/frame.c src/globals.c src/hints.c
+    src/i18n.c src/keyboard.c src/misc.c src/oroborus.c
+    src/parserc.c src/pixmap.c src/session.c src/session.h
+    src/settings.c src/workspaces.c
+New-patches: dreamind@dreamind.de--2005-oroborus.org/oroborus--devo--2.0--patch-2
+Summary: use select, fix includes
+Keywords: 
+
+  * Finally use select(). This should improve latency.
+  * Clean up the code when using --enable-debug.
+  * still need to remove automake, it sucks.
+
+

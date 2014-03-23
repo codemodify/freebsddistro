@@ -1,0 +1,12 @@
+Revision: oroborus--devo--2.0--patch-8
+Archive: dreamind@dreamind.de--2006-oroborus.org
+Creator: Stefan Pfetzing <dreamind@dreamind.de>
+Date: Thu Jan 12 16:05:17 CET 2006
+Standard-date: 2006-01-12 15:05:17 GMT
+Modified-files: debian/changelog src/client.c
+New-patches: dreamind@dreamind.de--2006-oroborus.org/oroborus--devo--2.0--patch-8
+Summary: remove XF86VidModeGetViewPort.
+Keywords: 
+
+
+

@@ -1,0 +1,81 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <style type="text/css">
+	body {background-color:white;color:black;font:normal 10pt Verdana,Arial, Helvetica, sans-serif;}
+	h2 {border-width:0 0 5px 0;border-color:#9bf;border-style:solid;font-size:12pt;font-weight:bold;padding:4px;color:#336}
+    </style>
+  <title>Examples of how to create 'daemons', 'services', 'custom
+applications' using ISP features</title>
+  <meta content="carabut nicu" name="author">
+  <meta
+ content="Examples of how to create 'daemons', 'services', 'custom applications' using ISP features"
+ name="description">
+</head>
+<body>
+<h2>What is this paper about</h2>
+<br>
+<small>Here is explained how to create complex software using ISP as a
+play field where you can:<br>
+&nbsp;&nbsp;&nbsp; o let go your imagination fly they way it can<br>
+&nbsp;&nbsp;&nbsp; o implement models that prooves the concepts of you
+research work<br>
+&nbsp;&nbsp;&nbsp; o implement production quality software used for
+hardcore operations<br>
+<br>
+&nbsp;&nbsp;&nbsp; All this is done in a quick and elegant manier that
+allows you to focus on the core of the feature.<br>
+<br>
+&nbsp;&nbsp;&nbsp; In order to be able to understand the examples and
+later implement custom functionalities,<br>
+&nbsp;&nbsp;&nbsp; you will need to get a general knowlege of the
+logics Internet Server Platform provides.<br>
+</small><br>
+<br>
+<h2>What is Internet Server Platform (ISP)<br>
+</h2>
+<small>ISP - is a software platform which having the core only it does
+nothing useful, but in combination with modules<br>
+that provide custom functionalities becomes a shapeless and powerfull
+tool that has as aim to channel data between people.<br>
+The core is nothing, a module is nothing, together they become an
+extension to each other.<br>
+<br>
+The things that ISP provides in a transparent manner for a module are:<br>
+&nbsp;&nbsp;&nbsp; o Stream oriented connections. So far TCP is the
+only one used.<br>
+&nbsp;&nbsp;&nbsp; o Secured stream oriented connections. So far SSL
+over TCP is the only one used.<br>
+&nbsp;&nbsp;&nbsp; o Secured private spaces called 'bottles'. A module
+can have any number of bottles. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; For making things uber secure
+bottles use two keys.<br>
+&nbsp;&nbsp;&nbsp; o Data gatewaying in format n&lt;-&gt;m.<br>
+&nbsp;&nbsp;&nbsp; o Flexible techniques of securing against potential
+intruders.<br>
+<br>
+The things that ISP provides for the person that configures it:<br>
+&nbsp;&nbsp;&nbsp; o trivially simple configuration, <a
+ href="../../../docs/internet-server-platform.settings">here</a> is an
+example.<br>
+<br>
+What a module is likely to do if one is imminent to explode into life:<br>
+&nbsp;&nbsp;&nbsp; o inherit a basic interface provided by the ISP so
+they can communicate<br>
+&nbsp;&nbsp;&nbsp; o implement the only one method to handle the
+request arrived to this module<br>
+&nbsp;&nbsp;&nbsp; o use ISP's facilities to transfer data in the
+direction it wants<br>
+&nbsp;&nbsp;&nbsp; o if the module wants a secure connection, then it
+asks for it and it will be provided.<br>
+&nbsp;&nbsp;&nbsp; o at the moment the request arrives, if the module
+was asking for a secure connection, <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; the data that came was comming on
+secure connection, otherwise it won't come.</small><br>
+<br>
+<br>
+<h2>How to create a daemon that works with usual TCP connections</h2>
+<br>
+<br>
+</body>
+</html>

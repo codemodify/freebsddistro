@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<settings>
+    <Internet_abcdefghi_Server_abcdefghi_Platform_abcdefghi_Library>
+        <value>Arrow;;190,178,0;0,0,0;15,190,0;687,478;-33.5,-32,67,64;0</value>
+        <value>Rectangle;Components;0,0,0;0,0,0;170,170,255;546,397;-132.5,-27,265,54</value>
+        <value>Rectangle;ISP Library;0,0,0;0,0,0;170,170,255;337,256;-151.5,-23.5,303,47</value>
+        <value>Rectangle;Logging;0,0,0;0,0,0;170,170,255;405,545;-71.5,-26,143,52</value>
+        <value>Arrow;;190,178,0;0,0,0;15,190,0;107,476;-7,-31,14,62;3</value>
+        <value>Arrow;;190,178,0;0,0,0;15,190,0;184,331;-31,-44.5,62,89;3</value>
+        <value>Rectangle;Modules;0,0,0;0,0,0;170,170,255;151,408;-114,-27.5,228,55</value>
+        <value>Rectangle;SocketDaemon;0,0,0;0,0,0;170,170,255;139,543;-95,-23.5,190,47</value>
+        <value>Rectangle;Bottles;0,0,0;0,0,0;170,170,255;559,544;-71.5,-26,143,52</value>
+        <value>Rectangle;Dom;0,0,0;0,0,0;170,170,255;714,543;-71.5,-26,143,52</value>
+        <value>Arrow;;149,190,0;0,0,0;190,152,0;414,474;-17,-33,34,66;3</value>
+        <value>Arrow;;190,178,0;0,0,0;15,190,0;462,326;-43,-37.5,86,75;0</value>
+        <value>Arrow;;190,178,0;0,0,0;15,190,0;551,477;-5.5,-34.5,11,69;0</value>
+        <value>Text;Internet Server Platform Library - Explained;170,170,127;190,9,0;0,190,171;582,34;-202.5,-22.5,405,45</value>
+    </Internet_abcdefghi_Server_abcdefghi_Platform_abcdefghi_Library>
+    <Internet_abcdefghi_Server_abcdefghi_Platform>
+        <value>Rectangle;listenAndHandleRequests();0,0,0;0,0,0;144,181,241;466,322;-130.5,-21.5,261,43</value>
+        <value>Rectangle;bindSoketDaemons();0,0,0;0,0,0;144,181,241;468.5,269;-129,-19.5,258,39</value>
+        <value>Rectangle;ISP;0,0,0;0,0,0;144,181,241;182,157;-108,-25.5,216,51</value>
+        <value>Arrow;(C);255,0,0;0,0,0;0,73,190;277,244;-56,-73.5,112,147;0</value>
+        <value>Rectangle;loadSettings();0,0,0;0,0,0;144,181,241;469,214;-130.5,-21.5,261,43</value>
+        <value>Arrow;(A);255,0,0;0,0,0;0,73,190;287,198;-43,-26.5,86,53;0</value>
+        <value>Arrow;(B);255,0,0;0,0,0;0,73,190;283,219;-49,-47,98,94;0</value>
+        <value>Ellipse;Some Text;0,0,0;57,190,0;170,170,255;407,446;-100,-50,200,100</value>
+    </Internet_abcdefghi_Server_abcdefghi_Platform>
+</settings>

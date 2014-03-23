@@ -1,0 +1,22 @@
+Revision: oroborus--mainline--2.0.15--patch-5
+Archive: dreamind@dreamind.de--2005-oroborus.org
+Creator: Stefan Pfetzing <dreamind@dreamind.de>
+Date: Fri Jul  1 16:27:46 CEST 2005
+Standard-date: 2005-07-01 14:27:46 GMT
+Modified-files: Makefile.in aclocal.m4 configure
+    defaults/Makefile.in man/Makefile.in schemes/Makefile.in
+    src/Makefile.in themes/Makefile.in
+    themes/QNX/Makefile.in themes/agua/Makefile.in
+    themes/beos/Makefile.in themes/bluecurve/Makefile.in
+    themes/cruxish/Makefile.in themes/defold/Makefile.in
+    themes/e017/Makefile.in themes/gorillaworm/Makefile.in
+    themes/mkultra/Makefile.in themes/next/Makefile.in
+    themes/oroborus/Makefile.in themes/pillage/Makefile.in
+    themes/platinum/Makefile.in themes/slimline/Makefile.in
+    themes/windows/Makefile.in
+New-patches: dreamind@dreamind.de--2005-oroborus.org/oroborus--mainline--2.0.15--patch-5
+Summary: Update autoconf stuff.
+Keywords: 
+
+
+

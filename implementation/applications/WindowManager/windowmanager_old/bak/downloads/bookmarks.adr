@@ -1,0 +1,559 @@
+Opera Hotlist version 2.0
+Options: encoding = utf8, version=3
+
+#FOLDER
+	ID=11
+	NAME=Trolltech
+	CREATED=1165807286
+	ACTIVE=YES
+	EXPANDED=YES
+
+#URL
+	ID=12
+	NAME=Qt-interest Mailing List
+	URL=http://lists.trolltech.com/qt-interest/
+	CREATED=1165807274
+	VISITED=1166544226
+	ICONFILE=lists.trolltech.com.ico
+
+-
+
+#FOLDER
+	ID=13
+	NAME=Trash
+	TRASH FOLDER=YES
+
+-
+
+#FOLDER
+	ID=14
+	NAME=Google
+	CREATED=1165794278
+	EXPANDED=YES
+
+#URL
+	ID=15
+	NAME=Google
+	URL=http://www.google.com/
+	CREATED=1165794266
+	VISITED=1166572224
+	ICONFILE=www.google.com.ico
+
+#URL
+	ID=16
+	NAME=Google Products
+	URL=http://www.google.com/intl/en/options/
+	CREATED=1165794297
+	VISITED=1165801820
+	ICONFILE=www.google.com.ico
+
+#URL
+	ID=17
+	NAME=Book Search
+	URL=http://books.google.com/
+	CREATED=1165798032
+	VISITED=1165799635
+	ICONFILE=books.google.com.ico
+
+#URL
+	ID=18
+	NAME=Blog Search
+	URL=http://blogsearch.google.com/
+	CREATED=1165799655
+	VISITED=1165837709
+	ICONFILE=blogsearch.google.com.ico
+
+#URL
+	ID=19
+	NAME=Special Searches
+	URL=http://www.google.com/options/specialsearches.html
+	CREATED=1165800256
+	ICONFILE=www.google.com.ico
+
+#URL
+	ID=20
+	NAME=Groups Search
+	URL=http://groups.google.com/
+	CREATED=1165800503
+	VISITED=1166026280
+	ICONFILE=groups.google.com.ico
+
+#URL
+	ID=21
+	NAME=Welcome to Gmail
+	URL=https://www.google.com/accounts/ServiceLogin?service=mail&passive=true&rm=false&continue=http%3A%2F%2Fmail.google.com%2Fmail%3Fui%3Dhtml%26zy%3Dl&ltmpl=m_blanco&ltmplcache=2&hl=en
+	CREATED=1165806657
+	VISITED=1165890021
+	ICONFILE=www.google.com.ico
+
+-
+
+#FOLDER
+	ID=22
+	NAME=Programming
+	CREATED=1165894395
+	EXPANDED=YES
+
+#URL
+	ID=23
+	NAME=CSA: library
+	URL=http://www.sbin.org/?page=doc
+	CREATED=1165894389
+	VISITED=1166439047
+	DESCRIPTION=IT consulting, system integration, open source-based corporate systems
+	ICONFILE=www.sbin.org.ico
+
+#URL
+	ID=24
+	NAME=Extended Window Manager Hints
+	URL=http://standards.freedesktop.org/wm-spec/wm-spec-latest.html
+	CREATED=1165894818
+	VISITED=1166523579
+	ICONFILE=standards.freedesktop.org.ico
+
+#URL
+	ID=25
+	NAME=Basic Graphics Programming With The Xlib Library
+	URL=http://users.actcom.co.il/~choo/lupg/tutorials/xlib-programming/xlib-programming.html
+	CREATED=1166021465
+	VISITED=1166205228
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=26
+	NAME=The X Window system
+	URL=http://tronche.com/gui/x/
+	CREATED=1166021478
+	ICONFILE=tronche.com.ico
+
+#URL
+	ID=27
+	NAME=http://tronche.com/gui/x/all-request.cc
+	URL=http://tronche.com/gui/x/all-request.cc
+	CREATED=1166021486
+	ICONFILE=tronche.com.ico
+
+#URL
+	ID=28
+	NAME=Inter-Client Communication Conventions Manual
+	URL=http://tronche.com/gui/x/icccm/
+	CREATED=1166021493
+	VISITED=1166534119
+	ICONFILE=tronche.com.ico
+
+#URL
+	ID=29
+	NAME=PeGAsuS Manual Pages
+	URL=http://www.ais.fraunhofer.de/AS/pega/pegasus.html
+	CREATED=1166464486
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=30
+	NAME=How to Write a Screensaver Module
+	URL=http://www.dis.uniroma1.it/~liberato/screensaver/
+	CREATED=1166531692
+	ICONFILE=www.dis.uniroma1.it.ico
+
+#FOLDER
+	ID=31
+	NAME=ICCCM
+	CREATED=1166534700
+
+#URL
+	ID=32
+	NAME=Inter-Client Communication Conventions Manual
+	URL=http://tronche.com/gui/x/icccm/
+	CREATED=1166534711
+	ICONFILE=tronche.com.ico
+
+#URL
+	ID=33
+	NAME=Making use of the ICCCM Pt1: Requestor Side Selections
+	URL=http://www.gmonline.demon.co.uk/cscene/CS7/CS7-06.html
+	CREATED=1166534725
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=34
+	NAME=ICCCM - Introduction
+	URL=http://doc.async.com.br/icccm/sec-1.html
+	CREATED=1166534732
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=35
+	NAME=Koders - x.c
+	URL=http://www.koders.com/c/fidC7AD2CE1564C19E2C97184006DB0162CD43819F3.aspx
+	CREATED=1166534736
+	ICONFILE=www.koders.com.ico
+
+#URL
+	ID=36
+	NAME=ICCCM - Footnotes
+	URL=http://doc.async.com.br/icccm/footnotes.html
+	CREATED=1166534741
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=37
+	NAME=Inter-Client Communication Conventions Manual
+	URL=http://lesstif.sourceforge.net/doc/super-ux/g1ae04e/chap3-1.html
+	CREATED=1166534744
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=38
+	NAME=INTERNATIONAL CONFERENCE ON COASTAL CONSERVATION AND MANAGEMENT IN THE ATLANTIC AND MEDITERRANEAN W G I C T A S
+	URL=http://209.85.135.104/search?q=cache:bskSATeFKAMJ:aflimno.free.fr/actualites/ICCCM07_first_call.pdf+ICCCM&hl=en&ct=clnk&cd=104
+	CREATED=1166534748
+	ICONFILE=209.85.135.104.ico
+
+#URL
+	ID=39
+	NAME=clipboards
+	URL=https://listman.redhat.com/archives/xdg-list/2000-October/msg00000.html
+	CREATED=1166534750
+	ICONFILE=listman.redhat.com.ico
+
+#URL
+	ID=40
+	NAME=http://euc.jp/i18n/ctext.txt
+	URL=http://euc.jp/i18n/ctext.txt
+	CREATED=1166534755
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=41
+	NAME=Compound Text Encoding
+	URL=http://209.85.135.104/search?q=cache:7-kXO5VSQQAJ:www.xfree86.org/current/ctext.pdf+ICCCM&hl=en&ct=clnk&cd=107
+	CREATED=1166534758
+	ICONFILE=209.85.135.104.ico
+
+#URL
+	ID=42
+	NAME=Extended Window Manager Hints
+	URL=http://library.n0i.net/linux-unix/standards/ex-hints/
+	CREATED=1166534762
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=43
+	NAME=Window Properties
+	URL=http://www.phys.lsu.edu/students/merchan/GNOME/Recommendations/Windowing/properties.html
+	CREATED=1166534765
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=44
+	NAME=X Window System Programmer's Guide Chapter 4
+	URL=http://lesstif.sourceforge.net/doc/super-ux/g1ae04e/chap4.html
+	CREATED=1166534767
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=45
+	NAME=Alex Hioreanu: AHWM: Features
+	URL=http://people.cs.uchicago.edu/~ahiorean/ahwm/features.html
+	CREATED=1166534770
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=46
+	NAME=Embedding of X Applications
+	URL=http://209.85.135.104/search?q=cache:wPCqHNuWUdcJ:jan.netcomp.monash.edu.au/embed/EMBEDDING.ps+ICCCM&hl=en&ct=clnk&cd=440
+	CREATED=1166534773
+	ICONFILE=209.85.135.104.ico
+
+#URL
+	ID=47
+	NAME=X Selections, X Cut Buffers, and Emacs Kill Rings
+	URL=http://www.jwz.org/doc/x-cut-and-paste.html
+	CREATED=1166534776
+	ICONFILE=www.jwz.org.ico
+
+#URL
+	ID=48
+	NAME=http://www.cs.binghamton.edu/~sgreene/cs360-2002f/topics/icccm.txt
+	URL=http://www.cs.binghamton.edu/~sgreene/cs360-2002f/topics/icccm.txt
+	CREATED=1166534779
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=49
+	NAME=http://209.85.135.104/search?q=cache:AaXS-_ioR5cJ:www.aps.anl.gov/milestonedocs/MS_32/REFERENCES/seltest.doc+ICCCM&hl=en&ct=clnk&cd=573
+	URL=http://209.85.135.104/search?q=cache:AaXS-_ioR5cJ:www.aps.anl.gov/milestonedocs/MS_32/REFERENCES/seltest.doc+ICCCM&hl=en&ct=clnk&cd=573
+	CREATED=1166534784
+	ICONFILE=209.85.135.104.ico
+
+#URL
+	ID=50
+	NAME=http://netmirror.org/mirror/xfree86.org/4.1.0/doc/icccm.TXT
+	URL=http://netmirror.org/mirror/xfree86.org/4.1.0/doc/icccm.TXT
+	CREATED=1166534787
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=51
+	NAME=Extended Window Manager Hints
+	URL=http://standards.freedesktop.org/wm-spec/wm-spec-latest.html
+	CREATED=1166534792
+	ICONFILE=standards.freedesktop.org.ico
+
+-
+
+-
+
+#FOLDER
+	ID=52
+	NAME=FreeBSD
+	CREATED=1165807178
+	EXPANDED=YES
+
+#URL
+	ID=53
+	NAME=The FreeBSD Project
+	URL=http://www.freebsd.org/
+	CREATED=1165807474
+	VISITED=1166485234
+	DESCRIPTION=The FreeBSD Project
+	ICONFILE=www.freebsd.org.ico
+
+#URL
+	ID=54
+	NAME=Ports Search
+	URL=http://www.freebsd.org/cgi/ports.cgi
+	CREATED=1165807495
+	VISITED=1166484678
+	ICONFILE=www.freebsd.org.ico
+
+#URL
+	ID=55
+	NAME=FreeBSD microworld (MD)
+	URL=http://freebsd.ournet.md/
+	CREATED=1165808196
+	VISITED=1165890391
+	ICONFILE=freebsd.ournet.md.ico
+
+#URL
+	ID=56
+	NAME=ROFUG - Romanian FreeBSD Users Group / Free Unix Group
+	URL=http://www.rofug.ro/
+	CREATED=1165808213
+	VISITED=1165892734
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=57
+	NAME=bsdforums.org - FreeBSD OpenBSD NetBSD Darwin Mac OSX Linux Unix forums, message boards, discussions and news.
+	URL=http://www.freebsdforums.org/
+	CREATED=1165808247
+	VISITED=1165891223
+	DESCRIPTION=FreeBSD discussion board and forums
+	ICONFILE=www.freebsdforums.org.bmp
+
+#URL
+	ID=58
+	NAME=The Unix Programming Resources Page
+	URL=http://www.erlenstar.demon.co.uk/unix/
+	CREATED=1165808265
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=59
+	NAME=The Art of Unix Programming
+	URL=http://www.catb.org/~esr/writings/taoup/html/
+	CREATED=1165808269
+	ICONFILE=www.catb.org.ico
+
+#URL
+	ID=60
+	NAME=FreeBSD Portal
+	URL=http://freebsdportal.com/
+	CREATED=1165808870
+	VISITED=1165892130
+	DESCRIPTION=The FreeBSD Portal is a site for all things FreeBSD.  The site provides clarity for common and confusing problems.  In addition, a comprehensive searchable list of Web Hosts and companies/consultants that support FreeBSD is maintained.
+	ICONFILE=freebsdportal.com.ico
+
+#URL
+	ID=61
+	NAME=www.unixro.net index
+	URL=http://www.unixro.net/
+	CREATED=1165809143
+	VISITED=1165892792
+	DESCRIPTION=site destinat utilizatorilor sistemelor de operare Unix
+	ICONFILE=www.unixro.net.ico
+
+#URL
+	ID=62
+	NAME=MLUG www.lug.md
+	URL=http://lug.md/
+	CREATED=1165809154
+	VISITED=1165892661
+	ICONFILE=lug.md.gif
+
+#URL
+	ID=63
+	NAME=ONLamp.com: BSD DevCenter
+	URL=http://www.onlamp.com/bsd/
+	CREATED=1165889792
+	DESCRIPTION=The O'Reilly Network's BSD DevCenter offers comprehensive BSD developer information and resources. O'Reilly Network's BSD DevCenter features original articles, news and commentary.
+	ICONFILE=www.onlamp.com.ico
+
+#URL
+	ID=64
+	NAME=BSD Guides :: Doing Stuff With FreeBSD, NetBSD, OpenBSD, & Mac OS X
+	URL=http://www.bsdguides.org/
+	CREATED=1165890877
+	DESCRIPTION=Doing stuff with FreeBSD, NetBSD, OpenBSD, & Mac OS X
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=65
+	NAME=Unix tutorial. Linux and FreeBsd help
+	URL=http://www.unixcities.com/
+	CREATED=1165890897
+	VISITED=1165892839
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=66
+	NAME=ezUnix.org :: It's All So Simple.
+	URL=http://www.ezunix.org/
+	CREATED=1165890945
+	DESCRIPTION=It's All So Simple.
+	ICONFILE=www.ezunix.org.ico
+
+#URL
+	ID=67
+	NAME=The FreeBSD Mall
+	URL=http://www.freebsdmall.com/cgi-bin/fm
+	CREATED=1165891040
+	DESCRIPTION=FreeBSD Mall, Inc has been the primary source of FreeBSD CDROMs since FreeBSD 1.0
+	ICONFILE=www.freebsdmall.com.ico
+
+#URL
+	ID=68
+	NAME=BSD Mall : Bringing You BSD
+	URL=http://www.bsdmall.com/
+	CREATED=1165891052
+	DESCRIPTION=BSD Mall is the source for all things related to BSD Unix.
+	ICONFILE=www.bsdmall.com.ico
+
+#URL
+	ID=69
+	NAME=BSD Newsletter: BSD news, BSD tutorials, BSD information
+	URL=http://www.bsdnewsletter.com/
+	CREATED=1165891069
+	DESCRIPTION=BSD news and BSD guides.
+	ICONFILE=www.bsdnewsletter.com.ico
+
+#URL
+	ID=70
+	NAME=BSD Newsletter
+	URL=http://www.bsdnewsletter.com/Guides/
+	CREATED=1165891078
+	ICONFILE=www.bsdnewsletter.com.ico
+
+#URL
+	ID=71
+	NAME=internet.com's ServerWatch
+	URL=http://www.serverwatch.com/
+	CREATED=1165891168
+	DESCRIPTION=ServerWatch publishes news and reviewson server software for managing networks, Web sites and email servers
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=72
+	NAME=Daemon News
+	URL=http://www.daemonnews.org/
+	CREATED=1165891186
+	ICONFILE=www.daemonnews.org.ico
+
+#URL
+	ID=73
+	NAME=http://www.freebsdhowtos.com/
+	URL=http://www.freebsdhowtos.com/
+	CREATED=1165891264
+	ICONFILE=www.freebsdhowtos.com.ico
+
+#URL
+	ID=74
+	NAME=FreeBSD Cheat Sheets
+	URL=http://www.mostgraveconcern.com/freebsd/
+	CREATED=1165891283
+	DESCRIPTION=Step-by-step instructions for installing, configuring, and maintaining a FreeBSD system
+	ICONFILE=www.mostgraveconcern.com.ico
+
+#URL
+	ID=75
+	NAME=The FreeBSD Diary
+	URL=http://www.freebsddiary.org/
+	CREATED=1165891300
+	VISITED=1165891437
+	DESCRIPTION=The FreeBSD Diary is a collection of how-to guides for FreeBSD operating system
+	ICONFILE=www.freebsddiary.org.ico
+
+#URL
+	ID=76
+	NAME=Martin Cracauer's FreeBSD Page
+	URL=http://www.cons.org/cracauer/freebsd.html
+	CREATED=1165891597
+	VISITED=1165892056
+	ICONFILE=www.cons.org.gif
+
+#URL
+	ID=77
+	NAME=FreeBSD How-To's for the Lazy and Hopeless
+	URL=http://flag.blackened.net/freebsd/index.html
+	CREATED=1165892965
+	DESCRIPTION=FreeBSD How-To's for the Lazy and Hopeless
+	ICONFILE=flag.blackened.net.ico
+
+#URL
+	ID=78
+	NAME=NewBie FreeBSD
+	URL=http://www.vmunix.com/fbsd-book/index2.html
+	CREATED=1165892979
+	VISITED=1165892991
+	DESCRIPTION=A Comprehensive Guide to FreeBSD UNIX, intended for people new to Unix. A tutorial based approach is used with heavy use of real-world examples
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=79
+	NAME=Useful FreeBSD Links
+	URL=http://www.instinct.org/~pgl/freebsd-links.html
+	CREATED=1165892998
+	ICONFILE=Bookmark Unvisited
+
+-
+
+#FOLDER
+	ID=80
+	NAME=Funnies
+	CREATED=1166462674
+	EXPANDED=YES
+
+#URL
+	ID=81
+	NAME=SLUG Mailing List Archives - [chat] Re: [SLUG] Ximian / Gnome and Xalf
+	URL=http://lists.slug.org.au/archives/slug-chat/2001/07/msg00054.html
+	CREATED=1166462653
+	ICONFILE=lists.slug.org.au.ico
+
+#URL
+	ID=82
+	NAME=The X-Windows Disaster
+	URL=http://xahlee.org/UnixResource_dir/_/The_X-Windows_Disaster.html
+	CREATED=1166534620
+	ICONFILE=xahlee.org.png
+
+#URL
+	ID=83
+	NAME=The X-Windows Disaster
+	URL=http://www.art.net/~hopkins/Don/unix-haters/x-windows/disaster.html
+	CREATED=1166534664
+	ICONFILE=Bookmark Unvisited
+
+-
+
