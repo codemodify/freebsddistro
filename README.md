@@ -45,5 +45,5 @@ This project is trying to make a correct approach in providing a sample software
 ![](https://raw.github.com/ukoreh/freebsddistro/master/developer.png) 
 ![](https://raw.github.com/ukoreh/freebsddistro/master/research-docs/old_docs/dev.png) 
 ![](https://raw.github.com/ukoreh/freebsddistro/master/research-docs/old_docs/downloader/res/sc1.jpg) 
-![](https://raw.github.com/ukoreh/freebsddistro/master/old_docs/mediaplayer/_s.png) 
-![](https://raw.github.com/ukoreh/freebsddistro/master/old_docs/res/kde/4.png) 
+![](https://raw.github.com/ukoreh/freebsddistro/master/research-docs/old_docs/mediaplayer/_s.png) 
+![](https://raw.github.com/ukoreh/freebsddistro/master/research-docs/old_docs/res/kde/4.png) 
